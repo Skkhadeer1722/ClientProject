@@ -1,0 +1,50 @@
+2022-12-29 12:10:16.409 [background-preinit] INFO  org.hibernate.validator.internal.util.Version:21 - HV000001: Hibernate Validator 6.2.5.Final
+2022-12-29 12:10:16.505 [main] INFO  com.dataextract.DataExtractApp:55 - Starting DataExtractApp using Java 11.0.16 on WSIN181 with PID 14612 (D:\DataMigrationNEW\DATA_MIGRATION_RTGS\DataMigrationAndExtract\DataExtract\target\classes started by SheikKhadeer in D:\DataMigrationNEW\DATA_MIGRATION_RTGS\DataMigrationAndExtract\DataExtract)
+2022-12-29 12:10:16.508 [main] INFO  com.dataextract.DataExtractApp:634 - No active profile set, falling back to 1 default profile: "app"
+2022-12-29 12:10:17.060 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-29 12:10:17.284 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 156 ms. Found 12 JPA repository interfaces.
+2022-12-29 12:10:17.541 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor:39 - Post-processing PropertySource instances
+2022-12-29 12:10:17.565 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2022-12-29 12:10:17.565 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2022-12-29 12:10:17.565 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2022-12-29 12:10:17.565 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2022-12-29 12:10:17.566 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2022-12-29 12:10:17.566 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource Config resource 'file [config\application.properties]' via location 'optional:file:./config/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2022-12-29 12:10:17.566 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2022-12-29 12:10:17.566 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource DataMigrationProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2022-12-29 12:10:17.626 [main] INFO  com.ulisesbocchio.jasyptspringboot.filter.DefaultLazyPropertyFilter:31 - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2022-12-29 12:10:17.698 [main] INFO  com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver:35 - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2022-12-29 12:10:17.701 [main] INFO  com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector:35 - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2022-12-29 12:10:17.737 [main] INFO  com.ulisesbocchio.jasyptspringboot.encryptor.DefaultLazyEncryptor:37 - String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing Default String Encryptor
+2022-12-29 12:10:17.749 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81 - Encryptor config not found for property jasypt.encryptor.key-obtention-iterations, using default value: 1000
+2022-12-29 12:10:17.750 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81 - Encryptor config not found for property jasypt.encryptor.pool-size, using default value: 1
+2022-12-29 12:10:17.750 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81 - Encryptor config not found for property jasypt.encryptor.provider-name, using default value: null
+2022-12-29 12:10:17.750 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81 - Encryptor config not found for property jasypt.encryptor.provider-class-name, using default value: null
+2022-12-29 12:10:17.751 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81 - Encryptor config not found for property jasypt.encryptor.salt-generator-classname, using default value: org.jasypt.salt.RandomSaltGenerator
+2022-12-29 12:10:17.752 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81 - Encryptor config not found for property jasypt.encryptor.string-output-type, using default value: base64
+2022-12-29 12:10:17.839 [main] INFO  org.hibernate.jpa.internal.util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-29 12:10:17.904 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-12-29 12:10:18.098 [main] INFO  org.hibernate.annotations.common.Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-29 12:10:18.381 [main] INFO  com.zaxxer.hikari.HikariDataSource:110 - HikariPool-1 - Starting...
+2022-12-29 12:10:18.817 [main] INFO  com.zaxxer.hikari.HikariDataSource:123 - HikariPool-1 - Start completed.
+2022-12-29 12:10:18.871 [main] INFO  org.hibernate.dialect.Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-29 12:10:18.926 [main] INFO  org.hibernate.envers.boot.internal.EnversServiceImpl:88 - Envers integration enabled? : true
+2022-12-29 12:10:19.334 [main] WARN  org.hibernate.mapping.RootClass:287 - HHH000038: Composite-id class does not override equals(): com.dataextract.rtgs.model.RtgsAccountId
+2022-12-29 12:10:19.335 [main] WARN  org.hibernate.mapping.RootClass:290 - HHH000039: Composite-id class does not override hashCode(): com.dataextract.rtgs.model.RtgsAccountId
+2022-12-29 12:10:19.335 [main] WARN  org.hibernate.mapping.RootClass:287 - HHH000038: Composite-id class does not override equals(): com.dataextract.cas.model.CbmCostCentreId
+2022-12-29 12:10:19.335 [main] WARN  org.hibernate.mapping.RootClass:290 - HHH000039: Composite-id class does not override hashCode(): com.dataextract.cas.model.CbmCostCentreId
+2022-12-29 12:10:19.336 [main] WARN  org.hibernate.mapping.RootClass:287 - HHH000038: Composite-id class does not override equals(): com.dataextract.sgs.model.SssAllotmentId
+2022-12-29 12:10:19.336 [main] WARN  org.hibernate.mapping.RootClass:290 - HHH000039: Composite-id class does not override hashCode(): com.dataextract.sgs.model.SssAllotmentId
+2022-12-29 12:10:19.337 [main] WARN  org.hibernate.mapping.RootClass:287 - HHH000038: Composite-id class does not override equals(): com.dataextract.cas.model.CasAccountId
+2022-12-29 12:10:19.337 [main] WARN  org.hibernate.mapping.RootClass:290 - HHH000039: Composite-id class does not override hashCode(): com.dataextract.cas.model.CasAccountId
+2022-12-29 12:10:19.337 [main] WARN  org.hibernate.mapping.RootClass:287 - HHH000038: Composite-id class does not override equals(): com.dataextract.cas.model.CbmLiabilitiesBaseId
+2022-12-29 12:10:19.338 [main] WARN  org.hibernate.mapping.RootClass:290 - HHH000039: Composite-id class does not override hashCode(): com.dataextract.cas.model.CbmLiabilitiesBaseId
+2022-12-29 12:10:19.338 [main] WARN  org.hibernate.mapping.RootClass:287 - HHH000038: Composite-id class does not override equals(): com.dataextract.sgs.model.SssAllotmentMappingId
+2022-12-29 12:10:19.338 [main] WARN  org.hibernate.mapping.RootClass:290 - HHH000039: Composite-id class does not override hashCode(): com.dataextract.sgs.model.SssAllotmentMappingId
+2022-12-29 12:10:19.790 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-29 12:10:19.802 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-29 12:10:20.482 [main] INFO  com.dataextract.DataExtractApp:61 - Started DataExtractApp in 4.384 seconds (JVM running for 5.949)
+2022-12-29 12:10:20.928 [main] DEBUG org.hibernate.SQL:144 - select stepupcoup0_.SCR_ISIN_CODE as scr_isin1_8_, stepupcoup0_.SCR_COUPON_DATE as scr_coup2_8_, stepupcoup0_.SCR_COUPON_RATE as scr_coup3_8_ from stepup_coupon_rate stepupcoup0_
+2022-12-29 12:10:21.089 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:651 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-29 12:10:21.095 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2022-12-29 12:10:21.145 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource:352 - HikariPool-1 - Shutdown completed.

@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.19.1.final using JasperReports Library version 6.19.1-867c00bf88cd4d784d404379d6c05e1b419e8a4c  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="allotment" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="bfa32035-24e7-4e25-bed0-bd4321fb3906">
+	<parameter name="mgd_count" class="java.lang.Integer"/>
+	<parameter name="reportID" class="java.lang.String"/>
+	<field name="x_id" class="java.lang.String"/>
+	<field name="y_id" class="java.lang.String"/>
+	<field name="z_id" class="java.lang.String"/>
+	<field name="y_remark" class="java.lang.String"/>
+	<field name="x_securities_code" class="java.lang.String"/>
+	<field name="y_securities_code" class="java.lang.String"/>
+	<field name="z_securities_code" class="java.lang.String"/>
+	<field name="x_auction_date" class="java.lang.String"/>
+	<field name="y_auction_date" class="java.lang.String"/>
+	<field name="z_auction_date" class="java.lang.String"/>
+	<field name="x_effective_date" class="java.lang.String"/>
+	<field name="y_effective_date" class="java.lang.String"/>
+	<field name="z_effective_date" class="java.lang.String"/>
+	<field name="x_modified_by" class="java.lang.String"/>
+	<field name="y_modified_by" class="java.lang.String"/>
+	<field name="z_modified_by" class="java.lang.String"/>
+	<field name="x_modified_date" class="java.lang.String"/>
+	<field name="y_modified_date" class="java.lang.String"/>
+	<field name="z_modified_date" class="java.lang.String"/>
+	<field name="x_status" class="java.lang.String"/>
+	<field name="y_status" class="java.lang.String"/>
+	<field name="z_status" class="java.lang.String"/>
+	<field name="x_approved_by" class="java.lang.String"/>
+	<field name="y_approved_by" class="java.lang.String"/>
+	<field name="z_approved_by" class="java.lang.String"/>
+	<field name="x_approved_date" class="java.lang.String"/>
+	<field name="y_approved_date" class="java.lang.String"/>
+	<field name="z_approved_date" class="java.lang.String"/>
+	<field name="x_created_date" class="java.lang.String"/>
+	<field name="y_created_date" class="java.lang.String"/>
+	<field name="z_created_date" class="java.lang.String"/>
+	<field name="x_approval_remark" class="java.lang.String"/>
+	<field name="y_approval_remark" class="java.lang.String"/>
+	<field name="z_approval_remark" class="java.lang.String"/>
+	<field name="x_workflow_status_id" class="java.lang.String"/>
+	<field name="y_workflow_status_id" class="java.lang.String"/>
+	<field name="z_workflow_status_id" class="java.lang.String"/>
+	<field name="x_action" class="java.lang.String"/>
+	<field name="y_action" class="java.lang.String"/>
+	<field name="z_action" class="java.lang.String"/>
+	<field name="x_issuance_date" class="java.lang.String"/>
+	<field name="y_issuance_date" class="java.lang.String"/>
+	<field name="z_issuance_date" class="java.lang.String"/>
+	<field name="x_allotment_price" class="java.lang.String"/>
+	<field name="y_allotment_price" class="java.lang.String"/>
+	<field name="z_allotment_price" class="java.lang.String"/>
+	<field name="x_total_nominal_amount_alloted" class="java.lang.String"/>
+	<field name="y_total_nominal_amount_alloted" class="java.lang.String"/>
+	<field name="z_total_nominal_amount_alloted" class="java.lang.String"/>
+	<field name="x_total_nominal_amount_to_be_alloted" class="java.lang.String"/>
+	<field name="y_total_nominal_amount_to_be_alloted" class="java.lang.String"/>
+	<field name="z_total_nominal_amount_to_be_alloted" class="java.lang.String"/>
+	<field name="x_first_allotment" class="java.lang.String"/>
+	<field name="y_first_allotment" class="java.lang.String"/>
+	<field name="z_first_allotment" class="java.lang.String"/>
+	<field name="x_total_settlement_amount" class="java.lang.String"/>
+	<field name="y_total_settlement_amount" class="java.lang.String"/>
+	<field name="z_total_settlement_amount" class="java.lang.String"/>
+	<field name="x_processed" class="java.lang.String"/>
+	<field name="y_processed" class="java.lang.String"/>
+	<field name="z_processed" class="java.lang.String"/>
+	<field name="x_planned_total_nominal_amount_allotted" class="java.lang.String"/>
+	<field name="y_planned_total_nominal_amount_allotted" class="java.lang.String"/>
+	<field name="z_planned_total_nominal_amount_allotted" class="java.lang.String"/>
+	<variable name="msc_count" class="java.util.concurrent.atomic.AtomicInteger" calculation="System">
+		<initialValueExpression><![CDATA[new java.util.concurrent.atomic.AtomicInteger(1)]]></initialValueExpression>
+	</variable>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="20" splitType="Stretch">
+			<staticText>
+				<reportElement x="190" y="0" width="200" height="20" uuid="8b0450d2-b6b3-4722-8bba-c3e4863cb399"/>
+				<textElement textAlignment="Left">
+					<font fontName="Serif" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[MONETARY AUTHORITY OF SINGAPORE]]></text>
+			</staticText>
+			<textField pattern="MMMMM dd, yyyy">
+				<reportElement x="470" y="0" width="104" height="20" uuid="763a9430-9882-44a0-a90b-cb9d9e6b4f30"/>
+				<textElement>
+					<font fontName="Serif" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.text.SimpleDateFormat("dd-MM-yyyy hh:mm:ss").format(new java.util.Date())]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="1" width="180" height="18" uuid="b481a68c-30a9-4c1d-9e16-26f4f5b6c952"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<"+$P{reportID}+">"]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="40" splitType="Stretch">
+			<textField>
+				<reportElement x="480" y="0" width="44" height="20" uuid="3f9014e6-7a19-46ff-8d63-dec1603409e6"/>
+				<textElement textAlignment="Right">
+					<font fontName="Serif" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Page " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement x="524" y="0" width="51" height="20" uuid="3de718d6-c0e5-4f1e-b93c-7358e267fe2c"/>
+				<textElement textAlignment="Left">
+					<font fontName="Serif" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" of " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="250" y="0" width="80" height="20" uuid="ef99d021-2db0-40b9-a59a-395fffb9f409"/>
+				<textElement textAlignment="Left">
+					<font fontName="Serif" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[SCRIPS SSS]]></text>
+			</staticText>
+			<textField pattern="MMMMM dd, yyyy">
+				<reportElement x="345" y="20" width="100" height="20" uuid="bacf9d02-703d-4670-a3d2-7740e7f0a702"/>
+				<textElement textAlignment="Left">
+					<font fontName="Serif" size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="130" y="20" width="216" height="20" uuid="2d68182f-85f5-4565-a74f-eee0c03ccbb7"/>
+				<textElement textAlignment="Left">
+					<font fontName="Serif" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[DATA MIGRATION ALLOTMENT DETAIL REPORT FOR ]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="50" splitType="Stretch">
+			<staticText>
+				<reportElement x="300" y="0" width="100" height="18" uuid="44996bae-c591-413c-953c-f61f0c765541"/>
+				<textElement textAlignment="Left">
+					<font fontName="SansSerif" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Temp Table Values]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="0" width="81" height="18" uuid="9f1a3f86-a458-4965-9be7-b84af4833670"/>
+				<textElement textAlignment="Left">
+					<font fontName="SansSerif" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[DETAILS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="430" y="0" width="111" height="18" uuid="caa7219b-f40a-41e1-a9f2-2fe50a177a58"/>
+				<textElement textAlignment="Left">
+					<font fontName="SansSerif" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Source Table Values]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="159" y="0" width="100" height="18" uuid="91b53a6b-d2e8-4702-8bce-2047b14544a8"/>
+				<textElement textAlignment="Left">
+					<font fontName="SansSerif" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Live Table Values]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="18" width="120" height="19" uuid="3a0c8826-48ae-4f29-887a-708c08efca30"/>
+				<textElement textAlignment="Left">
+					<font fontName="SansSerif" size="8"/>
+				</textElement>
+				<text><![CDATA[Allotment Table - SCRIPS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="37" width="160" height="13" uuid="e7d8ed75-51f5-4d83-82c8-e0c3fb57499c"/>
+				<textElement textAlignment="Left">
+					<font fontName="SansSerif" size="8"/>
+				</textElement>
+				<text><![CDATA[Total Allotment migrated to SCRIPS ]]></text>
+			</staticText>
+			<textField textAdjust="StretchHeight">
+				<reportElement x="161" y="37" width="99" height="12" uuid="26c77893-0aae-4c7d-b977-e00c463b9f73"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{mgd_count}]]></textFieldExpression>
+			</textField>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="623" splitType="Stretch">
+			<textField>
+				<reportElement x="100" y="8" width="90" height="22" uuid="26afb30f-e4ef-4051-a207-125ad84f1cc3">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{y_remark}.equals( "" ) ?  $V{msc_count}.getAndIncrement():"NA"]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="1" y="8" width="98" height="22" uuid="442098b4-ce45-4e71-b7ce-7d0a2cbef348"/>
+				<textElement>
+					<font fontName="Serif" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Migrated Allotment :]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="160" y="30" width="100" height="24" uuid="dcb8e62f-cbb9-473f-8fb5-ea6a65e154b8"/>
+				<textFieldExpression><![CDATA[$F{x_securities_code}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="30" width="100" height="24" uuid="9188c0df-e058-49fc-ad3b-317068875d58">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Securities Code]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="78" width="100" height="24" uuid="7eaf2c48-fbb0-4f4f-b61b-122bf58f70a5"/>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Issuance Date]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="126" width="150" height="24" uuid="83d29536-21f9-4273-bf6a-5a90b898ea10">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Total Nominal Amount Alloted]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="150" width="150" height="30" uuid="e01846a4-f382-4f37-a8f4-bfe2fa808635">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Total Nominal Amount ToBe Alloted]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="228" width="100" height="24" uuid="2c32bef4-08c0-4dad-8d98-f8107b642a54"/>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Processed]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="160" y="54" width="100" height="24" uuid="d165c8ff-cfe5-4bad-a7a1-0ac7283cf371"/>
+				<textFieldExpression><![CDATA[$F{x_auction_date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="160" y="180" width="100" height="24" uuid="93dc1497-d186-4b54-8290-eb6824437da5"/>
+				<textFieldExpression><![CDATA[$F{x_first_allotment}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="160" y="228" width="100" height="24" uuid="0fdbc9a5-5861-4585-9732-60ca5d435295"/>
+				<textFieldExpression><![CDATA[$F{x_processed}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="160" y="78" width="100" height="24" uuid="a9268ba0-bb95-4b9d-902d-2c183e3f3089"/>
+				<textFieldExpression><![CDATA[$F{x_issuance_date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="160" y="100" width="100" height="26" uuid="7526949e-6636-4dc7-afd7-4b1cc58f5d44"/>
+				<textFieldExpression><![CDATA[$F{x_allotment_price}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="160" y="126" width="100" height="24" uuid="f82e11e7-1d51-4d1a-857c-64f91f31ecf3"/>
+				<textFieldExpression><![CDATA[$F{x_total_nominal_amount_alloted}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="160" y="204" width="100" height="24" uuid="82808d9e-fa8b-4c7c-8ed7-cdd51d7ca54f"/>
+				<textFieldExpression><![CDATA[$F{x_total_settlement_amount}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="180" width="100" height="24" uuid="8a677dd9-547a-4596-a683-0bbcad29356f"/>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[First Allotment]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="204" width="120" height="24" uuid="a865e860-6b97-4bd3-ae0e-90b098e7a1cf">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Total Settlement Amount]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="160" y="150" width="100" height="30" uuid="ace2caf0-6325-4482-ace2-1169d225a082"/>
+				<textFieldExpression><![CDATA[$F{x_total_nominal_amount_to_be_alloted}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="253" width="150" height="24" uuid="44cd0b36-a5b4-4e78-9772-5a50b7483c2f">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Planned Total Nominal Amount Alloted]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="102" width="100" height="24" uuid="bd46e592-8d01-4648-a073-dccb30bfd8f7">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Allotment Price]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="54" width="100" height="24" uuid="92069818-d0e0-48ce-b4af-f50334d04b91"/>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Auction Date]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="160" y="252" width="100" height="24" uuid="32ccf51d-818f-405d-9ffb-9d19105b42f9"/>
+				<textFieldExpression><![CDATA[$F{x_planned_total_nominal_amount_allotted}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="588" width="545" height="35" uuid="52a6f58e-c14f-42f6-80a6-824f23b25bfe"/>
+				<textFieldExpression><![CDATA[$F{y_remark}.equals("")?"Record successfully migrated":"Invalid fields : "+$F{y_remark}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="300" width="100" height="24" uuid="08141aee-cd79-47a4-817b-85d803108db2"/>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Status]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="382" width="100" height="34" uuid="a047f657-93c5-4e17-98a4-691966f9c8d2">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Approved By]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="416" width="100" height="24" uuid="2efc7481-0fc6-4b0c-8740-849a26a0a3f3">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Approved Date]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="440" width="100" height="24" uuid="55812714-4270-44b0-ba40-af3444ddcf7b"/>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Created Date]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="358" width="100" height="24" uuid="f635903f-eef9-486d-94cb-64eb7f52e1c0"/>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Modified Date]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="464" width="100" height="24" uuid="792cdfb4-b375-4450-8047-354b73409aaa">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Effective Date]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="160" y="300" width="100" height="24" uuid="a7c06173-0e43-46fc-ba95-04381c7186dd"/>
+				<textFieldExpression><![CDATA[$F{x_status}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="160" y="382" width="100" height="35" uuid="8da5d67e-e607-445f-82dc-a371bfe34e73"/>
+				<textFieldExpression><![CDATA[$F{x_approved_by}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="160" y="417" width="100" height="22" uuid="fd59099d-1fbf-48c0-b9a8-f5ee4776a796"/>
+				<textFieldExpression><![CDATA[$F{x_approved_date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="160" y="439" width="100" height="24" uuid="b71f7139-5dfa-474a-ae9b-ed615bf69201"/>
+				<textFieldExpression><![CDATA[$F{x_created_date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="160" y="358" width="100" height="24" uuid="25f6a8c7-cfa8-4b62-b080-e1f5b9fcddc7"/>
+				<textFieldExpression><![CDATA[$F{x_modified_date}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="277" width="100" height="23" uuid="8708529e-e4d4-4533-89d3-d61a4f4fc1a0"/>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Action]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="160" y="277" width="100" height="22" uuid="612e035e-e44f-4a24-ac2f-9ddaa9c9825c"/>
+				<textFieldExpression><![CDATA[$F{x_action}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="324" width="100" height="34" uuid="19b060a7-7ea4-4b99-9688-4c1783ce2671">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Modified By]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="160" y="324" width="100" height="34" uuid="f4837892-7354-4545-ad57-8b7b6d916884"/>
+				<textFieldExpression><![CDATA[$F{x_modified_by}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="488" width="100" height="24" uuid="80a35da1-fab7-4587-becd-799a5bb9ca64"/>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Approval Remark]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="160" y="486" width="100" height="26" uuid="af132e3c-9b4a-4c94-8e0a-a7a7dee4f482"/>
+				<textFieldExpression><![CDATA[$F{x_approval_remark}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="513" width="100" height="24" uuid="312074b9-c513-41ab-b228-4f6d033e65e1">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Workflow Status ID]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="160" y="512" width="100" height="24" uuid="239d2586-af20-40de-beca-e4bcc2050b76"/>
+				<textFieldExpression><![CDATA[$F{x_workflow_status_id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="160" y="464" width="100" height="22" uuid="cff44a64-3bf5-4983-8ee7-02753a74ef67"/>
+				<textFieldExpression><![CDATA[$F{x_effective_date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="30" width="100" height="24" uuid="07681272-47cd-44ce-9d37-ea44dcbedb15"/>
+				<textFieldExpression><![CDATA[$F{y_securities_code}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="54" width="100" height="24" uuid="707815a6-9302-4355-b930-359cce4eecf6"/>
+				<textFieldExpression><![CDATA[$F{y_auction_date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="180" width="100" height="24" uuid="2cb7b7bc-972e-489b-9373-6cb40f507698"/>
+				<textFieldExpression><![CDATA[$F{y_first_allotment}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="228" width="100" height="24" uuid="793fdf37-c137-45b4-84f6-4f89bc739679"/>
+				<textFieldExpression><![CDATA[$F{y_processed}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="78" width="100" height="24" uuid="e35b84dd-529e-4fc4-962c-19c2d254f8bb"/>
+				<textFieldExpression><![CDATA[$F{y_issuance_date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="100" width="100" height="26" uuid="b793d208-e49b-4f05-91e3-1e92396b29ff"/>
+				<textFieldExpression><![CDATA[$F{y_allotment_price}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="126" width="100" height="24" uuid="c01235fd-fcc7-4fb8-8027-08f84048c22b"/>
+				<textFieldExpression><![CDATA[$F{y_total_nominal_amount_alloted}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="204" width="100" height="24" uuid="e093db84-25c3-4ded-8617-e616ae9c58c1"/>
+				<textFieldExpression><![CDATA[$F{y_total_settlement_amount}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="150" width="100" height="30" uuid="2f516ba0-2eea-4c2d-bc27-12538e4d4e6b"/>
+				<textFieldExpression><![CDATA[$F{y_total_nominal_amount_to_be_alloted}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="252" width="100" height="24" uuid="39524c9c-d33a-45b9-9660-1f1e0f540b24"/>
+				<textFieldExpression><![CDATA[$F{y_planned_total_nominal_amount_allotted}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="300" width="100" height="24" uuid="8076bd5d-b831-4bca-bc50-1fa85500654b"/>
+				<textFieldExpression><![CDATA[$F{y_status}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="277" width="100" height="22" uuid="be6b288c-2389-44e6-a52c-023b6cdf8076"/>
+				<textFieldExpression><![CDATA[$F{y_action}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="30" width="100" height="24" uuid="aaf09aa1-78a7-4135-a928-2c5049ebee41"/>
+				<textFieldExpression><![CDATA[$F{z_securities_code}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="54" width="100" height="24" uuid="62c6e0f1-6e57-49cc-b772-f9d783df6fda"/>
+				<textFieldExpression><![CDATA[$F{z_auction_date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="180" width="100" height="24" uuid="868852db-a798-4524-a24b-9042a07cc427"/>
+				<textFieldExpression><![CDATA[$F{z_first_allotment}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="228" width="100" height="24" uuid="37d1ce6c-33b5-4924-b287-62cdb97f5864"/>
+				<textFieldExpression><![CDATA[$F{z_processed}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="78" width="100" height="24" uuid="edd79b93-ccdb-47d1-8f52-dcbbc520e280"/>
+				<textFieldExpression><![CDATA[$F{z_issuance_date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="100" width="100" height="26" uuid="4ad79215-ee1f-45b4-bdea-8cd54eb84bcb"/>
+				<textFieldExpression><![CDATA[$F{z_allotment_price}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="126" width="100" height="24" uuid="744af21a-e3c2-4a95-b0f9-71a956530654"/>
+				<textFieldExpression><![CDATA[$F{z_total_nominal_amount_alloted}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="204" width="100" height="24" uuid="bdb8b578-36f0-44a1-b239-f376673c3f55"/>
+				<textFieldExpression><![CDATA[$F{z_total_settlement_amount}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="150" width="100" height="30" uuid="13282210-3e27-45c0-b361-ccd3a2702f90"/>
+				<textFieldExpression><![CDATA[$F{z_total_nominal_amount_to_be_alloted}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="252" width="100" height="24" uuid="0c64179c-867b-453d-b2fe-c4976981e07a"/>
+				<textFieldExpression><![CDATA[$F{z_planned_total_nominal_amount_allotted}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="300" width="100" height="24" uuid="f4423d29-cbb8-449b-95e7-e8747cbf3030"/>
+				<textFieldExpression><![CDATA[$F{z_status}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="277" width="100" height="22" uuid="60ce978e-48ed-4aaf-b809-8ae3e91c5647"/>
+				<textFieldExpression><![CDATA[$F{z_action}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="382" width="100" height="35" uuid="599177ba-410d-4aed-8e0a-1e1d202f4f2a"/>
+				<textFieldExpression><![CDATA[$F{z_approved_by}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="417" width="100" height="22" uuid="e811b398-93e8-4eaa-a734-fe0892741332"/>
+				<textFieldExpression><![CDATA[$F{z_approved_date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="439" width="100" height="24" uuid="54caa064-1895-450f-8e9f-3bfd7c9fffd0"/>
+				<textFieldExpression><![CDATA[$F{z_created_date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="358" width="100" height="24" uuid="7abe4c12-1a4d-4feb-be55-6399f70997d8"/>
+				<textFieldExpression><![CDATA[$F{z_modified_date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="324" width="100" height="34" uuid="da340943-8310-405e-94bf-a2fa4c22772d"/>
+				<textFieldExpression><![CDATA[$F{z_modified_by}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="486" width="100" height="26" uuid="a800613a-45a0-4fe0-9557-0fc22fae626e"/>
+				<textFieldExpression><![CDATA[$F{z_approval_remark}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="512" width="100" height="24" uuid="27db2693-1656-4f72-a6cd-9e247645b92c"/>
+				<textFieldExpression><![CDATA[$F{z_workflow_status_id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="464" width="100" height="22" uuid="f98e0e8d-3ce1-420e-84d5-986c6477537f"/>
+				<textFieldExpression><![CDATA[$F{z_effective_date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="382" width="100" height="35" uuid="0abd1e33-381d-4f67-89d0-8081d24a8872"/>
+				<textFieldExpression><![CDATA[$F{y_approved_by}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="417" width="100" height="22" uuid="fce608a1-da00-433c-9a28-6f5277e0a5b1"/>
+				<textFieldExpression><![CDATA[$F{y_approved_date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="439" width="100" height="24" uuid="1f82f119-22da-4dec-bffb-8a2b9ee1d3bd"/>
+				<textFieldExpression><![CDATA[$F{y_created_date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="358" width="100" height="24" uuid="53293edb-d589-4d14-990b-069e9b326dd3"/>
+				<textFieldExpression><![CDATA[$F{y_modified_date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="324" width="100" height="34" uuid="c998b166-fe15-43f2-981e-9cca73fdf0d4"/>
+				<textFieldExpression><![CDATA[$F{y_modified_by}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="486" width="100" height="26" uuid="c6b765d9-0240-435d-8ee7-a8a85db11944"/>
+				<textFieldExpression><![CDATA[$F{y_approval_remark}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="512" width="100" height="24" uuid="65e2cd4c-3038-4f90-965f-5f020d4cf955"/>
+				<textFieldExpression><![CDATA[$F{y_workflow_status_id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="464" width="100" height="22" uuid="0a3dd00c-f763-4fce-95ae-3b4a3b6a4715"/>
+				<textFieldExpression><![CDATA[$F{y_effective_date}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="570" width="80" height="18" uuid="de533a4a-1bc8-4d20-ba53-af74d0cebf88"/>
+				<textElement textAlignment="Left">
+					<font fontName="SansSerif" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Remarks]]></text>
+			</staticText>
+		</band>
+	</detail>
+	<lastPageFooter>
+		<band height="50">
+			<staticText>
+				<reportElement x="229" y="30" width="140" height="12" uuid="be1aae7e-924b-4d51-bc2f-f0b6698d34c4"/>
+				<textElement textAlignment="Left">
+					<font fontName="Serif" size="8"/>
+				</textElement>
+				<text><![CDATA[*** END  OF  REPORT ***]]></text>
+			</staticText>
+		</band>
+	</lastPageFooter>
+</jasperReport>

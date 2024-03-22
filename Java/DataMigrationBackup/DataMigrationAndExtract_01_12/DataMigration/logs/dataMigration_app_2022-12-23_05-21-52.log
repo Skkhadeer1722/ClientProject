@@ -1,0 +1,510 @@
+2022-12-23 17:21:52.478 [main] INFO  scrips.datamigration.App:55 - Starting App on WSIN181 with PID 15892 (D:\DataMigrationNEW\DATA_MIGRATION_RTGS\DataMigrationAndExtract\DataMigration\target\classes started by SheikKhadeer in D:\DataMigrationNEW\DATA_MIGRATION_RTGS\DataMigrationAndExtract\DataMigration)
+2022-12-23 17:21:52.486 [main] INFO  scrips.datamigration.App:651 - No active profile set, falling back to default profiles: app
+2022-12-23 17:21:53.615 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-23 17:21:54.212 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 584ms. Found 66 JPA repository interfaces.
+2022-12-23 17:21:54.612 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor:39 - Post-processing PropertySource instances
+2022-12-23 17:21:54.640 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2022-12-23 17:21:54.640 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2022-12-23 17:21:54.641 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2022-12-23 17:21:54.641 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2022-12-23 17:21:54.641 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2022-12-23 17:21:54.642 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource applicationConfig: [file:./config/application.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2022-12-23 17:21:54.642 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2022-12-23 17:21:54.642 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource DataMigrationProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2022-12-23 17:21:54.833 [main] INFO  com.ulisesbocchio.jasyptspringboot.filter.DefaultLazyPropertyFilter:31 - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2022-12-23 17:21:54.949 [main] INFO  com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver:35 - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2022-12-23 17:21:54.953 [main] INFO  com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector:35 - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2022-12-23 17:21:54.961 [main] INFO  com.ulisesbocchio.jasyptspringboot.encryptor.DefaultLazyEncryptor:37 - String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing Default String Encryptor
+2022-12-23 17:21:54.975 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81 - Encryptor config not found for property jasypt.encryptor.key-obtention-iterations, using default value: 1000
+2022-12-23 17:21:54.976 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81 - Encryptor config not found for property jasypt.encryptor.pool-size, using default value: 1
+2022-12-23 17:21:54.977 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81 - Encryptor config not found for property jasypt.encryptor.provider-name, using default value: null
+2022-12-23 17:21:54.977 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81 - Encryptor config not found for property jasypt.encryptor.provider-class-name, using default value: null
+2022-12-23 17:21:54.978 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81 - Encryptor config not found for property jasypt.encryptor.salt-generator-classname, using default value: org.jasypt.salt.RandomSaltGenerator
+2022-12-23 17:21:54.979 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81 - Encryptor config not found for property jasypt.encryptor.string-output-type, using default value: base64
+2022-12-23 17:21:55.218 [main] INFO  org.hibernate.jpa.internal.util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: data]
+2022-12-23 17:21:55.288 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 5.4.15.Final
+2022-12-23 17:21:55.448 [main] INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-12-23 17:21:56.042 [main] INFO  com.zaxxer.hikari.HikariDataSource:110 - HikariPool-1 - Starting...
+2022-12-23 17:21:57.067 [main] INFO  com.zaxxer.hikari.HikariDataSource:123 - HikariPool-1 - Start completed.
+2022-12-23 17:21:57.240 [main] INFO  org.hibernate.dialect.Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-23 17:21:57.574 [main] INFO  org.hibernate.envers.boot.internal.EnversServiceImpl:90 - Envers integration enabled? : true
+2022-12-23 17:21:59.796 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-23 17:21:59.804 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'data'
+2022-12-23 17:22:01.650 [main] INFO  scrips.datamigration.App:61 - Started App in 9.874 seconds (JVM running for 11.639)
+2022-12-23 17:22:01.810 [main] INFO  scrips.datamigration.common.service.FkChecksEnableDisable:36 - disable FkChecks called
+2022-12-23 17:22:01.931 [main] DEBUG org.hibernate.SQL:128 - SET FOREIGN_KEY_CHECKS = 0
+2022-12-23 17:22:02.044 [main] INFO  scrips.datamigration.common.service.FkChecksEnableDisable:38 - disable FkChecks done
+2022-12-23 17:22:02.285 [main] DEBUG org.hibernate.SQL:128 - SELECT @@GLOBAL.foreign_key_checks, @@SESSION.foreign_key_checks
+2022-12-23 17:22:02.389 [main] INFO  scrips.datamigration.common.service.FkChecksEnableDisable:52 - foreign_key_checks status - 0
+2022-12-23 17:22:02.400 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:159 - fileUploadCode - SSS_SECURITIES_CODE_STATISTICS_FILE_UPLOAD
+2022-12-23 17:22:02.401 [main] INFO  scrips.datamigration.common.service.FileUploadService:115 - getFileHeaderByCode entered
+2022-12-23 17:22:02.403 [main] INFO  scrips.datamigration.common.service.FileUploadService:121 - fileUpldHeaderOut - sss_securities_code_statistics
+2022-12-23 17:22:02.403 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:163 - Live table name ->sss_securities_code_statistics
+2022-12-23 17:22:02.407 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:42 - Live table name ->securities_file_data
+2022-12-23 17:22:02.409 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:43 - ftp status n
+2022-12-23 17:22:02.483 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:72 - fileSourceData - ISIN Code;Description;ISIN Type;Issue Code;ISIN Status;Taxable;Tradable;Credit Rating;Eligible for ILF;ILF Haircut Setting;Haircut Percentage for ILF;Maturity Date;Optional Maturity Date;Auction Date;First Issuance Date;First Issuance Amount;Re-Opening - Auction Date;Re-Opening - Allotment Date;Re-Opening - Total Allotment Amount;Total Issued Amount;Outstanding Nominal Amount;Amount Allocated to MAS;Amount Allocated to Others;MAS Applied Amount;Unit Size;Denomination;Currency Code;Redemption Price;Coupon Rate;Ex-date Period;Ex-date;Coupon Payment Frequency;Last Coupon Date;Next Coupon Date;Optional Coupon Date;Days of Accrued Interest;Tenure;Average Yield;Cutoff Yield;Average Yield Price;Cutoff Yield Price;Re-Opening - MAS Applied Amount;Total Redeemed Amount;ISIN Sub Type
+2022-12-23 17:22:02.484 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:72 - fileSourceData - AUTOSFNEWP99;99YR BOND 2017 DUE 010199 AUTOSFNP;BN;AUTOSFNP;A;Y;Y;AAA;Y;A;00300000;20990101; ;20171228;20171229;000001000000000;20221026;20221027;000900000000000;000902800000000;000902799998000;000001500000000;000901300000000;000001000000000;1000;000000000001000;SGD;10000000;00120000;3;20230529;S;20221201;20230601;20180601;182;050;00000000;00000000;00000000;00000000;000900000000000;000000000002000;NA
+2022-12-23 17:22:02.485 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:72 - fileSourceData - BCSISMBIL001;MAS Bill;MB;BN2005M;A;Y;Y;AAA;Y;Y;00100000;20251231; ;20210518;20210519;000000100000000; ; ;000000000000000;000000100000000;000000100000000;000000000900000;000000099100000;000000000100000;1000;000000000001000;SGD;10000000;00000000;0; ;N; ; ; ; ;241;00000000;00000000;00000000;00000000;000000000000000;000000000000000;NA
+2022-12-23 17:22:02.486 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:72 - fileSourceData - BCSISTEST012;15 YEARS BONDS;BN;N999012M;A;Y;Y;AAA;Y;A;00200000;20290801; ;20170122;20170201;000000630000000;20210428;20210429;000000000600000;000000630000000;000000630000000;000000000010000;000000629990000;000000080000000;1000;000000000001000;SGD;10000000;00125000;5;20170725;S; ; ;20170801;181;015;00000000;00000000;00000000;00000000;000000000200000;000000000000000;NA
+2022-12-23 17:22:02.486 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:72 - fileSourceData - MEPSUAT00016;10YR SBOND 2016 DUE220426 GX16501W;SB;GX16501W;A;Y;N;AAA;N;N;00000000;20260422; ;20160421;20160422;000000000287500; ; ;000000000000000;000000000287500;000000000242500;000000000000000;000000000287500;000000000000000;1000;000000000000500;SGD;10000000;00700000;3;20230419;S;20221022;20230422;20161022; ;010;00000000;00000000;00000000;00000000;000000000000000;000000000045000;NA
+2022-12-23 17:22:02.487 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:72 - fileSourceData - MEPSUAT00024;10YR SBOND 2016 DUE250426 GX16502N;SB;GX16502N;A;Y;N;AAA;N;N;00000000;20260425; ;20160422;20160425;000000000300000; ; ;000000000000000;000000000300000;000000000170000;000000000000000;000000000300000;000000000000000;1000;000000000000500;SGD;10000000;00293000;3;20230420;S;20221025;20230425;20161025; ;010;00000000;00000000;00000000;00000000;000000000000000;000000000130000;NA
+2022-12-23 17:22:02.488 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:72 - fileSourceData - MEPSUAT00032;10YR SBOND 2016 DUE 030526 GX16503V;SB;GX16503V;A;Y;N;AAA;N;N;00000000;20260503; ;20160429;20160503;000000000137500; ; ;000000000000000;000000000137500;000000000017500;000000000000000;000000000137500;000000000000000;1000;000000000000500;SGD;10000000;00354000;3;20230428;S;20221103;20230503;20161103; ;010;00000000;00000000;00000000;00000000;000000000000000;000000000120000;NA
+2022-12-23 17:22:02.489 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:72 - fileSourceData - NPTESTSCREEN;10YR BOND 2016 DUE 260531 NY15046C;BN;NY15046C;N;Y;Y;AAA;Y;A;00100000;20260531; ;20160528;20160531;000000000001000; ; ;000000000000000;000000000000000;000000000000000;000000000000000;000000000000000;000000000000000;1000;000000000001000;SGD;10000000;00000000;3;20161025;S; ; ;20161028;150;010;00000000;00000000;00000000;00000000;000000000000000;000000000000000;NA
+2022-12-23 17:22:02.490 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:72 - fileSourceData - NSBONDMAY002;NS BOND 3YR 2021 - 2024 NS21002A;BN;NS21002A;A;Y;Y;AAA;Y;A;00100000;20240531; ;20210505;20210506;000000000100000;20210514;20210517;000000000500000;000000000100000;000000000100000;000000000000000;000000000100000;000000000010000;1000;000000000001000;SGD;10000000;00215000;3;20230525;S;20221130;20230530;20210531;181;005;00000000;00000000;00000000;00000000;000000000250000;000000000000000;NA
+2022-12-23 17:22:02.492 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:74 - Headings - 1:ISIN_CODE
+2022-12-23 17:22:02.493 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:74 - Headings - 2:DESCRIPTION
+2022-12-23 17:22:02.493 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:74 - Headings - 3:ISIN_TYPE
+2022-12-23 17:22:02.493 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:74 - Headings - 4:ISSUE_CODE
+2022-12-23 17:22:02.494 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:74 - Headings - 5:ISIN_STATUS
+2022-12-23 17:22:02.495 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:74 - Headings - 6:TAXABLE
+2022-12-23 17:22:02.496 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:74 - Headings - 7:TRADABLE
+2022-12-23 17:22:02.496 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:74 - Headings - 8:CREDIT_RATING
+2022-12-23 17:22:02.497 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:74 - Headings - 9:ELIGIBLE_FOR_ILF
+2022-12-23 17:22:02.499 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:74 - Headings - 10:ILF_HAIRCUT_SETTING
+2022-12-23 17:22:02.500 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:74 - Headings - 11:HAIRCUT_PERCENTAGE_FOR_ILF
+2022-12-23 17:22:02.501 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:74 - Headings - 12:MATURITY_DATE
+2022-12-23 17:22:02.502 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:74 - Headings - 13:OPTIONAL_MATURITY_DATE
+2022-12-23 17:22:02.503 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:74 - Headings - 14:AUCTION_DATE
+2022-12-23 17:22:02.504 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:74 - Headings - 15:FIRST_ISSUANCE_DATE
+2022-12-23 17:22:02.505 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:74 - Headings - 16:FIRST_ISSUANCE_AMOUNT
+2022-12-23 17:22:02.506 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:74 - Headings - 17:RE_OPENING_AUCTION_DATE
+2022-12-23 17:22:02.507 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:74 - Headings - 18:RE_OPENING_ALLOTMENT_DATE
+2022-12-23 17:22:02.507 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:74 - Headings - 19:RE_OPENING_TOTAL_ALLOTMENT_AMOUNT
+2022-12-23 17:22:02.508 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:74 - Headings - 20:TOTAL_ISSUED_AMOUNT
+2022-12-23 17:22:02.509 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:74 - Headings - 21:OUTSTANDING_NOMINAL_AMOUNT
+2022-12-23 17:22:02.510 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:74 - Headings - 22:AMOUNT_ALLOCATED_TO_MAS
+2022-12-23 17:22:02.510 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:74 - Headings - 23:AMOUNT_ALLOCATED_TO_OTHERS
+2022-12-23 17:22:02.511 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:74 - Headings - 24:MAS_APPLIED_AMOUNT
+2022-12-23 17:22:02.512 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:74 - Headings - 25:UNIT_SIZE
+2022-12-23 17:22:02.512 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:74 - Headings - 26:DENOMINATION
+2022-12-23 17:22:02.513 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:74 - Headings - 27:CURRENCY_CODE
+2022-12-23 17:22:02.513 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:74 - Headings - 28:REDEMPTION_PRICE
+2022-12-23 17:22:02.515 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:74 - Headings - 29:COUPON_RATE
+2022-12-23 17:22:02.516 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:74 - Headings - 30:EX_DATE_PERIOD
+2022-12-23 17:22:02.517 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:74 - Headings - 31:EX_DATE
+2022-12-23 17:22:02.518 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:74 - Headings - 32:COUPON_PAYMENT_FREQUENCY
+2022-12-23 17:22:02.519 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:74 - Headings - 33:LAST_COUPON_DATE
+2022-12-23 17:22:02.519 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:74 - Headings - 34:NEXT_COUPON_DATE
+2022-12-23 17:22:02.520 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:74 - Headings - 35:OPTIONAL_COUPON_DATE
+2022-12-23 17:22:02.521 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:74 - Headings - 36:DAYS_OF_ACCRUED_INTEREST
+2022-12-23 17:22:02.521 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:74 - Headings - 37:TENURE
+2022-12-23 17:22:02.522 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:74 - Headings - 38:AVERAGE_YIELD
+2022-12-23 17:22:02.522 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:74 - Headings - 39:CUTOFF_YIELD
+2022-12-23 17:22:02.523 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:74 - Headings - 40:AVERAGE_YIELD_PRICE
+2022-12-23 17:22:02.523 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:74 - Headings - 41:CUTOFF_YIELD_PRICE
+2022-12-23 17:22:02.524 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:74 - Headings - 42:RE_OPENING_MAS_APPLIED_AMOUNT
+2022-12-23 17:22:02.525 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:74 - Headings - 43:TOTAL_REDEEMED_AMOUNT
+2022-12-23 17:22:02.526 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:74 - Headings - 44:ISIN_SUB_TYPE
+2022-12-23 17:22:02.528 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - ISIN_CODE - AUTOSFNEWP99 -12
+2022-12-23 17:22:02.528 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - DESCRIPTION - 99YR BOND 2017 DUE 010199 AUTOSFNP -34
+2022-12-23 17:22:02.529 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - ISIN_TYPE - BN -2
+2022-12-23 17:22:02.529 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - ISSUE_CODE - AUTOSFNP -8
+2022-12-23 17:22:02.530 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - ISIN_STATUS - A -1
+2022-12-23 17:22:02.531 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - TAXABLE - Y -1
+2022-12-23 17:22:02.532 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - TRADABLE - Y -1
+2022-12-23 17:22:02.533 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - CREDIT_RATING - AAA -3
+2022-12-23 17:22:02.533 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - ELIGIBLE_FOR_ILF - Y -1
+2022-12-23 17:22:02.534 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - ILF_HAIRCUT_SETTING - A -1
+2022-12-23 17:22:02.535 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - HAIRCUT_PERCENTAGE_FOR_ILF - 00300000 -8
+2022-12-23 17:22:02.535 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - MATURITY_DATE - 20990101 -8
+2022-12-23 17:22:02.536 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - OPTIONAL_MATURITY_DATE -  -0
+2022-12-23 17:22:02.536 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - AUCTION_DATE - 20171228 -8
+2022-12-23 17:22:02.537 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - FIRST_ISSUANCE_DATE - 20171229 -8
+2022-12-23 17:22:02.537 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - FIRST_ISSUANCE_AMOUNT - 000001000000000 -15
+2022-12-23 17:22:02.537 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - RE_OPENING_AUCTION_DATE - 20221026 -8
+2022-12-23 17:22:02.538 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - RE_OPENING_ALLOTMENT_DATE - 20221027 -8
+2022-12-23 17:22:02.538 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - RE_OPENING_TOTAL_ALLOTMENT_AMOUNT - 000900000000000 -15
+2022-12-23 17:22:02.539 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - TOTAL_ISSUED_AMOUNT - 000902800000000 -15
+2022-12-23 17:22:02.539 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - OUTSTANDING_NOMINAL_AMOUNT - 000902799998000 -15
+2022-12-23 17:22:02.539 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - AMOUNT_ALLOCATED_TO_MAS - 000001500000000 -15
+2022-12-23 17:22:02.540 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - AMOUNT_ALLOCATED_TO_OTHERS - 000901300000000 -15
+2022-12-23 17:22:02.540 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - MAS_APPLIED_AMOUNT - 000001000000000 -15
+2022-12-23 17:22:02.541 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - UNIT_SIZE - 1000 -4
+2022-12-23 17:22:02.541 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - DENOMINATION - 000000000001000 -15
+2022-12-23 17:22:02.542 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - CURRENCY_CODE - SGD -3
+2022-12-23 17:22:02.542 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - REDEMPTION_PRICE - 10000000 -8
+2022-12-23 17:22:02.543 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - COUPON_RATE - 00120000 -8
+2022-12-23 17:22:02.545 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - EX_DATE_PERIOD - 3 -1
+2022-12-23 17:22:02.551 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - EX_DATE - 20230529 -8
+2022-12-23 17:22:02.554 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - COUPON_PAYMENT_FREQUENCY - S -1
+2022-12-23 17:22:02.555 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - LAST_COUPON_DATE - 20221201 -8
+2022-12-23 17:22:02.555 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - NEXT_COUPON_DATE - 20230601 -8
+2022-12-23 17:22:02.556 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - OPTIONAL_COUPON_DATE - 20180601 -8
+2022-12-23 17:22:02.557 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - DAYS_OF_ACCRUED_INTEREST - 182 -3
+2022-12-23 17:22:02.558 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - TENURE - 050 -3
+2022-12-23 17:22:02.558 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - AVERAGE_YIELD - 00000000 -8
+2022-12-23 17:22:02.559 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - CUTOFF_YIELD - 00000000 -8
+2022-12-23 17:22:02.560 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - AVERAGE_YIELD_PRICE - 00000000 -8
+2022-12-23 17:22:02.560 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - CUTOFF_YIELD_PRICE - 00000000 -8
+2022-12-23 17:22:02.561 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - RE_OPENING_MAS_APPLIED_AMOUNT - 000900000000000 -15
+2022-12-23 17:22:02.561 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - TOTAL_REDEEMED_AMOUNT - 000000000002000 -15
+2022-12-23 17:22:02.561 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - ISIN_SUB_TYPE - NA -2
+2022-12-23 17:22:02.721 [main] DEBUG org.hibernate.SQL:128 - insert into securities_file_data (ISIN_CODE, AMOUNT_ALLOCATED_TO_MAS, AMOUNT_ALLOCATED_TO_OTHERS, AUCTION_DATE, AVERAGE_YIELD, AVERAGE_YIELD_PRICE, COUPON_PAYMENT_FREQUENCY, COUPON_RATE, CREDIT_RATING, CURRENCY_CODE, CUTOFF_YIELD, CUTOFF_YIELD_PRICE, DAYS_OF_ACCRUED_INTEREST, DENOMINATION, DESCRIPTION, ELIGIBLE_FOR_ILF, EX_DATE, EX_DATE_PERIOD, FIRST_ISSUANCE_AMOUNT, FIRST_ISSUANCE_DATE, HAIRCUT_PERCENTAGE_FOR_ILF, ILF_HAIRCUT_SETTING, ISIN_STATUS, ISIN_SUB_TYPE, ISIN_TYPE, ISSUE_CODE, LAST_COUPON_DATE, MAS_APPLIED_AMOUNT, MATURITY_DATE, NEXT_COUPON_DATE, OPTIONAL_COUPON_DATE, OPTIONAL_MATURITY_DATE, OUTSTANDING_NOMINAL_AMOUNT, RE_OPENING_ALLOTMENT_DATE, RE_OPENING_AUCTION_DATE, RE_OPENING_MAS_APPLIED_AMOUNT, RE_OPENING_TOTAL_ALLOTMENT_AMOUNT, REDEMPTION_PRICE, TAXABLE, TENURE, TOTAL_ISSUED_AMOUNT, TOTAL_REDEEMED_AMOUNT, TRADABLE, UNIT_SIZE) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2022-12-23 17:22:02.985 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - ISIN_CODE - BCSISMBIL001 -12
+2022-12-23 17:22:02.985 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - DESCRIPTION - MAS Bill -8
+2022-12-23 17:22:02.986 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - ISIN_TYPE - MB -2
+2022-12-23 17:22:02.986 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - ISSUE_CODE - BN2005M -7
+2022-12-23 17:22:02.986 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - ISIN_STATUS - A -1
+2022-12-23 17:22:02.987 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - TAXABLE - Y -1
+2022-12-23 17:22:02.987 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - TRADABLE - Y -1
+2022-12-23 17:22:02.987 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - CREDIT_RATING - AAA -3
+2022-12-23 17:22:02.988 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - ELIGIBLE_FOR_ILF - Y -1
+2022-12-23 17:22:02.988 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - ILF_HAIRCUT_SETTING - Y -1
+2022-12-23 17:22:02.988 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - HAIRCUT_PERCENTAGE_FOR_ILF - 00100000 -8
+2022-12-23 17:22:02.989 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - MATURITY_DATE - 20251231 -8
+2022-12-23 17:22:02.989 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - OPTIONAL_MATURITY_DATE -  -0
+2022-12-23 17:22:02.990 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - AUCTION_DATE - 20210518 -8
+2022-12-23 17:22:02.990 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - FIRST_ISSUANCE_DATE - 20210519 -8
+2022-12-23 17:22:02.991 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - FIRST_ISSUANCE_AMOUNT - 000000100000000 -15
+2022-12-23 17:22:02.991 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - RE_OPENING_AUCTION_DATE -  -0
+2022-12-23 17:22:02.992 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - RE_OPENING_ALLOTMENT_DATE -  -0
+2022-12-23 17:22:02.992 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - RE_OPENING_TOTAL_ALLOTMENT_AMOUNT - 000000000000000 -15
+2022-12-23 17:22:02.993 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - TOTAL_ISSUED_AMOUNT - 000000100000000 -15
+2022-12-23 17:22:02.993 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - OUTSTANDING_NOMINAL_AMOUNT - 000000100000000 -15
+2022-12-23 17:22:02.994 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - AMOUNT_ALLOCATED_TO_MAS - 000000000900000 -15
+2022-12-23 17:22:02.994 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - AMOUNT_ALLOCATED_TO_OTHERS - 000000099100000 -15
+2022-12-23 17:22:02.995 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - MAS_APPLIED_AMOUNT - 000000000100000 -15
+2022-12-23 17:22:02.995 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - UNIT_SIZE - 1000 -4
+2022-12-23 17:22:02.996 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - DENOMINATION - 000000000001000 -15
+2022-12-23 17:22:02.997 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - CURRENCY_CODE - SGD -3
+2022-12-23 17:22:02.997 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - REDEMPTION_PRICE - 10000000 -8
+2022-12-23 17:22:02.999 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - COUPON_RATE - 00000000 -8
+2022-12-23 17:22:02.999 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - EX_DATE_PERIOD - 0 -1
+2022-12-23 17:22:03.000 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - EX_DATE -  -0
+2022-12-23 17:22:03.000 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - COUPON_PAYMENT_FREQUENCY - N -1
+2022-12-23 17:22:03.000 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - LAST_COUPON_DATE -  -0
+2022-12-23 17:22:03.001 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - NEXT_COUPON_DATE -  -0
+2022-12-23 17:22:03.001 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - OPTIONAL_COUPON_DATE -  -0
+2022-12-23 17:22:03.002 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - DAYS_OF_ACCRUED_INTEREST -  -0
+2022-12-23 17:22:03.002 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - TENURE - 241 -3
+2022-12-23 17:22:03.002 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - AVERAGE_YIELD - 00000000 -8
+2022-12-23 17:22:03.003 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - CUTOFF_YIELD - 00000000 -8
+2022-12-23 17:22:03.003 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - AVERAGE_YIELD_PRICE - 00000000 -8
+2022-12-23 17:22:03.003 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - CUTOFF_YIELD_PRICE - 00000000 -8
+2022-12-23 17:22:03.004 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - RE_OPENING_MAS_APPLIED_AMOUNT - 000000000000000 -15
+2022-12-23 17:22:03.004 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - TOTAL_REDEEMED_AMOUNT - 000000000000000 -15
+2022-12-23 17:22:03.005 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - ISIN_SUB_TYPE - NA -2
+2022-12-23 17:22:03.096 [main] DEBUG org.hibernate.SQL:128 - insert into securities_file_data (ISIN_CODE, AMOUNT_ALLOCATED_TO_MAS, AMOUNT_ALLOCATED_TO_OTHERS, AUCTION_DATE, AVERAGE_YIELD, AVERAGE_YIELD_PRICE, COUPON_PAYMENT_FREQUENCY, COUPON_RATE, CREDIT_RATING, CURRENCY_CODE, CUTOFF_YIELD, CUTOFF_YIELD_PRICE, DAYS_OF_ACCRUED_INTEREST, DENOMINATION, DESCRIPTION, ELIGIBLE_FOR_ILF, EX_DATE, EX_DATE_PERIOD, FIRST_ISSUANCE_AMOUNT, FIRST_ISSUANCE_DATE, HAIRCUT_PERCENTAGE_FOR_ILF, ILF_HAIRCUT_SETTING, ISIN_STATUS, ISIN_SUB_TYPE, ISIN_TYPE, ISSUE_CODE, LAST_COUPON_DATE, MAS_APPLIED_AMOUNT, MATURITY_DATE, NEXT_COUPON_DATE, OPTIONAL_COUPON_DATE, OPTIONAL_MATURITY_DATE, OUTSTANDING_NOMINAL_AMOUNT, RE_OPENING_ALLOTMENT_DATE, RE_OPENING_AUCTION_DATE, RE_OPENING_MAS_APPLIED_AMOUNT, RE_OPENING_TOTAL_ALLOTMENT_AMOUNT, REDEMPTION_PRICE, TAXABLE, TENURE, TOTAL_ISSUED_AMOUNT, TOTAL_REDEEMED_AMOUNT, TRADABLE, UNIT_SIZE) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2022-12-23 17:22:03.324 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - ISIN_CODE - BCSISTEST012 -12
+2022-12-23 17:22:03.324 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - DESCRIPTION - 15 YEARS BONDS -14
+2022-12-23 17:22:03.325 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - ISIN_TYPE - BN -2
+2022-12-23 17:22:03.326 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - ISSUE_CODE - N999012M -8
+2022-12-23 17:22:03.326 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - ISIN_STATUS - A -1
+2022-12-23 17:22:03.327 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - TAXABLE - Y -1
+2022-12-23 17:22:03.328 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - TRADABLE - Y -1
+2022-12-23 17:22:03.328 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - CREDIT_RATING - AAA -3
+2022-12-23 17:22:03.329 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - ELIGIBLE_FOR_ILF - Y -1
+2022-12-23 17:22:03.330 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - ILF_HAIRCUT_SETTING - A -1
+2022-12-23 17:22:03.331 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - HAIRCUT_PERCENTAGE_FOR_ILF - 00200000 -8
+2022-12-23 17:22:03.332 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - MATURITY_DATE - 20290801 -8
+2022-12-23 17:22:03.333 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - OPTIONAL_MATURITY_DATE -  -0
+2022-12-23 17:22:03.334 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - AUCTION_DATE - 20170122 -8
+2022-12-23 17:22:03.334 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - FIRST_ISSUANCE_DATE - 20170201 -8
+2022-12-23 17:22:03.335 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - FIRST_ISSUANCE_AMOUNT - 000000630000000 -15
+2022-12-23 17:22:03.335 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - RE_OPENING_AUCTION_DATE - 20210428 -8
+2022-12-23 17:22:03.336 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - RE_OPENING_ALLOTMENT_DATE - 20210429 -8
+2022-12-23 17:22:03.337 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - RE_OPENING_TOTAL_ALLOTMENT_AMOUNT - 000000000600000 -15
+2022-12-23 17:22:03.337 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - TOTAL_ISSUED_AMOUNT - 000000630000000 -15
+2022-12-23 17:22:03.337 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - OUTSTANDING_NOMINAL_AMOUNT - 000000630000000 -15
+2022-12-23 17:22:03.338 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - AMOUNT_ALLOCATED_TO_MAS - 000000000010000 -15
+2022-12-23 17:22:03.338 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - AMOUNT_ALLOCATED_TO_OTHERS - 000000629990000 -15
+2022-12-23 17:22:03.338 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - MAS_APPLIED_AMOUNT - 000000080000000 -15
+2022-12-23 17:22:03.339 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - UNIT_SIZE - 1000 -4
+2022-12-23 17:22:03.339 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - DENOMINATION - 000000000001000 -15
+2022-12-23 17:22:03.339 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - CURRENCY_CODE - SGD -3
+2022-12-23 17:22:03.340 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - REDEMPTION_PRICE - 10000000 -8
+2022-12-23 17:22:03.340 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - COUPON_RATE - 00125000 -8
+2022-12-23 17:22:03.340 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - EX_DATE_PERIOD - 5 -1
+2022-12-23 17:22:03.341 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - EX_DATE - 20170725 -8
+2022-12-23 17:22:03.341 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - COUPON_PAYMENT_FREQUENCY - S -1
+2022-12-23 17:22:03.342 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - LAST_COUPON_DATE -  -0
+2022-12-23 17:22:03.342 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - NEXT_COUPON_DATE -  -0
+2022-12-23 17:22:03.342 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - OPTIONAL_COUPON_DATE - 20170801 -8
+2022-12-23 17:22:03.343 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - DAYS_OF_ACCRUED_INTEREST - 181 -3
+2022-12-23 17:22:03.343 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - TENURE - 015 -3
+2022-12-23 17:22:03.343 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - AVERAGE_YIELD - 00000000 -8
+2022-12-23 17:22:03.344 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - CUTOFF_YIELD - 00000000 -8
+2022-12-23 17:22:03.344 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - AVERAGE_YIELD_PRICE - 00000000 -8
+2022-12-23 17:22:03.344 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - CUTOFF_YIELD_PRICE - 00000000 -8
+2022-12-23 17:22:03.345 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - RE_OPENING_MAS_APPLIED_AMOUNT - 000000000200000 -15
+2022-12-23 17:22:03.346 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - TOTAL_REDEEMED_AMOUNT - 000000000000000 -15
+2022-12-23 17:22:03.347 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - ISIN_SUB_TYPE - NA -2
+2022-12-23 17:22:03.417 [main] DEBUG org.hibernate.SQL:128 - insert into securities_file_data (ISIN_CODE, AMOUNT_ALLOCATED_TO_MAS, AMOUNT_ALLOCATED_TO_OTHERS, AUCTION_DATE, AVERAGE_YIELD, AVERAGE_YIELD_PRICE, COUPON_PAYMENT_FREQUENCY, COUPON_RATE, CREDIT_RATING, CURRENCY_CODE, CUTOFF_YIELD, CUTOFF_YIELD_PRICE, DAYS_OF_ACCRUED_INTEREST, DENOMINATION, DESCRIPTION, ELIGIBLE_FOR_ILF, EX_DATE, EX_DATE_PERIOD, FIRST_ISSUANCE_AMOUNT, FIRST_ISSUANCE_DATE, HAIRCUT_PERCENTAGE_FOR_ILF, ILF_HAIRCUT_SETTING, ISIN_STATUS, ISIN_SUB_TYPE, ISIN_TYPE, ISSUE_CODE, LAST_COUPON_DATE, MAS_APPLIED_AMOUNT, MATURITY_DATE, NEXT_COUPON_DATE, OPTIONAL_COUPON_DATE, OPTIONAL_MATURITY_DATE, OUTSTANDING_NOMINAL_AMOUNT, RE_OPENING_ALLOTMENT_DATE, RE_OPENING_AUCTION_DATE, RE_OPENING_MAS_APPLIED_AMOUNT, RE_OPENING_TOTAL_ALLOTMENT_AMOUNT, REDEMPTION_PRICE, TAXABLE, TENURE, TOTAL_ISSUED_AMOUNT, TOTAL_REDEEMED_AMOUNT, TRADABLE, UNIT_SIZE) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2022-12-23 17:22:03.634 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - ISIN_CODE - MEPSUAT00016 -12
+2022-12-23 17:22:03.634 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - DESCRIPTION - 10YR SBOND 2016 DUE220426 GX16501W -34
+2022-12-23 17:22:03.635 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - ISIN_TYPE - SB -2
+2022-12-23 17:22:03.635 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - ISSUE_CODE - GX16501W -8
+2022-12-23 17:22:03.636 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - ISIN_STATUS - A -1
+2022-12-23 17:22:03.636 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - TAXABLE - Y -1
+2022-12-23 17:22:03.637 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - TRADABLE - N -1
+2022-12-23 17:22:03.637 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - CREDIT_RATING - AAA -3
+2022-12-23 17:22:03.637 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - ELIGIBLE_FOR_ILF - N -1
+2022-12-23 17:22:03.638 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - ILF_HAIRCUT_SETTING - N -1
+2022-12-23 17:22:03.638 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - HAIRCUT_PERCENTAGE_FOR_ILF - 00000000 -8
+2022-12-23 17:22:03.638 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - MATURITY_DATE - 20260422 -8
+2022-12-23 17:22:03.639 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - OPTIONAL_MATURITY_DATE -  -0
+2022-12-23 17:22:03.639 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - AUCTION_DATE - 20160421 -8
+2022-12-23 17:22:03.639 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - FIRST_ISSUANCE_DATE - 20160422 -8
+2022-12-23 17:22:03.640 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - FIRST_ISSUANCE_AMOUNT - 000000000287500 -15
+2022-12-23 17:22:03.640 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - RE_OPENING_AUCTION_DATE -  -0
+2022-12-23 17:22:03.640 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - RE_OPENING_ALLOTMENT_DATE -  -0
+2022-12-23 17:22:03.641 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - RE_OPENING_TOTAL_ALLOTMENT_AMOUNT - 000000000000000 -15
+2022-12-23 17:22:03.641 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - TOTAL_ISSUED_AMOUNT - 000000000287500 -15
+2022-12-23 17:22:03.642 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - OUTSTANDING_NOMINAL_AMOUNT - 000000000242500 -15
+2022-12-23 17:22:03.642 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - AMOUNT_ALLOCATED_TO_MAS - 000000000000000 -15
+2022-12-23 17:22:03.643 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - AMOUNT_ALLOCATED_TO_OTHERS - 000000000287500 -15
+2022-12-23 17:22:03.643 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - MAS_APPLIED_AMOUNT - 000000000000000 -15
+2022-12-23 17:22:03.644 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - UNIT_SIZE - 1000 -4
+2022-12-23 17:22:03.645 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - DENOMINATION - 000000000000500 -15
+2022-12-23 17:22:03.645 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - CURRENCY_CODE - SGD -3
+2022-12-23 17:22:03.646 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - REDEMPTION_PRICE - 10000000 -8
+2022-12-23 17:22:03.647 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - COUPON_RATE - 00700000 -8
+2022-12-23 17:22:03.647 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - EX_DATE_PERIOD - 3 -1
+2022-12-23 17:22:03.648 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - EX_DATE - 20230419 -8
+2022-12-23 17:22:03.649 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - COUPON_PAYMENT_FREQUENCY - S -1
+2022-12-23 17:22:03.649 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - LAST_COUPON_DATE - 20221022 -8
+2022-12-23 17:22:03.650 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - NEXT_COUPON_DATE - 20230422 -8
+2022-12-23 17:22:03.651 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - OPTIONAL_COUPON_DATE - 20161022 -8
+2022-12-23 17:22:03.652 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - DAYS_OF_ACCRUED_INTEREST -  -0
+2022-12-23 17:22:03.652 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - TENURE - 010 -3
+2022-12-23 17:22:03.653 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - AVERAGE_YIELD - 00000000 -8
+2022-12-23 17:22:03.653 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - CUTOFF_YIELD - 00000000 -8
+2022-12-23 17:22:03.653 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - AVERAGE_YIELD_PRICE - 00000000 -8
+2022-12-23 17:22:03.654 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - CUTOFF_YIELD_PRICE - 00000000 -8
+2022-12-23 17:22:03.654 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - RE_OPENING_MAS_APPLIED_AMOUNT - 000000000000000 -15
+2022-12-23 17:22:03.655 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - TOTAL_REDEEMED_AMOUNT - 000000000045000 -15
+2022-12-23 17:22:03.655 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - ISIN_SUB_TYPE - NA -2
+2022-12-23 17:22:03.747 [main] DEBUG org.hibernate.SQL:128 - insert into securities_file_data (ISIN_CODE, AMOUNT_ALLOCATED_TO_MAS, AMOUNT_ALLOCATED_TO_OTHERS, AUCTION_DATE, AVERAGE_YIELD, AVERAGE_YIELD_PRICE, COUPON_PAYMENT_FREQUENCY, COUPON_RATE, CREDIT_RATING, CURRENCY_CODE, CUTOFF_YIELD, CUTOFF_YIELD_PRICE, DAYS_OF_ACCRUED_INTEREST, DENOMINATION, DESCRIPTION, ELIGIBLE_FOR_ILF, EX_DATE, EX_DATE_PERIOD, FIRST_ISSUANCE_AMOUNT, FIRST_ISSUANCE_DATE, HAIRCUT_PERCENTAGE_FOR_ILF, ILF_HAIRCUT_SETTING, ISIN_STATUS, ISIN_SUB_TYPE, ISIN_TYPE, ISSUE_CODE, LAST_COUPON_DATE, MAS_APPLIED_AMOUNT, MATURITY_DATE, NEXT_COUPON_DATE, OPTIONAL_COUPON_DATE, OPTIONAL_MATURITY_DATE, OUTSTANDING_NOMINAL_AMOUNT, RE_OPENING_ALLOTMENT_DATE, RE_OPENING_AUCTION_DATE, RE_OPENING_MAS_APPLIED_AMOUNT, RE_OPENING_TOTAL_ALLOTMENT_AMOUNT, REDEMPTION_PRICE, TAXABLE, TENURE, TOTAL_ISSUED_AMOUNT, TOTAL_REDEEMED_AMOUNT, TRADABLE, UNIT_SIZE) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2022-12-23 17:22:03.972 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - ISIN_CODE - MEPSUAT00024 -12
+2022-12-23 17:22:03.973 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - DESCRIPTION - 10YR SBOND 2016 DUE250426 GX16502N -34
+2022-12-23 17:22:03.973 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - ISIN_TYPE - SB -2
+2022-12-23 17:22:03.973 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - ISSUE_CODE - GX16502N -8
+2022-12-23 17:22:03.973 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - ISIN_STATUS - A -1
+2022-12-23 17:22:03.974 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - TAXABLE - Y -1
+2022-12-23 17:22:03.974 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - TRADABLE - N -1
+2022-12-23 17:22:03.974 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - CREDIT_RATING - AAA -3
+2022-12-23 17:22:03.974 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - ELIGIBLE_FOR_ILF - N -1
+2022-12-23 17:22:03.975 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - ILF_HAIRCUT_SETTING - N -1
+2022-12-23 17:22:03.975 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - HAIRCUT_PERCENTAGE_FOR_ILF - 00000000 -8
+2022-12-23 17:22:03.975 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - MATURITY_DATE - 20260425 -8
+2022-12-23 17:22:03.975 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - OPTIONAL_MATURITY_DATE -  -0
+2022-12-23 17:22:03.975 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - AUCTION_DATE - 20160422 -8
+2022-12-23 17:22:03.976 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - FIRST_ISSUANCE_DATE - 20160425 -8
+2022-12-23 17:22:03.976 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - FIRST_ISSUANCE_AMOUNT - 000000000300000 -15
+2022-12-23 17:22:03.976 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - RE_OPENING_AUCTION_DATE -  -0
+2022-12-23 17:22:03.976 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - RE_OPENING_ALLOTMENT_DATE -  -0
+2022-12-23 17:22:03.977 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - RE_OPENING_TOTAL_ALLOTMENT_AMOUNT - 000000000000000 -15
+2022-12-23 17:22:03.977 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - TOTAL_ISSUED_AMOUNT - 000000000300000 -15
+2022-12-23 17:22:03.977 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - OUTSTANDING_NOMINAL_AMOUNT - 000000000170000 -15
+2022-12-23 17:22:03.977 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - AMOUNT_ALLOCATED_TO_MAS - 000000000000000 -15
+2022-12-23 17:22:03.978 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - AMOUNT_ALLOCATED_TO_OTHERS - 000000000300000 -15
+2022-12-23 17:22:03.978 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - MAS_APPLIED_AMOUNT - 000000000000000 -15
+2022-12-23 17:22:03.978 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - UNIT_SIZE - 1000 -4
+2022-12-23 17:22:03.978 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - DENOMINATION - 000000000000500 -15
+2022-12-23 17:22:03.978 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - CURRENCY_CODE - SGD -3
+2022-12-23 17:22:03.979 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - REDEMPTION_PRICE - 10000000 -8
+2022-12-23 17:22:03.979 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - COUPON_RATE - 00293000 -8
+2022-12-23 17:22:03.980 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - EX_DATE_PERIOD - 3 -1
+2022-12-23 17:22:03.980 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - EX_DATE - 20230420 -8
+2022-12-23 17:22:03.981 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - COUPON_PAYMENT_FREQUENCY - S -1
+2022-12-23 17:22:03.981 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - LAST_COUPON_DATE - 20221025 -8
+2022-12-23 17:22:03.981 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - NEXT_COUPON_DATE - 20230425 -8
+2022-12-23 17:22:03.982 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - OPTIONAL_COUPON_DATE - 20161025 -8
+2022-12-23 17:22:03.982 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - DAYS_OF_ACCRUED_INTEREST -  -0
+2022-12-23 17:22:03.982 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - TENURE - 010 -3
+2022-12-23 17:22:03.982 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - AVERAGE_YIELD - 00000000 -8
+2022-12-23 17:22:03.982 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - CUTOFF_YIELD - 00000000 -8
+2022-12-23 17:22:03.983 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - AVERAGE_YIELD_PRICE - 00000000 -8
+2022-12-23 17:22:03.983 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - CUTOFF_YIELD_PRICE - 00000000 -8
+2022-12-23 17:22:03.983 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - RE_OPENING_MAS_APPLIED_AMOUNT - 000000000000000 -15
+2022-12-23 17:22:03.983 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - TOTAL_REDEEMED_AMOUNT - 000000000130000 -15
+2022-12-23 17:22:03.984 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - ISIN_SUB_TYPE - NA -2
+2022-12-23 17:22:04.056 [main] DEBUG org.hibernate.SQL:128 - insert into securities_file_data (ISIN_CODE, AMOUNT_ALLOCATED_TO_MAS, AMOUNT_ALLOCATED_TO_OTHERS, AUCTION_DATE, AVERAGE_YIELD, AVERAGE_YIELD_PRICE, COUPON_PAYMENT_FREQUENCY, COUPON_RATE, CREDIT_RATING, CURRENCY_CODE, CUTOFF_YIELD, CUTOFF_YIELD_PRICE, DAYS_OF_ACCRUED_INTEREST, DENOMINATION, DESCRIPTION, ELIGIBLE_FOR_ILF, EX_DATE, EX_DATE_PERIOD, FIRST_ISSUANCE_AMOUNT, FIRST_ISSUANCE_DATE, HAIRCUT_PERCENTAGE_FOR_ILF, ILF_HAIRCUT_SETTING, ISIN_STATUS, ISIN_SUB_TYPE, ISIN_TYPE, ISSUE_CODE, LAST_COUPON_DATE, MAS_APPLIED_AMOUNT, MATURITY_DATE, NEXT_COUPON_DATE, OPTIONAL_COUPON_DATE, OPTIONAL_MATURITY_DATE, OUTSTANDING_NOMINAL_AMOUNT, RE_OPENING_ALLOTMENT_DATE, RE_OPENING_AUCTION_DATE, RE_OPENING_MAS_APPLIED_AMOUNT, RE_OPENING_TOTAL_ALLOTMENT_AMOUNT, REDEMPTION_PRICE, TAXABLE, TENURE, TOTAL_ISSUED_AMOUNT, TOTAL_REDEEMED_AMOUNT, TRADABLE, UNIT_SIZE) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2022-12-23 17:22:04.397 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - ISIN_CODE - MEPSUAT00032 -12
+2022-12-23 17:22:04.398 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - DESCRIPTION - 10YR SBOND 2016 DUE 030526 GX16503V -35
+2022-12-23 17:22:04.399 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - ISIN_TYPE - SB -2
+2022-12-23 17:22:04.399 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - ISSUE_CODE - GX16503V -8
+2022-12-23 17:22:04.400 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - ISIN_STATUS - A -1
+2022-12-23 17:22:04.400 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - TAXABLE - Y -1
+2022-12-23 17:22:04.400 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - TRADABLE - N -1
+2022-12-23 17:22:04.401 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - CREDIT_RATING - AAA -3
+2022-12-23 17:22:04.402 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - ELIGIBLE_FOR_ILF - N -1
+2022-12-23 17:22:04.402 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - ILF_HAIRCUT_SETTING - N -1
+2022-12-23 17:22:04.403 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - HAIRCUT_PERCENTAGE_FOR_ILF - 00000000 -8
+2022-12-23 17:22:04.403 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - MATURITY_DATE - 20260503 -8
+2022-12-23 17:22:04.404 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - OPTIONAL_MATURITY_DATE -  -0
+2022-12-23 17:22:04.404 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - AUCTION_DATE - 20160429 -8
+2022-12-23 17:22:04.405 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - FIRST_ISSUANCE_DATE - 20160503 -8
+2022-12-23 17:22:04.405 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - FIRST_ISSUANCE_AMOUNT - 000000000137500 -15
+2022-12-23 17:22:04.406 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - RE_OPENING_AUCTION_DATE -  -0
+2022-12-23 17:22:04.406 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - RE_OPENING_ALLOTMENT_DATE -  -0
+2022-12-23 17:22:04.407 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - RE_OPENING_TOTAL_ALLOTMENT_AMOUNT - 000000000000000 -15
+2022-12-23 17:22:04.407 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - TOTAL_ISSUED_AMOUNT - 000000000137500 -15
+2022-12-23 17:22:04.408 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - OUTSTANDING_NOMINAL_AMOUNT - 000000000017500 -15
+2022-12-23 17:22:04.408 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - AMOUNT_ALLOCATED_TO_MAS - 000000000000000 -15
+2022-12-23 17:22:04.408 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - AMOUNT_ALLOCATED_TO_OTHERS - 000000000137500 -15
+2022-12-23 17:22:04.409 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - MAS_APPLIED_AMOUNT - 000000000000000 -15
+2022-12-23 17:22:04.409 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - UNIT_SIZE - 1000 -4
+2022-12-23 17:22:04.409 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - DENOMINATION - 000000000000500 -15
+2022-12-23 17:22:04.410 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - CURRENCY_CODE - SGD -3
+2022-12-23 17:22:04.410 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - REDEMPTION_PRICE - 10000000 -8
+2022-12-23 17:22:04.411 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - COUPON_RATE - 00354000 -8
+2022-12-23 17:22:04.411 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - EX_DATE_PERIOD - 3 -1
+2022-12-23 17:22:04.411 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - EX_DATE - 20230428 -8
+2022-12-23 17:22:04.412 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - COUPON_PAYMENT_FREQUENCY - S -1
+2022-12-23 17:22:04.412 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - LAST_COUPON_DATE - 20221103 -8
+2022-12-23 17:22:04.413 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - NEXT_COUPON_DATE - 20230503 -8
+2022-12-23 17:22:04.413 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - OPTIONAL_COUPON_DATE - 20161103 -8
+2022-12-23 17:22:04.414 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - DAYS_OF_ACCRUED_INTEREST -  -0
+2022-12-23 17:22:04.414 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - TENURE - 010 -3
+2022-12-23 17:22:04.414 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - AVERAGE_YIELD - 00000000 -8
+2022-12-23 17:22:04.415 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - CUTOFF_YIELD - 00000000 -8
+2022-12-23 17:22:04.415 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - AVERAGE_YIELD_PRICE - 00000000 -8
+2022-12-23 17:22:04.416 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - CUTOFF_YIELD_PRICE - 00000000 -8
+2022-12-23 17:22:04.416 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - RE_OPENING_MAS_APPLIED_AMOUNT - 000000000000000 -15
+2022-12-23 17:22:04.417 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - TOTAL_REDEEMED_AMOUNT - 000000000120000 -15
+2022-12-23 17:22:04.417 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - ISIN_SUB_TYPE - NA -2
+2022-12-23 17:22:04.610 [main] DEBUG org.hibernate.SQL:128 - insert into securities_file_data (ISIN_CODE, AMOUNT_ALLOCATED_TO_MAS, AMOUNT_ALLOCATED_TO_OTHERS, AUCTION_DATE, AVERAGE_YIELD, AVERAGE_YIELD_PRICE, COUPON_PAYMENT_FREQUENCY, COUPON_RATE, CREDIT_RATING, CURRENCY_CODE, CUTOFF_YIELD, CUTOFF_YIELD_PRICE, DAYS_OF_ACCRUED_INTEREST, DENOMINATION, DESCRIPTION, ELIGIBLE_FOR_ILF, EX_DATE, EX_DATE_PERIOD, FIRST_ISSUANCE_AMOUNT, FIRST_ISSUANCE_DATE, HAIRCUT_PERCENTAGE_FOR_ILF, ILF_HAIRCUT_SETTING, ISIN_STATUS, ISIN_SUB_TYPE, ISIN_TYPE, ISSUE_CODE, LAST_COUPON_DATE, MAS_APPLIED_AMOUNT, MATURITY_DATE, NEXT_COUPON_DATE, OPTIONAL_COUPON_DATE, OPTIONAL_MATURITY_DATE, OUTSTANDING_NOMINAL_AMOUNT, RE_OPENING_ALLOTMENT_DATE, RE_OPENING_AUCTION_DATE, RE_OPENING_MAS_APPLIED_AMOUNT, RE_OPENING_TOTAL_ALLOTMENT_AMOUNT, REDEMPTION_PRICE, TAXABLE, TENURE, TOTAL_ISSUED_AMOUNT, TOTAL_REDEEMED_AMOUNT, TRADABLE, UNIT_SIZE) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2022-12-23 17:22:04.882 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - ISIN_CODE - NPTESTSCREEN -12
+2022-12-23 17:22:04.883 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - DESCRIPTION - 10YR BOND 2016 DUE 260531 NY15046C -34
+2022-12-23 17:22:04.883 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - ISIN_TYPE - BN -2
+2022-12-23 17:22:04.883 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - ISSUE_CODE - NY15046C -8
+2022-12-23 17:22:04.884 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - ISIN_STATUS - N -1
+2022-12-23 17:22:04.884 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - TAXABLE - Y -1
+2022-12-23 17:22:04.884 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - TRADABLE - Y -1
+2022-12-23 17:22:04.884 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - CREDIT_RATING - AAA -3
+2022-12-23 17:22:04.885 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - ELIGIBLE_FOR_ILF - Y -1
+2022-12-23 17:22:04.885 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - ILF_HAIRCUT_SETTING - A -1
+2022-12-23 17:22:04.885 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - HAIRCUT_PERCENTAGE_FOR_ILF - 00100000 -8
+2022-12-23 17:22:04.885 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - MATURITY_DATE - 20260531 -8
+2022-12-23 17:22:04.886 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - OPTIONAL_MATURITY_DATE -  -0
+2022-12-23 17:22:04.886 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - AUCTION_DATE - 20160528 -8
+2022-12-23 17:22:04.886 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - FIRST_ISSUANCE_DATE - 20160531 -8
+2022-12-23 17:22:04.886 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - FIRST_ISSUANCE_AMOUNT - 000000000001000 -15
+2022-12-23 17:22:04.887 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - RE_OPENING_AUCTION_DATE -  -0
+2022-12-23 17:22:04.887 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - RE_OPENING_ALLOTMENT_DATE -  -0
+2022-12-23 17:22:04.887 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - RE_OPENING_TOTAL_ALLOTMENT_AMOUNT - 000000000000000 -15
+2022-12-23 17:22:04.887 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - TOTAL_ISSUED_AMOUNT - 000000000000000 -15
+2022-12-23 17:22:04.888 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - OUTSTANDING_NOMINAL_AMOUNT - 000000000000000 -15
+2022-12-23 17:22:04.888 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - AMOUNT_ALLOCATED_TO_MAS - 000000000000000 -15
+2022-12-23 17:22:04.888 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - AMOUNT_ALLOCATED_TO_OTHERS - 000000000000000 -15
+2022-12-23 17:22:04.888 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - MAS_APPLIED_AMOUNT - 000000000000000 -15
+2022-12-23 17:22:04.889 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - UNIT_SIZE - 1000 -4
+2022-12-23 17:22:04.889 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - DENOMINATION - 000000000001000 -15
+2022-12-23 17:22:04.889 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - CURRENCY_CODE - SGD -3
+2022-12-23 17:22:04.889 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - REDEMPTION_PRICE - 10000000 -8
+2022-12-23 17:22:04.890 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - COUPON_RATE - 00000000 -8
+2022-12-23 17:22:04.890 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - EX_DATE_PERIOD - 3 -1
+2022-12-23 17:22:04.890 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - EX_DATE - 20161025 -8
+2022-12-23 17:22:04.890 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - COUPON_PAYMENT_FREQUENCY - S -1
+2022-12-23 17:22:04.890 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - LAST_COUPON_DATE -  -0
+2022-12-23 17:22:04.891 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - NEXT_COUPON_DATE -  -0
+2022-12-23 17:22:04.891 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - OPTIONAL_COUPON_DATE - 20161028 -8
+2022-12-23 17:22:04.891 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - DAYS_OF_ACCRUED_INTEREST - 150 -3
+2022-12-23 17:22:04.891 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - TENURE - 010 -3
+2022-12-23 17:22:04.892 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - AVERAGE_YIELD - 00000000 -8
+2022-12-23 17:22:04.892 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - CUTOFF_YIELD - 00000000 -8
+2022-12-23 17:22:04.892 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - AVERAGE_YIELD_PRICE - 00000000 -8
+2022-12-23 17:22:04.892 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - CUTOFF_YIELD_PRICE - 00000000 -8
+2022-12-23 17:22:04.892 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - RE_OPENING_MAS_APPLIED_AMOUNT - 000000000000000 -15
+2022-12-23 17:22:04.892 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - TOTAL_REDEEMED_AMOUNT - 000000000000000 -15
+2022-12-23 17:22:04.892 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - ISIN_SUB_TYPE - NA -2
+2022-12-23 17:22:04.964 [main] DEBUG org.hibernate.SQL:128 - insert into securities_file_data (ISIN_CODE, AMOUNT_ALLOCATED_TO_MAS, AMOUNT_ALLOCATED_TO_OTHERS, AUCTION_DATE, AVERAGE_YIELD, AVERAGE_YIELD_PRICE, COUPON_PAYMENT_FREQUENCY, COUPON_RATE, CREDIT_RATING, CURRENCY_CODE, CUTOFF_YIELD, CUTOFF_YIELD_PRICE, DAYS_OF_ACCRUED_INTEREST, DENOMINATION, DESCRIPTION, ELIGIBLE_FOR_ILF, EX_DATE, EX_DATE_PERIOD, FIRST_ISSUANCE_AMOUNT, FIRST_ISSUANCE_DATE, HAIRCUT_PERCENTAGE_FOR_ILF, ILF_HAIRCUT_SETTING, ISIN_STATUS, ISIN_SUB_TYPE, ISIN_TYPE, ISSUE_CODE, LAST_COUPON_DATE, MAS_APPLIED_AMOUNT, MATURITY_DATE, NEXT_COUPON_DATE, OPTIONAL_COUPON_DATE, OPTIONAL_MATURITY_DATE, OUTSTANDING_NOMINAL_AMOUNT, RE_OPENING_ALLOTMENT_DATE, RE_OPENING_AUCTION_DATE, RE_OPENING_MAS_APPLIED_AMOUNT, RE_OPENING_TOTAL_ALLOTMENT_AMOUNT, REDEMPTION_PRICE, TAXABLE, TENURE, TOTAL_ISSUED_AMOUNT, TOTAL_REDEEMED_AMOUNT, TRADABLE, UNIT_SIZE) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2022-12-23 17:22:05.254 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - ISIN_CODE - NSBONDMAY002 -12
+2022-12-23 17:22:05.254 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - DESCRIPTION - NS BOND 3YR 2021 - 2024 NS21002A -32
+2022-12-23 17:22:05.255 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - ISIN_TYPE - BN -2
+2022-12-23 17:22:05.255 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - ISSUE_CODE - NS21002A -8
+2022-12-23 17:22:05.255 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - ISIN_STATUS - A -1
+2022-12-23 17:22:05.255 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - TAXABLE - Y -1
+2022-12-23 17:22:05.255 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - TRADABLE - Y -1
+2022-12-23 17:22:05.255 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - CREDIT_RATING - AAA -3
+2022-12-23 17:22:05.255 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - ELIGIBLE_FOR_ILF - Y -1
+2022-12-23 17:22:05.255 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - ILF_HAIRCUT_SETTING - A -1
+2022-12-23 17:22:05.255 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - HAIRCUT_PERCENTAGE_FOR_ILF - 00100000 -8
+2022-12-23 17:22:05.256 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - MATURITY_DATE - 20240531 -8
+2022-12-23 17:22:05.256 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - OPTIONAL_MATURITY_DATE -  -0
+2022-12-23 17:22:05.256 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - AUCTION_DATE - 20210505 -8
+2022-12-23 17:22:05.256 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - FIRST_ISSUANCE_DATE - 20210506 -8
+2022-12-23 17:22:05.256 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - FIRST_ISSUANCE_AMOUNT - 000000000100000 -15
+2022-12-23 17:22:05.256 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - RE_OPENING_AUCTION_DATE - 20210514 -8
+2022-12-23 17:22:05.256 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - RE_OPENING_ALLOTMENT_DATE - 20210517 -8
+2022-12-23 17:22:05.256 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - RE_OPENING_TOTAL_ALLOTMENT_AMOUNT - 000000000500000 -15
+2022-12-23 17:22:05.256 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - TOTAL_ISSUED_AMOUNT - 000000000100000 -15
+2022-12-23 17:22:05.256 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - OUTSTANDING_NOMINAL_AMOUNT - 000000000100000 -15
+2022-12-23 17:22:05.256 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - AMOUNT_ALLOCATED_TO_MAS - 000000000000000 -15
+2022-12-23 17:22:05.257 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - AMOUNT_ALLOCATED_TO_OTHERS - 000000000100000 -15
+2022-12-23 17:22:05.257 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - MAS_APPLIED_AMOUNT - 000000000010000 -15
+2022-12-23 17:22:05.257 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - UNIT_SIZE - 1000 -4
+2022-12-23 17:22:05.257 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - DENOMINATION - 000000000001000 -15
+2022-12-23 17:22:05.257 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - CURRENCY_CODE - SGD -3
+2022-12-23 17:22:05.257 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - REDEMPTION_PRICE - 10000000 -8
+2022-12-23 17:22:05.257 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - COUPON_RATE - 00215000 -8
+2022-12-23 17:22:05.257 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - EX_DATE_PERIOD - 3 -1
+2022-12-23 17:22:05.257 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - EX_DATE - 20230525 -8
+2022-12-23 17:22:05.257 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - COUPON_PAYMENT_FREQUENCY - S -1
+2022-12-23 17:22:05.257 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - LAST_COUPON_DATE - 20221130 -8
+2022-12-23 17:22:05.257 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - NEXT_COUPON_DATE - 20230530 -8
+2022-12-23 17:22:05.258 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - OPTIONAL_COUPON_DATE - 20210531 -8
+2022-12-23 17:22:05.258 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - DAYS_OF_ACCRUED_INTEREST - 181 -3
+2022-12-23 17:22:05.258 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - TENURE - 005 -3
+2022-12-23 17:22:05.258 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - AVERAGE_YIELD - 00000000 -8
+2022-12-23 17:22:05.258 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - CUTOFF_YIELD - 00000000 -8
+2022-12-23 17:22:05.258 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - AVERAGE_YIELD_PRICE - 00000000 -8
+2022-12-23 17:22:05.258 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - CUTOFF_YIELD_PRICE - 00000000 -8
+2022-12-23 17:22:05.258 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - RE_OPENING_MAS_APPLIED_AMOUNT - 000000000250000 -15
+2022-12-23 17:22:05.258 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - TOTAL_REDEEMED_AMOUNT - 000000000000000 -15
+2022-12-23 17:22:05.258 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:200 - ISIN_SUB_TYPE - NA -2
+2022-12-23 17:22:05.387 [main] DEBUG org.hibernate.SQL:128 - insert into securities_file_data (ISIN_CODE, AMOUNT_ALLOCATED_TO_MAS, AMOUNT_ALLOCATED_TO_OTHERS, AUCTION_DATE, AVERAGE_YIELD, AVERAGE_YIELD_PRICE, COUPON_PAYMENT_FREQUENCY, COUPON_RATE, CREDIT_RATING, CURRENCY_CODE, CUTOFF_YIELD, CUTOFF_YIELD_PRICE, DAYS_OF_ACCRUED_INTEREST, DENOMINATION, DESCRIPTION, ELIGIBLE_FOR_ILF, EX_DATE, EX_DATE_PERIOD, FIRST_ISSUANCE_AMOUNT, FIRST_ISSUANCE_DATE, HAIRCUT_PERCENTAGE_FOR_ILF, ILF_HAIRCUT_SETTING, ISIN_STATUS, ISIN_SUB_TYPE, ISIN_TYPE, ISSUE_CODE, LAST_COUPON_DATE, MAS_APPLIED_AMOUNT, MATURITY_DATE, NEXT_COUPON_DATE, OPTIONAL_COUPON_DATE, OPTIONAL_MATURITY_DATE, OUTSTANDING_NOMINAL_AMOUNT, RE_OPENING_ALLOTMENT_DATE, RE_OPENING_AUCTION_DATE, RE_OPENING_MAS_APPLIED_AMOUNT, RE_OPENING_TOTAL_ALLOTMENT_AMOUNT, REDEMPTION_PRICE, TAXABLE, TENURE, TOTAL_ISSUED_AMOUNT, TOTAL_REDEEMED_AMOUNT, TRADABLE, UNIT_SIZE) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2022-12-23 17:22:05.788 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:253 - Total records in File: {}9
+2022-12-23 17:22:05.790 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:177 - fileRecords - AUTOSFNEWP99|000000000002000|000902799998000|000902799998000|20230601|20221201|20230601|000001500000000|000901300000000|000902799998000
+2022-12-23 17:22:05.791 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:177 - fileRecords - BCSISMBIL001|000000000000000|000000100000000|000000100000000||||000000000900000|000000099100000|000000100000000
+2022-12-23 17:22:05.791 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:177 - fileRecords - BCSISTEST012|000000000000000|000000630000000|000000630000000||||000000000010000|000000629990000|000000630000000
+2022-12-23 17:22:05.792 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:177 - fileRecords - MEPSUAT00016|000000000045000|000000000242500|000000000242500|20230422|20221022|20230422|000000000000000|000000000287500|000000000242500
+2022-12-23 17:22:05.792 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:177 - fileRecords - MEPSUAT00024|000000000130000|000000000170000|000000000170000|20230425|20221025|20230425|000000000000000|000000000300000|000000000170000
+2022-12-23 17:22:05.793 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:177 - fileRecords - MEPSUAT00032|000000000120000|000000000017500|000000000017500|20230503|20221103|20230503|000000000000000|000000000137500|000000000017500
+2022-12-23 17:22:05.793 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:177 - fileRecords - NPTESTSCREEN|000000000000000|000000000000000|000000000000000||||000000000000000|000000000000000|000000000000000
+2022-12-23 17:22:05.793 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:177 - fileRecords - NSBONDMAY002|000000000000000|000000000100000|000000000100000|20230530|20221130|20230530|000000000000000|000000000100000|000000000100000
+2022-12-23 17:22:05.795 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:179 - 1:securities_code
+2022-12-23 17:22:05.795 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:179 - 2:total_redeemed_amount
+2022-12-23 17:22:05.796 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:179 - 3:total_redeemed_amount_for_erf
+2022-12-23 17:22:05.796 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:179 - 4:outstanding_nominal_amount
+2022-12-23 17:22:05.797 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:179 - 5:next_coupon_date
+2022-12-23 17:22:05.797 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:179 - 6:last_coupon_date
+2022-12-23 17:22:05.797 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:179 - 7:next_index_end_date
+2022-12-23 17:22:05.798 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:179 - 8:amount_alloted_to_central_bank
+2022-12-23 17:22:05.798 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:179 - 9:amount_alloted_to_others
+2022-12-23 17:22:05.798 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:179 - 10:total_nominal_amount_issued_for_erf
+2022-12-23 17:22:05.823 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesCodeStatisticsService:113 - Total records in File: {}8
+2022-12-23 17:22:05.996 [main] DEBUG org.hibernate.SQL:128 - insert into securities_code_statistics_source (amount_allotted_to_central_bank, amount_allotted_to_others, id, last_coupon_date, next_coupon_date, next_index_end_date, outstanding_nominal_amount, remarks, securities_code, total_nominal_amount_issued_for_erf, total_redeemed_amount, total_redeemed_amount_for_erf) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2022-12-23 17:22:06.444 [main] DEBUG org.hibernate.SQL:128 - select jpassssecu0_.id as id1_45_0_, jpassssecu0_.amount_allotted_to_central_bank as amount_a2_45_0_, jpassssecu0_.amount_allotted_to_others as amount_a3_45_0_, jpassssecu0_.last_coupon_date as last_cou4_45_0_, jpassssecu0_.next_coupon_date as next_cou5_45_0_, jpassssecu0_.next_index_end_date as next_ind6_45_0_, jpassssecu0_.outstanding_nominal_amount as outstand7_45_0_, jpassssecu0_.remarks as remarks8_45_0_, jpassssecu0_.securities_code as securiti9_45_0_, jpassssecu0_.total_nominal_amount_issued_for_erf as total_n10_45_0_, jpassssecu0_.total_redeemed_amount as total_r11_45_0_, jpassssecu0_.total_redeemed_amount_for_erf as total_r12_45_0_ from securities_code_statistics_temp jpassssecu0_ where jpassssecu0_.id=?
+2022-12-23 17:22:06.643 [main] DEBUG org.hibernate.SQL:128 - insert into securities_code_statistics_temp (amount_allotted_to_central_bank, amount_allotted_to_others, last_coupon_date, next_coupon_date, next_index_end_date, outstanding_nominal_amount, remarks, securities_code, total_nominal_amount_issued_for_erf, total_redeemed_amount, total_redeemed_amount_for_erf, id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2022-12-23 17:22:07.219 [main] DEBUG org.hibernate.SQL:128 - insert into securities_code_statistics_source (amount_allotted_to_central_bank, amount_allotted_to_others, id, last_coupon_date, next_coupon_date, next_index_end_date, outstanding_nominal_amount, remarks, securities_code, total_nominal_amount_issued_for_erf, total_redeemed_amount, total_redeemed_amount_for_erf) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2022-12-23 17:22:07.630 [main] DEBUG org.hibernate.SQL:128 - select jpassssecu0_.id as id1_45_0_, jpassssecu0_.amount_allotted_to_central_bank as amount_a2_45_0_, jpassssecu0_.amount_allotted_to_others as amount_a3_45_0_, jpassssecu0_.last_coupon_date as last_cou4_45_0_, jpassssecu0_.next_coupon_date as next_cou5_45_0_, jpassssecu0_.next_index_end_date as next_ind6_45_0_, jpassssecu0_.outstanding_nominal_amount as outstand7_45_0_, jpassssecu0_.remarks as remarks8_45_0_, jpassssecu0_.securities_code as securiti9_45_0_, jpassssecu0_.total_nominal_amount_issued_for_erf as total_n10_45_0_, jpassssecu0_.total_redeemed_amount as total_r11_45_0_, jpassssecu0_.total_redeemed_amount_for_erf as total_r12_45_0_ from securities_code_statistics_temp jpassssecu0_ where jpassssecu0_.id=?
+2022-12-23 17:22:07.836 [main] DEBUG org.hibernate.SQL:128 - insert into securities_code_statistics_temp (amount_allotted_to_central_bank, amount_allotted_to_others, last_coupon_date, next_coupon_date, next_index_end_date, outstanding_nominal_amount, remarks, securities_code, total_nominal_amount_issued_for_erf, total_redeemed_amount, total_redeemed_amount_for_erf, id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2022-12-23 17:22:08.323 [main] DEBUG org.hibernate.SQL:128 - insert into securities_code_statistics_source (amount_allotted_to_central_bank, amount_allotted_to_others, id, last_coupon_date, next_coupon_date, next_index_end_date, outstanding_nominal_amount, remarks, securities_code, total_nominal_amount_issued_for_erf, total_redeemed_amount, total_redeemed_amount_for_erf) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2022-12-23 17:22:08.725 [main] DEBUG org.hibernate.SQL:128 - select jpassssecu0_.id as id1_45_0_, jpassssecu0_.amount_allotted_to_central_bank as amount_a2_45_0_, jpassssecu0_.amount_allotted_to_others as amount_a3_45_0_, jpassssecu0_.last_coupon_date as last_cou4_45_0_, jpassssecu0_.next_coupon_date as next_cou5_45_0_, jpassssecu0_.next_index_end_date as next_ind6_45_0_, jpassssecu0_.outstanding_nominal_amount as outstand7_45_0_, jpassssecu0_.remarks as remarks8_45_0_, jpassssecu0_.securities_code as securiti9_45_0_, jpassssecu0_.total_nominal_amount_issued_for_erf as total_n10_45_0_, jpassssecu0_.total_redeemed_amount as total_r11_45_0_, jpassssecu0_.total_redeemed_amount_for_erf as total_r12_45_0_ from securities_code_statistics_temp jpassssecu0_ where jpassssecu0_.id=?
+2022-12-23 17:22:09.067 [main] DEBUG org.hibernate.SQL:128 - insert into securities_code_statistics_temp (amount_allotted_to_central_bank, amount_allotted_to_others, last_coupon_date, next_coupon_date, next_index_end_date, outstanding_nominal_amount, remarks, securities_code, total_nominal_amount_issued_for_erf, total_redeemed_amount, total_redeemed_amount_for_erf, id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2022-12-23 17:22:09.753 [main] DEBUG org.hibernate.SQL:128 - insert into securities_code_statistics_source (amount_allotted_to_central_bank, amount_allotted_to_others, id, last_coupon_date, next_coupon_date, next_index_end_date, outstanding_nominal_amount, remarks, securities_code, total_nominal_amount_issued_for_erf, total_redeemed_amount, total_redeemed_amount_for_erf) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2022-12-23 17:22:10.155 [main] DEBUG org.hibernate.SQL:128 - select jpassssecu0_.id as id1_45_0_, jpassssecu0_.amount_allotted_to_central_bank as amount_a2_45_0_, jpassssecu0_.amount_allotted_to_others as amount_a3_45_0_, jpassssecu0_.last_coupon_date as last_cou4_45_0_, jpassssecu0_.next_coupon_date as next_cou5_45_0_, jpassssecu0_.next_index_end_date as next_ind6_45_0_, jpassssecu0_.outstanding_nominal_amount as outstand7_45_0_, jpassssecu0_.remarks as remarks8_45_0_, jpassssecu0_.securities_code as securiti9_45_0_, jpassssecu0_.total_nominal_amount_issued_for_erf as total_n10_45_0_, jpassssecu0_.total_redeemed_amount as total_r11_45_0_, jpassssecu0_.total_redeemed_amount_for_erf as total_r12_45_0_ from securities_code_statistics_temp jpassssecu0_ where jpassssecu0_.id=?
+2022-12-23 17:22:10.295 [main] DEBUG org.hibernate.SQL:128 - insert into securities_code_statistics_temp (amount_allotted_to_central_bank, amount_allotted_to_others, last_coupon_date, next_coupon_date, next_index_end_date, outstanding_nominal_amount, remarks, securities_code, total_nominal_amount_issued_for_erf, total_redeemed_amount, total_redeemed_amount_for_erf, id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2022-12-23 17:22:10.646 [main] DEBUG org.hibernate.SQL:128 - insert into securities_code_statistics_source (amount_allotted_to_central_bank, amount_allotted_to_others, id, last_coupon_date, next_coupon_date, next_index_end_date, outstanding_nominal_amount, remarks, securities_code, total_nominal_amount_issued_for_erf, total_redeemed_amount, total_redeemed_amount_for_erf) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2022-12-23 17:22:10.911 [main] DEBUG org.hibernate.SQL:128 - select jpassssecu0_.id as id1_45_0_, jpassssecu0_.amount_allotted_to_central_bank as amount_a2_45_0_, jpassssecu0_.amount_allotted_to_others as amount_a3_45_0_, jpassssecu0_.last_coupon_date as last_cou4_45_0_, jpassssecu0_.next_coupon_date as next_cou5_45_0_, jpassssecu0_.next_index_end_date as next_ind6_45_0_, jpassssecu0_.outstanding_nominal_amount as outstand7_45_0_, jpassssecu0_.remarks as remarks8_45_0_, jpassssecu0_.securities_code as securiti9_45_0_, jpassssecu0_.total_nominal_amount_issued_for_erf as total_n10_45_0_, jpassssecu0_.total_redeemed_amount as total_r11_45_0_, jpassssecu0_.total_redeemed_amount_for_erf as total_r12_45_0_ from securities_code_statistics_temp jpassssecu0_ where jpassssecu0_.id=?
+2022-12-23 17:22:10.992 [main] DEBUG org.hibernate.SQL:128 - insert into securities_code_statistics_temp (amount_allotted_to_central_bank, amount_allotted_to_others, last_coupon_date, next_coupon_date, next_index_end_date, outstanding_nominal_amount, remarks, securities_code, total_nominal_amount_issued_for_erf, total_redeemed_amount, total_redeemed_amount_for_erf, id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2022-12-23 17:22:11.305 [main] DEBUG org.hibernate.SQL:128 - insert into securities_code_statistics_source (amount_allotted_to_central_bank, amount_allotted_to_others, id, last_coupon_date, next_coupon_date, next_index_end_date, outstanding_nominal_amount, remarks, securities_code, total_nominal_amount_issued_for_erf, total_redeemed_amount, total_redeemed_amount_for_erf) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2022-12-23 17:22:11.566 [main] DEBUG org.hibernate.SQL:128 - select jpassssecu0_.id as id1_45_0_, jpassssecu0_.amount_allotted_to_central_bank as amount_a2_45_0_, jpassssecu0_.amount_allotted_to_others as amount_a3_45_0_, jpassssecu0_.last_coupon_date as last_cou4_45_0_, jpassssecu0_.next_coupon_date as next_cou5_45_0_, jpassssecu0_.next_index_end_date as next_ind6_45_0_, jpassssecu0_.outstanding_nominal_amount as outstand7_45_0_, jpassssecu0_.remarks as remarks8_45_0_, jpassssecu0_.securities_code as securiti9_45_0_, jpassssecu0_.total_nominal_amount_issued_for_erf as total_n10_45_0_, jpassssecu0_.total_redeemed_amount as total_r11_45_0_, jpassssecu0_.total_redeemed_amount_for_erf as total_r12_45_0_ from securities_code_statistics_temp jpassssecu0_ where jpassssecu0_.id=?
+2022-12-23 17:22:11.634 [main] DEBUG org.hibernate.SQL:128 - insert into securities_code_statistics_temp (amount_allotted_to_central_bank, amount_allotted_to_others, last_coupon_date, next_coupon_date, next_index_end_date, outstanding_nominal_amount, remarks, securities_code, total_nominal_amount_issued_for_erf, total_redeemed_amount, total_redeemed_amount_for_erf, id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2022-12-23 17:22:11.965 [main] DEBUG org.hibernate.SQL:128 - insert into securities_code_statistics_source (amount_allotted_to_central_bank, amount_allotted_to_others, id, last_coupon_date, next_coupon_date, next_index_end_date, outstanding_nominal_amount, remarks, securities_code, total_nominal_amount_issued_for_erf, total_redeemed_amount, total_redeemed_amount_for_erf) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2022-12-23 17:22:12.224 [main] DEBUG org.hibernate.SQL:128 - select jpassssecu0_.id as id1_45_0_, jpassssecu0_.amount_allotted_to_central_bank as amount_a2_45_0_, jpassssecu0_.amount_allotted_to_others as amount_a3_45_0_, jpassssecu0_.last_coupon_date as last_cou4_45_0_, jpassssecu0_.next_coupon_date as next_cou5_45_0_, jpassssecu0_.next_index_end_date as next_ind6_45_0_, jpassssecu0_.outstanding_nominal_amount as outstand7_45_0_, jpassssecu0_.remarks as remarks8_45_0_, jpassssecu0_.securities_code as securiti9_45_0_, jpassssecu0_.total_nominal_amount_issued_for_erf as total_n10_45_0_, jpassssecu0_.total_redeemed_amount as total_r11_45_0_, jpassssecu0_.total_redeemed_amount_for_erf as total_r12_45_0_ from securities_code_statistics_temp jpassssecu0_ where jpassssecu0_.id=?
+2022-12-23 17:22:12.294 [main] DEBUG org.hibernate.SQL:128 - insert into securities_code_statistics_temp (amount_allotted_to_central_bank, amount_allotted_to_others, last_coupon_date, next_coupon_date, next_index_end_date, outstanding_nominal_amount, remarks, securities_code, total_nominal_amount_issued_for_erf, total_redeemed_amount, total_redeemed_amount_for_erf, id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2022-12-23 17:22:12.618 [main] DEBUG org.hibernate.SQL:128 - insert into securities_code_statistics_source (amount_allotted_to_central_bank, amount_allotted_to_others, id, last_coupon_date, next_coupon_date, next_index_end_date, outstanding_nominal_amount, remarks, securities_code, total_nominal_amount_issued_for_erf, total_redeemed_amount, total_redeemed_amount_for_erf) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2022-12-23 17:22:12.884 [main] DEBUG org.hibernate.SQL:128 - select jpassssecu0_.id as id1_45_0_, jpassssecu0_.amount_allotted_to_central_bank as amount_a2_45_0_, jpassssecu0_.amount_allotted_to_others as amount_a3_45_0_, jpassssecu0_.last_coupon_date as last_cou4_45_0_, jpassssecu0_.next_coupon_date as next_cou5_45_0_, jpassssecu0_.next_index_end_date as next_ind6_45_0_, jpassssecu0_.outstanding_nominal_amount as outstand7_45_0_, jpassssecu0_.remarks as remarks8_45_0_, jpassssecu0_.securities_code as securiti9_45_0_, jpassssecu0_.total_nominal_amount_issued_for_erf as total_n10_45_0_, jpassssecu0_.total_redeemed_amount as total_r11_45_0_, jpassssecu0_.total_redeemed_amount_for_erf as total_r12_45_0_ from securities_code_statistics_temp jpassssecu0_ where jpassssecu0_.id=?
+2022-12-23 17:22:12.964 [main] DEBUG org.hibernate.SQL:128 - insert into securities_code_statistics_temp (amount_allotted_to_central_bank, amount_allotted_to_others, last_coupon_date, next_coupon_date, next_index_end_date, outstanding_nominal_amount, remarks, securities_code, total_nominal_amount_issued_for_erf, total_redeemed_amount, total_redeemed_amount_for_erf, id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2022-12-23 17:22:38.899 [main] DEBUG org.hibernate.SQL:128 - select jpassssecu0_.securities_code as securiti1_43_, jpassssecu0_.amount_allotted_to_central_bank as amount_a2_43_, jpassssecu0_.amount_allotted_to_others as amount_a3_43_, jpassssecu0_.last_coupon_date as last_cou4_43_, jpassssecu0_.next_coupon_date as next_cou5_43_, jpassssecu0_.next_index_end_date as next_ind6_43_, jpassssecu0_.outstanding_nominal_amount as outstand7_43_, jpassssecu0_.total_nominal_amount_issued_for_erf as total_no8_43_, jpassssecu0_.total_redeemed_amount as total_re9_43_, jpassssecu0_.total_redeemed_amount_for_erf as total_r10_43_ from securities_code_statistics jpassssecu0_ where jpassssecu0_.securities_code=?
+2022-12-23 17:22:47.532 [main] DEBUG org.hibernate.SQL:128 - select jpassssecu0_.securities_code as securiti1_43_0_, jpassssecu0_.amount_allotted_to_central_bank as amount_a2_43_0_, jpassssecu0_.amount_allotted_to_others as amount_a3_43_0_, jpassssecu0_.last_coupon_date as last_cou4_43_0_, jpassssecu0_.next_coupon_date as next_cou5_43_0_, jpassssecu0_.next_index_end_date as next_ind6_43_0_, jpassssecu0_.outstanding_nominal_amount as outstand7_43_0_, jpassssecu0_.total_nominal_amount_issued_for_erf as total_no8_43_0_, jpassssecu0_.total_redeemed_amount as total_re9_43_0_, jpassssecu0_.total_redeemed_amount_for_erf as total_r10_43_0_ from securities_code_statistics jpassssecu0_ where jpassssecu0_.securities_code=?
+2022-12-23 17:22:47.743 [main] DEBUG org.hibernate.SQL:128 - insert into securities_code_statistics (amount_allotted_to_central_bank, amount_allotted_to_others, last_coupon_date, next_coupon_date, next_index_end_date, outstanding_nominal_amount, total_nominal_amount_issued_for_erf, total_redeemed_amount, total_redeemed_amount_for_erf, securities_code) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2022-12-23 17:23:47.405 [main] DEBUG org.hibernate.SQL:128 - select jpassssecu0_.securities_code as securiti1_43_, jpassssecu0_.amount_allotted_to_central_bank as amount_a2_43_, jpassssecu0_.amount_allotted_to_others as amount_a3_43_, jpassssecu0_.last_coupon_date as last_cou4_43_, jpassssecu0_.next_coupon_date as next_cou5_43_, jpassssecu0_.next_index_end_date as next_ind6_43_, jpassssecu0_.outstanding_nominal_amount as outstand7_43_, jpassssecu0_.total_nominal_amount_issued_for_erf as total_no8_43_, jpassssecu0_.total_redeemed_amount as total_re9_43_, jpassssecu0_.total_redeemed_amount_for_erf as total_r10_43_ from securities_code_statistics jpassssecu0_ where jpassssecu0_.securities_code=?
+2022-12-23 17:23:54.039 [main] DEBUG org.hibernate.SQL:128 - select jpassssecu0_.id as id1_45_0_, jpassssecu0_.amount_allotted_to_central_bank as amount_a2_45_0_, jpassssecu0_.amount_allotted_to_others as amount_a3_45_0_, jpassssecu0_.last_coupon_date as last_cou4_45_0_, jpassssecu0_.next_coupon_date as next_cou5_45_0_, jpassssecu0_.next_index_end_date as next_ind6_45_0_, jpassssecu0_.outstanding_nominal_amount as outstand7_45_0_, jpassssecu0_.remarks as remarks8_45_0_, jpassssecu0_.securities_code as securiti9_45_0_, jpassssecu0_.total_nominal_amount_issued_for_erf as total_n10_45_0_, jpassssecu0_.total_redeemed_amount as total_r11_45_0_, jpassssecu0_.total_redeemed_amount_for_erf as total_r12_45_0_ from securities_code_statistics_temp jpassssecu0_ where jpassssecu0_.id=?
+2022-12-23 17:23:54.205 [main] DEBUG org.hibernate.SQL:128 - update securities_code_statistics_temp set amount_allotted_to_central_bank=?, amount_allotted_to_others=?, last_coupon_date=?, next_coupon_date=?, next_index_end_date=?, outstanding_nominal_amount=?, remarks=?, securities_code=?, total_nominal_amount_issued_for_erf=?, total_redeemed_amount=?, total_redeemed_amount_for_erf=? where id=?
+2022-12-23 17:24:10.942 [main] DEBUG org.hibernate.SQL:128 - select jpassssecu0_.securities_code as securiti1_43_, jpassssecu0_.amount_allotted_to_central_bank as amount_a2_43_, jpassssecu0_.amount_allotted_to_others as amount_a3_43_, jpassssecu0_.last_coupon_date as last_cou4_43_, jpassssecu0_.next_coupon_date as next_cou5_43_, jpassssecu0_.next_index_end_date as next_ind6_43_, jpassssecu0_.outstanding_nominal_amount as outstand7_43_, jpassssecu0_.total_nominal_amount_issued_for_erf as total_no8_43_, jpassssecu0_.total_redeemed_amount as total_re9_43_, jpassssecu0_.total_redeemed_amount_for_erf as total_r10_43_ from securities_code_statistics jpassssecu0_ where jpassssecu0_.securities_code=?
+2022-12-23 17:24:15.268 [main] DEBUG org.hibernate.SQL:128 - select jpassssecu0_.securities_code as securiti1_43_0_, jpassssecu0_.amount_allotted_to_central_bank as amount_a2_43_0_, jpassssecu0_.amount_allotted_to_others as amount_a3_43_0_, jpassssecu0_.last_coupon_date as last_cou4_43_0_, jpassssecu0_.next_coupon_date as next_cou5_43_0_, jpassssecu0_.next_index_end_date as next_ind6_43_0_, jpassssecu0_.outstanding_nominal_amount as outstand7_43_0_, jpassssecu0_.total_nominal_amount_issued_for_erf as total_no8_43_0_, jpassssecu0_.total_redeemed_amount as total_re9_43_0_, jpassssecu0_.total_redeemed_amount_for_erf as total_r10_43_0_ from securities_code_statistics jpassssecu0_ where jpassssecu0_.securities_code=?
+2022-12-23 17:24:15.686 [main] DEBUG org.hibernate.SQL:128 - insert into securities_code_statistics (amount_allotted_to_central_bank, amount_allotted_to_others, last_coupon_date, next_coupon_date, next_index_end_date, outstanding_nominal_amount, total_nominal_amount_issued_for_erf, total_redeemed_amount, total_redeemed_amount_for_erf, securities_code) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)

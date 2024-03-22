@@ -1,0 +1,76 @@
+2023-02-06 11:39:37.518 [main] INFO  scrips.datamigration.App:55 - Starting App on WSIN181 with PID 5184 (D:\DataMigration\DATA_MIGRATION_RTGS\DataMigrationAndExtract\DataMigration\target\classes started by SheikKhadeer in D:\DataMigration\DATA_MIGRATION_RTGS\DataMigrationAndExtract\DataMigration)
+2023-02-06 11:39:37.527 [main] INFO  scrips.datamigration.App:651 - No active profile set, falling back to default profiles: app
+2023-02-06 11:39:37.532 [main] INFO  scrips.datamigration.App:55 - Starting App on WSIN181 with PID 11480 (D:\DataMigration\DATA_MIGRATION_RTGS\DataMigrationAndExtract\DataMigration\target\classes started by SheikKhadeer in D:\DataMigration\DATA_MIGRATION_RTGS\DataMigrationAndExtract\DataMigration)
+2023-02-06 11:39:37.541 [main] INFO  scrips.datamigration.App:651 - No active profile set, falling back to default profiles: app
+2023-02-06 11:39:38.896 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-06 11:39:38.896 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-06 11:39:39.503 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 595ms. Found 60 JPA repository interfaces.
+2023-02-06 11:39:39.510 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 603ms. Found 60 JPA repository interfaces.
+2023-02-06 11:39:39.989 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor:39 - Post-processing PropertySource instances
+2023-02-06 11:39:39.999 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor:39 - Post-processing PropertySource instances
+2023-02-06 11:39:40.027 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2023-02-06 11:39:40.028 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2023-02-06 11:39:40.028 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2023-02-06 11:39:40.029 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2023-02-06 11:39:40.030 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2023-02-06 11:39:40.030 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource applicationConfig: [file:./config/application.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2023-02-06 11:39:40.031 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2023-02-06 11:39:40.032 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource DataMigrationProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2023-02-06 11:39:40.036 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2023-02-06 11:39:40.037 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2023-02-06 11:39:40.037 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2023-02-06 11:39:40.038 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2023-02-06 11:39:40.039 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2023-02-06 11:39:40.039 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource applicationConfig: [file:./config/application.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2023-02-06 11:39:40.040 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2023-02-06 11:39:40.040 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource DataMigrationProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2023-02-06 11:39:40.208 [main] INFO  com.ulisesbocchio.jasyptspringboot.filter.DefaultLazyPropertyFilter:31 - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2023-02-06 11:39:40.222 [main] INFO  com.ulisesbocchio.jasyptspringboot.filter.DefaultLazyPropertyFilter:31 - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2023-02-06 11:39:40.363 [main] INFO  com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver:35 - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2023-02-06 11:39:40.368 [main] INFO  com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector:35 - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2023-02-06 11:39:40.389 [main] INFO  com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver:35 - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2023-02-06 11:39:40.395 [main] INFO  com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector:35 - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2023-02-06 11:39:40.408 [main] INFO  com.ulisesbocchio.jasyptspringboot.encryptor.DefaultLazyEncryptor:37 - String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing Default String Encryptor
+2023-02-06 11:39:40.409 [main] INFO  com.ulisesbocchio.jasyptspringboot.encryptor.DefaultLazyEncryptor:37 - String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing Default String Encryptor
+2023-02-06 11:39:40.440 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81 - Encryptor config not found for property jasypt.encryptor.key-obtention-iterations, using default value: 1000
+2023-02-06 11:39:40.441 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81 - Encryptor config not found for property jasypt.encryptor.pool-size, using default value: 1
+2023-02-06 11:39:40.441 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81 - Encryptor config not found for property jasypt.encryptor.key-obtention-iterations, using default value: 1000
+2023-02-06 11:39:40.442 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81 - Encryptor config not found for property jasypt.encryptor.provider-name, using default value: null
+2023-02-06 11:39:40.442 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81 - Encryptor config not found for property jasypt.encryptor.pool-size, using default value: 1
+2023-02-06 11:39:40.443 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81 - Encryptor config not found for property jasypt.encryptor.provider-class-name, using default value: null
+2023-02-06 11:39:40.443 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81 - Encryptor config not found for property jasypt.encryptor.provider-name, using default value: null
+2023-02-06 11:39:40.444 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81 - Encryptor config not found for property jasypt.encryptor.provider-class-name, using default value: null
+2023-02-06 11:39:40.444 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81 - Encryptor config not found for property jasypt.encryptor.salt-generator-classname, using default value: org.jasypt.salt.RandomSaltGenerator
+2023-02-06 11:39:40.445 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81 - Encryptor config not found for property jasypt.encryptor.salt-generator-classname, using default value: org.jasypt.salt.RandomSaltGenerator
+2023-02-06 11:39:40.447 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81 - Encryptor config not found for property jasypt.encryptor.string-output-type, using default value: base64
+2023-02-06 11:39:40.448 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81 - Encryptor config not found for property jasypt.encryptor.string-output-type, using default value: base64
+2023-02-06 11:39:40.729 [main] INFO  org.hibernate.jpa.internal.util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: data]
+2023-02-06 11:39:40.744 [main] INFO  org.hibernate.jpa.internal.util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: data]
+2023-02-06 11:39:40.819 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 5.4.15.Final
+2023-02-06 11:39:40.829 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 5.4.15.Final
+2023-02-06 11:39:41.095 [main] INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2023-02-06 11:39:41.096 [main] INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2023-02-06 11:39:41.681 [main] INFO  com.zaxxer.hikari.HikariDataSource:110 - HikariPool-1 - Starting...
+2023-02-06 11:39:41.691 [main] INFO  com.zaxxer.hikari.HikariDataSource:110 - HikariPool-1 - Starting...
+2023-02-06 11:39:42.020 [main] INFO  com.zaxxer.hikari.HikariDataSource:123 - HikariPool-1 - Start completed.
+2023-02-06 11:39:42.027 [main] INFO  com.zaxxer.hikari.HikariDataSource:123 - HikariPool-1 - Start completed.
+2023-02-06 11:39:42.074 [main] INFO  org.hibernate.dialect.Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-02-06 11:39:42.079 [main] INFO  org.hibernate.dialect.Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-02-06 11:39:42.248 [main] INFO  org.hibernate.envers.boot.internal.EnversServiceImpl:90 - Envers integration enabled? : true
+2023-02-06 11:39:42.257 [main] INFO  org.hibernate.envers.boot.internal.EnversServiceImpl:90 - Envers integration enabled? : true
+2023-02-06 11:39:45.238 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-06 11:39:45.255 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'data'
+2023-02-06 11:39:45.256 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-06 11:39:45.273 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'data'
+2023-02-06 11:39:48.858 [main] INFO  scrips.datamigration.App:61 - Started App in 12.334 seconds (JVM running for 15.389)
+2023-02-06 11:39:48.871 [main] INFO  scrips.datamigration.controller.ReportController:44 - 2023-01-30 - SSS_SUMMARY_REPORT
+2023-02-06 11:39:48.871 [main] INFO  scrips.datamigration.common.service.GenerateReportService:84 - process started for :SSS_SUMMARY_REPORT
+2023-02-06 11:39:48.876 [main] INFO  scrips.datamigration.App:61 - Started App in 12.344 seconds (JVM running for 15.488)
+2023-02-06 11:39:48.888 [main] INFO  scrips.datamigration.controller.ReportController:44 - 2023-01-30 - SSS_SUMMARY_REPORT
+2023-02-06 11:39:48.888 [main] INFO  scrips.datamigration.common.service.GenerateReportService:84 - process started for :SSS_SUMMARY_REPORT
+2023-02-06 11:39:59.596 [main] INFO  scrips.datamigration.common.service.GenerateReportService:91 - Path -> D:/DataMigration/DATA_MIGRATION_RTGS/DataMigrationAndExtract/DataMigration/reports/
+2023-02-06 11:41:34.051 [main] WARN  net.sf.jasperreports.engine.export.PdfGlyphRenderer:68 - Unpatched iText found, cannot use glyph rendering
+2023-02-06 11:41:36.498 [main] INFO  scrips.datamigration.App:77 - Process completed in (Hours:Minutes:Seconds) 0:2:0
+2023-02-06 11:41:36.530 [SpringContextShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:598 - Closing JPA EntityManagerFactory for persistence unit 'data'
+2023-02-06 11:41:36.534 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2023-02-06 11:41:36.559 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource:352 - HikariPool-1 - Shutdown completed.

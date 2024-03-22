@@ -1,0 +1,4 @@
+2022-12-27 17:25:12.108 [main] INFO  scrips.datamigration.App:55 - Starting App on WSIN181 with PID 9576 (D:\DataMigrationNEW\DATA_MIGRATION_RTGS\DataMigrationAndExtract\DataMigration\target\classes started by SheikKhadeer in D:\DataMigrationNEW\DATA_MIGRATION_RTGS\DataMigrationAndExtract\DataMigration)
+2022-12-27 17:25:12.116 [main] INFO  scrips.datamigration.App:651 - No active profile set, falling back to default profiles: app
+2022-12-27 17:25:13.384 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-27 17:25:14.152 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 756ms. Found 61 JPA repository interfaces.

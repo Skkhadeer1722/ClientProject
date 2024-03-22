@@ -1,0 +1,43 @@
+2022-12-28 12:56:22.312 [main] INFO  scrips.datamigration.App:55 - Starting App on WSIN181 with PID 10664 (D:\DataMigrationNEW\DATA_MIGRATION_RTGS\DataMigrationAndExtract\DataMigration\target\classes started by SheikKhadeer in D:\DataMigrationNEW\DATA_MIGRATION_RTGS\DataMigrationAndExtract\DataMigration)
+2022-12-28 12:56:22.320 [main] INFO  scrips.datamigration.App:651 - No active profile set, falling back to default profiles: app
+2022-12-28 12:56:23.394 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-28 12:56:23.913 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 505ms. Found 61 JPA repository interfaces.
+2022-12-28 12:56:24.257 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor:39 - Post-processing PropertySource instances
+2022-12-28 12:56:24.289 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2022-12-28 12:56:24.290 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2022-12-28 12:56:24.290 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2022-12-28 12:56:24.290 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2022-12-28 12:56:24.291 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2022-12-28 12:56:24.291 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource applicationConfig: [file:./config/application.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2022-12-28 12:56:24.291 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2022-12-28 12:56:24.292 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource DataMigrationProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2022-12-28 12:56:24.491 [main] INFO  com.ulisesbocchio.jasyptspringboot.filter.DefaultLazyPropertyFilter:31 - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2022-12-28 12:56:24.610 [main] INFO  com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver:35 - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2022-12-28 12:56:24.615 [main] INFO  com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector:35 - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2022-12-28 12:56:24.623 [main] INFO  com.ulisesbocchio.jasyptspringboot.encryptor.DefaultLazyEncryptor:37 - String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing Default String Encryptor
+2022-12-28 12:56:24.640 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81 - Encryptor config not found for property jasypt.encryptor.key-obtention-iterations, using default value: 1000
+2022-12-28 12:56:24.640 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81 - Encryptor config not found for property jasypt.encryptor.pool-size, using default value: 1
+2022-12-28 12:56:24.641 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81 - Encryptor config not found for property jasypt.encryptor.provider-name, using default value: null
+2022-12-28 12:56:24.642 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81 - Encryptor config not found for property jasypt.encryptor.provider-class-name, using default value: null
+2022-12-28 12:56:24.642 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81 - Encryptor config not found for property jasypt.encryptor.salt-generator-classname, using default value: org.jasypt.salt.RandomSaltGenerator
+2022-12-28 12:56:24.644 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81 - Encryptor config not found for property jasypt.encryptor.string-output-type, using default value: base64
+2022-12-28 12:56:24.842 [main] INFO  org.hibernate.jpa.internal.util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: data]
+2022-12-28 12:56:24.915 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 5.4.15.Final
+2022-12-28 12:56:25.087 [main] INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-12-28 12:56:25.555 [main] INFO  com.zaxxer.hikari.HikariDataSource:110 - HikariPool-1 - Starting...
+2022-12-28 12:56:25.867 [main] INFO  com.zaxxer.hikari.HikariDataSource:123 - HikariPool-1 - Start completed.
+2022-12-28 12:56:25.924 [main] INFO  org.hibernate.dialect.Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-28 12:56:26.048 [main] INFO  org.hibernate.envers.boot.internal.EnversServiceImpl:90 - Envers integration enabled? : true
+2022-12-28 12:56:28.135 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-28 12:56:28.145 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'data'
+2022-12-28 12:56:29.571 [main] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:478 - Autowired annotation is not supported on static fields: private static org.springframework.core.env.Environment scrips.datamigration.sss.service.SssSecuritiesFileDataService.env
+2022-12-28 12:56:30.384 [main] INFO  scrips.datamigration.App:61 - Started App in 8.675 seconds (JVM running for 10.711)
+2022-12-28 12:56:30.435 [main] INFO  scrips.datamigration.common.service.FkChecksEnableDisable:36 - disable FkChecks called
+2022-12-28 12:56:30.469 [main] DEBUG org.hibernate.SQL:128 - SET FOREIGN_KEY_CHECKS = 0
+2022-12-28 12:56:30.497 [main] INFO  scrips.datamigration.common.service.FkChecksEnableDisable:38 - disable FkChecks done
+2022-12-28 12:56:30.608 [main] DEBUG org.hibernate.SQL:128 - SELECT @@GLOBAL.foreign_key_checks, @@SESSION.foreign_key_checks
+2022-12-28 12:56:30.632 [main] INFO  scrips.datamigration.common.service.FkChecksEnableDisable:52 - foreign_key_checks status - 0
+2022-12-28 12:56:30.636 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:115 - fileUploadCode - SSS_SECURITIES_CODE_FILE_UPLOAD
+2022-12-28 12:56:30.636 [main] INFO  scrips.datamigration.common.service.FileUploadService:93 - getFileHeaderByCode entered
+2022-12-28 12:56:30.637 [main] INFO  scrips.datamigration.common.service.FileUploadService:99 - fileUpldHeaderOut - securities_code
+2022-12-28 12:56:30.637 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:119 - Live table name ->securities_code

@@ -1,0 +1,534 @@
+2023-02-23 11:28:19.023 [main] INFO  scrips.datamigration.App:55 - Starting App on WSIN181 with PID 7680 (E:\DataMigration\DATA_MIGRATION_RTGS\DataMigrationAndExtract\DataMigration\target\classes started by SheikKhadeer in E:\DataMigration\DATA_MIGRATION_RTGS\DataMigrationAndExtract\DataMigration)
+2023-02-23 11:28:19.030 [main] INFO  scrips.datamigration.App:651 - No active profile set, falling back to default profiles: app
+2023-02-23 11:28:19.763 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-23 11:28:20.173 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 398ms. Found 63 JPA repository interfaces.
+2023-02-23 11:28:20.590 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor:39 - Post-processing PropertySource instances
+2023-02-23 11:28:20.621 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2023-02-23 11:28:20.622 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2023-02-23 11:28:20.622 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2023-02-23 11:28:20.623 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2023-02-23 11:28:20.623 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2023-02-23 11:28:20.623 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource applicationConfig: [file:./config/application.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2023-02-23 11:28:20.624 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2023-02-23 11:28:20.625 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource DataMigrationProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2023-02-23 11:28:20.741 [main] INFO  com.ulisesbocchio.jasyptspringboot.filter.DefaultLazyPropertyFilter:31 - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2023-02-23 11:28:20.866 [main] INFO  com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver:35 - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2023-02-23 11:28:20.869 [main] INFO  com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector:35 - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2023-02-23 11:28:21.054 [main] INFO  org.hibernate.jpa.internal.util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: data]
+2023-02-23 11:28:21.163 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 5.4.15.Final
+2023-02-23 11:28:21.368 [main] INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2023-02-23 11:28:22.005 [main] INFO  com.zaxxer.hikari.HikariDataSource:110 - HikariPool-1 - Starting...
+2023-02-23 11:28:22.229 [main] INFO  com.zaxxer.hikari.HikariDataSource:123 - HikariPool-1 - Start completed.
+2023-02-23 11:28:22.273 [main] INFO  org.hibernate.dialect.Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-02-23 11:28:22.401 [main] INFO  org.hibernate.envers.boot.internal.EnversServiceImpl:90 - Envers integration enabled? : true
+2023-02-23 11:28:24.511 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-23 11:28:24.519 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'data'
+2023-02-23 11:28:26.796 [main] INFO  scrips.datamigration.App:61 - Started App in 8.399 seconds (JVM running for 9.717)
+2023-02-23 11:28:26.808 [main] INFO  scrips.datamigration.common.service.FkChecksEnableDisable:36 - disable FkChecks called
+2023-02-23 11:28:26.827 [main] DEBUG org.hibernate.SQL:128 - SET FOREIGN_KEY_CHECKS = 0
+2023-02-23 11:28:26.838 [main] INFO  scrips.datamigration.common.service.FkChecksEnableDisable:38 - disable FkChecks done
+2023-02-23 11:28:26.865 [main] DEBUG org.hibernate.SQL:128 - SELECT @@GLOBAL.foreign_key_checks, @@SESSION.foreign_key_checks
+2023-02-23 11:28:26.872 [main] INFO  scrips.datamigration.common.service.FkChecksEnableDisable:52 - foreign_key_checks status - 0
+2023-02-23 11:28:26.873 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:131 - fileUploadCode - SSS_SECURITIES_CODE_STATISTICS_FILE_UPLOAD
+2023-02-23 11:28:26.873 [main] INFO  scrips.datamigration.common.service.FileUploadService:82 - getFileHeaderByCode entered
+2023-02-23 11:28:26.874 [main] INFO  scrips.datamigration.common.service.FileUploadService:88 - fileUploadHeaderOut - sss_securities_code_statistics
+2023-02-23 11:28:26.874 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:136 - Live table name ->sss_securities_code_statistics
+2023-02-23 11:28:26.875 [main] INFO  scrips.datamigration.common.service.FileUploadService:98 - fieldName  -  securities_code
+2023-02-23 11:28:26.875 [main] INFO  scrips.datamigration.common.service.FileUploadService:98 - fieldName  -  total_redeemed_amount
+2023-02-23 11:28:26.875 [main] INFO  scrips.datamigration.common.service.FileUploadService:98 - fieldName  -  total_redeemed_amount_for_erf
+2023-02-23 11:28:26.875 [main] INFO  scrips.datamigration.common.service.FileUploadService:98 - fieldName  -  outstanding_nominal_amount
+2023-02-23 11:28:26.876 [main] INFO  scrips.datamigration.common.service.FileUploadService:98 - fieldName  -  next_coupon_date
+2023-02-23 11:28:26.876 [main] INFO  scrips.datamigration.common.service.FileUploadService:98 - fieldName  -  last_coupon_date
+2023-02-23 11:28:26.876 [main] INFO  scrips.datamigration.common.service.FileUploadService:98 - fieldName  -  next_index_end_date
+2023-02-23 11:28:26.876 [main] INFO  scrips.datamigration.common.service.FileUploadService:98 - fieldName  -  amount_alloted_to_central_bank
+2023-02-23 11:28:26.876 [main] INFO  scrips.datamigration.common.service.FileUploadService:98 - fieldName  -  amount_alloted_to_others
+2023-02-23 11:28:26.876 [main] INFO  scrips.datamigration.common.service.FileUploadService:98 - fieldName  -  total_nominal_amount_issued_for_erf
+2023-02-23 11:28:26.876 [main] INFO  scrips.datamigration.common.service.FileUploadService:104 - fileUploadDetails - [scrips.datamigration.fileupload.JpaFileUploadDetails@491b5bd9, scrips.datamigration.fileupload.JpaFileUploadDetails@3bd69a51, scrips.datamigration.fileupload.JpaFileUploadDetails@36f329e7, scrips.datamigration.fileupload.JpaFileUploadDetails@7a11426a, scrips.datamigration.fileupload.JpaFileUploadDetails@69c70b62, scrips.datamigration.fileupload.JpaFileUploadDetails@664c0019, scrips.datamigration.fileupload.JpaFileUploadDetails@495fa126, scrips.datamigration.fileupload.JpaFileUploadDetails@392da875, scrips.datamigration.fileupload.JpaFileUploadDetails@68603829, scrips.datamigration.fileupload.JpaFileUploadDetails@6e2ab1f4]
+2023-02-23 11:28:26.877 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:36 - ftp status n
+2023-02-23 11:28:26.877 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:148 - fieldName  -  ISIN_CODE
+2023-02-23 11:28:26.877 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:148 - fieldName  -  DESCRIPTION
+2023-02-23 11:28:26.878 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:148 - fieldName  -  ISIN_TYPE
+2023-02-23 11:28:26.878 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:148 - fieldName  -  ISSUE_CODE
+2023-02-23 11:28:26.878 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:148 - fieldName  -  ISIN_STATUS
+2023-02-23 11:28:26.878 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:148 - fieldName  -  TAXABLE
+2023-02-23 11:28:26.878 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:148 - fieldName  -  TRADABLE
+2023-02-23 11:28:26.878 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:148 - fieldName  -  CREDIT_RATING
+2023-02-23 11:28:26.878 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:148 - fieldName  -  ELIGIBLE_FOR_ILF
+2023-02-23 11:28:26.878 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:148 - fieldName  -  ILF_HAIRCUT_SETTING
+2023-02-23 11:28:26.878 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:148 - fieldName  -  HAIRCUT_PERCENTAGE_FOR_ILF
+2023-02-23 11:28:26.878 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:148 - fieldName  -  MATURITY_DATE
+2023-02-23 11:28:26.879 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:148 - fieldName  -  OPTIONAL_MATURITY_DATE
+2023-02-23 11:28:26.879 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:148 - fieldName  -  AUCTION_DATE
+2023-02-23 11:28:26.879 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:148 - fieldName  -  FIRST_ISSUANCE_DATE
+2023-02-23 11:28:26.879 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:148 - fieldName  -  FIRST_ISSUANCE_AMOUNT
+2023-02-23 11:28:26.879 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:148 - fieldName  -  RE_OPENING_AUCTION_DATE
+2023-02-23 11:28:26.879 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:148 - fieldName  -  RE_OPENING_ALLOTMENT_DATE
+2023-02-23 11:28:26.880 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:148 - fieldName  -  RE_OPENING_TOTAL_ALLOTMENT_AMOUNT
+2023-02-23 11:28:26.880 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:148 - fieldName  -  TOTAL_ISSUED_AMOUNT
+2023-02-23 11:28:26.881 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:148 - fieldName  -  OUTSTANDING_NOMINAL_AMOUNT
+2023-02-23 11:28:26.881 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:148 - fieldName  -  AMOUNT_ALLOCATED_TO_MAS
+2023-02-23 11:28:26.881 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:148 - fieldName  -  AMOUNT_ALLOCATED_TO_OTHERS
+2023-02-23 11:28:26.881 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:148 - fieldName  -  MAS_APPLIED_AMOUNT
+2023-02-23 11:28:26.881 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:148 - fieldName  -  UNIT_SIZE
+2023-02-23 11:28:26.881 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:148 - fieldName  -  DENOMINATION
+2023-02-23 11:28:26.882 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:148 - fieldName  -  CURRENCY_CODE
+2023-02-23 11:28:26.882 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:148 - fieldName  -  REDEMPTION_PRICE
+2023-02-23 11:28:26.882 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:148 - fieldName  -  COUPON_RATE
+2023-02-23 11:28:26.882 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:148 - fieldName  -  EX_DATE_PERIOD
+2023-02-23 11:28:26.882 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:148 - fieldName  -  EX_DATE
+2023-02-23 11:28:26.882 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:148 - fieldName  -  COUPON_PAYMENT_FREQUENCY
+2023-02-23 11:28:26.882 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:148 - fieldName  -  LAST_COUPON_DATE
+2023-02-23 11:28:26.882 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:148 - fieldName  -  NEXT_COUPON_DATE
+2023-02-23 11:28:26.882 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:148 - fieldName  -  OPTIONAL_COUPON_DATE
+2023-02-23 11:28:26.882 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:148 - fieldName  -  DAYS_OF_ACCRUED_INTEREST
+2023-02-23 11:28:26.883 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:148 - fieldName  -  TENURE
+2023-02-23 11:28:26.883 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:148 - fieldName  -  AVERAGE_YIELD
+2023-02-23 11:28:26.883 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:148 - fieldName  -  CUTOFF_YIELD
+2023-02-23 11:28:26.883 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:148 - fieldName  -  AVERAGE_YIELD_PRICE
+2023-02-23 11:28:26.883 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:148 - fieldName  -  CUTOFF_YIELD_PRICE
+2023-02-23 11:28:26.883 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:148 - fieldName  -  RE_OPENING_MAS_APPLIED_AMOUNT
+2023-02-23 11:28:26.883 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:148 - fieldName  -  TOTAL_REDEEMED_AMOUNT
+2023-02-23 11:28:26.883 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:148 - fieldName  -  ISIN_SUB_TYPE
+2023-02-23 11:28:26.884 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:154 - fileUploadDetails - [scrips.datamigration.fileupload.JpaFileUploadDetails@5a487b86, scrips.datamigration.fileupload.JpaFileUploadDetails@ef21eba, scrips.datamigration.fileupload.JpaFileUploadDetails@673ade3d, scrips.datamigration.fileupload.JpaFileUploadDetails@5ca4763f, scrips.datamigration.fileupload.JpaFileUploadDetails@4529b266, scrips.datamigration.fileupload.JpaFileUploadDetails@5b3063b7, scrips.datamigration.fileupload.JpaFileUploadDetails@6aca85da, scrips.datamigration.fileupload.JpaFileUploadDetails@15200332, scrips.datamigration.fileupload.JpaFileUploadDetails@1d123972, scrips.datamigration.fileupload.JpaFileUploadDetails@4567dcbc, scrips.datamigration.fileupload.JpaFileUploadDetails@7b3d759f, scrips.datamigration.fileupload.JpaFileUploadDetails@6e11d059, scrips.datamigration.fileupload.JpaFileUploadDetails@62c4ad40, scrips.datamigration.fileupload.JpaFileUploadDetails@19bd1f98, scrips.datamigration.fileupload.JpaFileUploadDetails@9bc10bd, scrips.datamigration.fileupload.JpaFileUploadDetails@69cf9acb, scrips.datamigration.fileupload.JpaFileUploadDetails@2e26841f, scrips.datamigration.fileupload.JpaFileUploadDetails@5f160f9c, scrips.datamigration.fileupload.JpaFileUploadDetails@36c6d53b, scrips.datamigration.fileupload.JpaFileUploadDetails@234a08ea, scrips.datamigration.fileupload.JpaFileUploadDetails@39d666e0, scrips.datamigration.fileupload.JpaFileUploadDetails@56d3e4a9, scrips.datamigration.fileupload.JpaFileUploadDetails@56bc8c45, scrips.datamigration.fileupload.JpaFileUploadDetails@2542d320, scrips.datamigration.fileupload.JpaFileUploadDetails@2f29400e, scrips.datamigration.fileupload.JpaFileUploadDetails@66161fee, scrips.datamigration.fileupload.JpaFileUploadDetails@547a79cd, scrips.datamigration.fileupload.JpaFileUploadDetails@67127bb1, scrips.datamigration.fileupload.JpaFileUploadDetails@25e7e6d, scrips.datamigration.fileupload.JpaFileUploadDetails@54e1e8a7, scrips.datamigration.fileupload.JpaFileUploadDetails@53d257e7, scrips.datamigration.fileupload.JpaFileUploadDetails@276961df, scrips.datamigration.fileupload.JpaFileUploadDetails@56b5de49, scrips.datamigration.fileupload.JpaFileUploadDetails@dcaa0e8, scrips.datamigration.fileupload.JpaFileUploadDetails@4c66b3d9, scrips.datamigration.fileupload.JpaFileUploadDetails@206d4413, scrips.datamigration.fileupload.JpaFileUploadDetails@58d291c1, scrips.datamigration.fileupload.JpaFileUploadDetails@c7a7d3, scrips.datamigration.fileupload.JpaFileUploadDetails@79462469, scrips.datamigration.fileupload.JpaFileUploadDetails@3341ba8e, scrips.datamigration.fileupload.JpaFileUploadDetails@7f5179be, scrips.datamigration.fileupload.JpaFileUploadDetails@4295b0b8, scrips.datamigration.fileupload.JpaFileUploadDetails@ab8b1ef, scrips.datamigration.fileupload.JpaFileUploadDetails@3413effc]
+2023-02-23 11:28:26.890 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:64 - fileSourceData - ISIN Code;Description;ISIN Type;Issue Code;ISIN Status;Taxable;Tradable;Credit Rating;Eligible for ILF;ILF Haircut Setting;Haircut Percentage for ILF;Maturity Date;Optional Maturity Date;Auction Date;First Issuance Date;First Issuance Amount;Re-Opening - Auction Date;Re-Opening - Allotment Date;Re-Opening - Total Allotment Amount;Total Issued Amount;Outstanding Nominal Amount;Amount Allocated to MAS;Amount Allocated to Others;MAS Applied Amount;Unit Size;Denomination;Currency Code;Redemption Price;Coupon Rate;Ex-date Period;Ex-date;Coupon Payment Frequency;Last Coupon Date;Next Coupon Date;Optional Coupon Date;Days of Accrued Interest;Tenure;Average Yield;Cutoff Yield;Average Yield Price;Cutoff Yield Price;Re-Opening - MAS Applied Amount;Total Redeemed Amount;ISIN Sub Type
+2023-02-23 11:28:26.890 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:64 - fileSourceData - BCSISTEST012;99YR BOND 2017 DUE 010199 AUTOSFNP;BN;M1TOSFNP;A;Y;Y;AAA;Y;A;00300000;20240101; ;20171228;20171229;000001000000000;20221026;20221027;000900000000000;000902800000000;000902799998000;000001500000000;000901300000000;000001000000000;1000;000000000001000;SGD;10000000;00120000;3;20230529;S;20221201;20230601;20180601;182;050;00000000;0000;00000000;00000000;000900000000000;000000000002000;NA
+2023-02-23 11:28:26.890 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:64 - fileSourceData - BCSISMBIL001;MAS Bill;MB;BN2005M;A;Y;Y;AAA;Y;Y;00100000;20251231; ;20210518;20210519;000000100000000; ; ;000000000000000;000000100000000;000000100000000;000000000900000;000000099100000;000000000100000;1000;000000000001000;SGD;10000000;00000000;0; ;N; ; ; ; ;241;00000000;00012;00000000;00000000;000000000000000;000000000000000;NA
+2023-02-23 11:28:26.890 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:64 - fileSourceData - MEPSUAT00016;10YR SBOND 2016 DUE220426 GX16501W;SB;GX16501W;A;Y;N;AAA;N;N;00000000;20231022; ;20160421;20160422;000000000287500; ; ;000000000000000;000000000287500;000000000242500;000000000000000;000000000287500;000000000000000;1000;000000000000500;SGD;10000000;00700000;3;20230419;S;20221022;20230422;20161022; ;010;00000000;1001;00000000;00000000;000000000000000;000000000045000;NA
+2023-02-23 11:28:26.891 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:64 - fileSourceData - MEPSUAT00024;10YR SBOND 2016 DUE250426 GX16502N;SB;GX16502N;A;Y;N;AAA;N;N;00000000;20241025; ;20160422;20160425;000000000300000; ; ;000000000000000;000000000300000;000000000170000;000000000000000;000000000300000;000000000000000;1000;000000000000500;SGD;10000000;00293000;3;20230420;S;20221025;20230425;20161025; ;010;00000000;005;00000000;00000000;000000000000000;000000000130000;NA
+2023-02-23 11:28:26.891 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:66 - Headings - 1:ISIN_CODE
+2023-02-23 11:28:26.891 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:66 - Headings - 2:DESCRIPTION
+2023-02-23 11:28:26.891 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:66 - Headings - 3:ISIN_TYPE
+2023-02-23 11:28:26.891 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:66 - Headings - 4:ISSUE_CODE
+2023-02-23 11:28:26.891 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:66 - Headings - 5:ISIN_STATUS
+2023-02-23 11:28:26.891 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:66 - Headings - 6:TAXABLE
+2023-02-23 11:28:26.892 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:66 - Headings - 7:TRADABLE
+2023-02-23 11:28:26.892 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:66 - Headings - 8:CREDIT_RATING
+2023-02-23 11:28:26.892 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:66 - Headings - 9:ELIGIBLE_FOR_ILF
+2023-02-23 11:28:26.892 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:66 - Headings - 10:ILF_HAIRCUT_SETTING
+2023-02-23 11:28:26.892 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:66 - Headings - 11:HAIRCUT_PERCENTAGE_FOR_ILF
+2023-02-23 11:28:26.892 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:66 - Headings - 12:MATURITY_DATE
+2023-02-23 11:28:26.892 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:66 - Headings - 13:OPTIONAL_MATURITY_DATE
+2023-02-23 11:28:26.892 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:66 - Headings - 14:AUCTION_DATE
+2023-02-23 11:28:26.892 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:66 - Headings - 15:FIRST_ISSUANCE_DATE
+2023-02-23 11:28:26.893 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:66 - Headings - 16:FIRST_ISSUANCE_AMOUNT
+2023-02-23 11:28:26.893 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:66 - Headings - 17:RE_OPENING_AUCTION_DATE
+2023-02-23 11:28:26.893 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:66 - Headings - 18:RE_OPENING_ALLOTMENT_DATE
+2023-02-23 11:28:26.893 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:66 - Headings - 19:RE_OPENING_TOTAL_ALLOTMENT_AMOUNT
+2023-02-23 11:28:26.893 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:66 - Headings - 20:TOTAL_ISSUED_AMOUNT
+2023-02-23 11:28:26.893 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:66 - Headings - 21:OUTSTANDING_NOMINAL_AMOUNT
+2023-02-23 11:28:26.893 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:66 - Headings - 22:AMOUNT_ALLOCATED_TO_MAS
+2023-02-23 11:28:26.894 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:66 - Headings - 23:AMOUNT_ALLOCATED_TO_OTHERS
+2023-02-23 11:28:26.894 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:66 - Headings - 24:MAS_APPLIED_AMOUNT
+2023-02-23 11:28:26.894 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:66 - Headings - 25:UNIT_SIZE
+2023-02-23 11:28:26.894 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:66 - Headings - 26:DENOMINATION
+2023-02-23 11:28:26.894 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:66 - Headings - 27:CURRENCY_CODE
+2023-02-23 11:28:26.894 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:66 - Headings - 28:REDEMPTION_PRICE
+2023-02-23 11:28:26.894 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:66 - Headings - 29:COUPON_RATE
+2023-02-23 11:28:26.895 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:66 - Headings - 30:EX_DATE_PERIOD
+2023-02-23 11:28:26.895 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:66 - Headings - 31:EX_DATE
+2023-02-23 11:28:26.895 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:66 - Headings - 32:COUPON_PAYMENT_FREQUENCY
+2023-02-23 11:28:26.895 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:66 - Headings - 33:LAST_COUPON_DATE
+2023-02-23 11:28:26.895 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:66 - Headings - 34:NEXT_COUPON_DATE
+2023-02-23 11:28:26.896 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:66 - Headings - 35:OPTIONAL_COUPON_DATE
+2023-02-23 11:28:26.896 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:66 - Headings - 36:DAYS_OF_ACCRUED_INTEREST
+2023-02-23 11:28:26.896 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:66 - Headings - 37:TENURE
+2023-02-23 11:28:26.896 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:66 - Headings - 38:AVERAGE_YIELD
+2023-02-23 11:28:26.896 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:66 - Headings - 39:CUTOFF_YIELD
+2023-02-23 11:28:26.896 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:66 - Headings - 40:AVERAGE_YIELD_PRICE
+2023-02-23 11:28:26.896 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:66 - Headings - 41:CUTOFF_YIELD_PRICE
+2023-02-23 11:28:26.897 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:66 - Headings - 42:RE_OPENING_MAS_APPLIED_AMOUNT
+2023-02-23 11:28:26.897 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:66 - Headings - 43:TOTAL_REDEEMED_AMOUNT
+2023-02-23 11:28:26.897 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:66 - Headings - 44:ISIN_SUB_TYPE
+2023-02-23 11:28:26.900 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesFileDataService:218 - Total records in File: {}5
+2023-02-23 11:28:26.900 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:154 - fileRecords - BCSISTEST012;000000000002000;000902799998000;000902799998000;20230601;20221201;20230601;000001500000000;000901300000000;000902799998000
+2023-02-23 11:28:26.900 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:154 - fileRecords - BCSISMBIL001;000000000000000;000000100000000;000000100000000;;;;000000000900000;000000099100000;000000100000000
+2023-02-23 11:28:26.901 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:154 - fileRecords - MEPSUAT00016;000000000045000;000000000242500;000000000242500;20230422;20221022;20230422;000000000000000;000000000287500;000000000242500
+2023-02-23 11:28:26.901 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:154 - fileRecords - MEPSUAT00024;000000000130000;000000000170000;000000000170000;20230425;20221025;20230425;000000000000000;000000000300000;000000000170000
+2023-02-23 11:28:26.901 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:156 - 1:securities_code
+2023-02-23 11:28:26.901 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:156 - 2:total_redeemed_amount
+2023-02-23 11:28:26.901 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:156 - 3:total_redeemed_amount_for_erf
+2023-02-23 11:28:26.901 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:156 - 4:outstanding_nominal_amount
+2023-02-23 11:28:26.902 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:156 - 5:next_coupon_date
+2023-02-23 11:28:26.902 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:156 - 6:last_coupon_date
+2023-02-23 11:28:26.902 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:156 - 7:next_index_end_date
+2023-02-23 11:28:26.902 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:156 - 8:amount_alloted_to_central_bank
+2023-02-23 11:28:26.902 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:156 - 9:amount_alloted_to_others
+2023-02-23 11:28:26.902 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:156 - 10:total_nominal_amount_issued_for_erf
+2023-02-23 11:28:26.906 [main] INFO  scrips.datamigration.sss.service.SssSecuritiesCodeStatisticsService:100 - Total records in File: {}4
+2023-02-23 11:28:26.929 [main] DEBUG org.hibernate.SQL:128 - insert into securities_code_statistics_source (amount_allotted_to_central_bank, amount_allotted_to_others, id, last_coupon_date, migrated_date, next_coupon_date, next_index_end_date, outstanding_nominal_amount, remarks, securities_code, total_nominal_amount_issued_for_erf, total_redeemed_amount, total_redeemed_amount_for_erf) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2023-02-23 11:28:26.963 [main] DEBUG org.hibernate.SQL:128 - select jpassssecu0_.id as id1_42_0_, jpassssecu0_.amount_allotted_to_central_bank as amount_a2_42_0_, jpassssecu0_.amount_allotted_to_others as amount_a3_42_0_, jpassssecu0_.last_coupon_date as last_cou4_42_0_, jpassssecu0_.migrated_date as migrated5_42_0_, jpassssecu0_.next_coupon_date as next_cou6_42_0_, jpassssecu0_.next_index_end_date as next_ind7_42_0_, jpassssecu0_.outstanding_nominal_amount as outstand8_42_0_, jpassssecu0_.remarks as remarks9_42_0_, jpassssecu0_.securities_code as securit10_42_0_, jpassssecu0_.total_nominal_amount_issued_for_erf as total_n11_42_0_, jpassssecu0_.total_redeemed_amount as total_r12_42_0_, jpassssecu0_.total_redeemed_amount_for_erf as total_r13_42_0_ from securities_code_statistics_temp jpassssecu0_ where jpassssecu0_.id=?
+2023-02-23 11:28:26.977 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper:137 - SQL Error: 1054, SQLState: 42S22
+2023-02-23 11:28:26.978 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper:142 - Unknown column 'jpassssecu0_.migrated_date' in 'field list'
+2023-02-23 11:28:26.978 [main] INFO  org.hibernate.event.internal.DefaultLoadEventListener:116 - HHH000327: Error performing load command
+org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:63) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:67) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:2292) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2050) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2012) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.loader.Loader.doQuery(Loader.java:953) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:354) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:324) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.loader.Loader.loadEntity(Loader.java:2410) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.loader.entity.AbstractEntityLoader.load(AbstractEntityLoader.java:74) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.loader.entity.AbstractEntityLoader.load(AbstractEntityLoader.java:63) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.doLoad(AbstractEntityPersister.java:4396) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.load(AbstractEntityPersister.java:4386) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadFromDatasource(DefaultLoadEventListener.java:569) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.doLoad(DefaultLoadEventListener.java:537) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.load(DefaultLoadEventListener.java:208) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.proxyOrLoad(DefaultLoadEventListener.java:332) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.doOnLoad(DefaultLoadEventListener.java:108) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.onLoad(DefaultLoadEventListener.java:74) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:113) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.internal.SessionImpl.fireLoadNoChecks(SessionImpl.java:1176) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.internal.SessionImpl.fireLoad(SessionImpl.java:1165) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.internal.SessionImpl.access$2100(SessionImpl.java:194) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.doLoad(SessionImpl.java:2776) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.lambda$load$1(SessionImpl.java:2757) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.perform(SessionImpl.java:2713) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.load(SessionImpl.java:2757) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:978) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsDetached(DefaultMergeEventListener.java:306) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:172) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:70) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:102) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:783) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:770) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:314) ~[spring-orm-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at jdk.proxy2.$Proxy89.merge(Unknown Source) ~[?:?]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:557) ~[spring-data-jpa-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.data.repository.core.support.ImplementationInvocationMetadata.invoke(ImplementationInvocationMetadata.java:72) ~[spring-data-commons-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:382) ~[spring-data-commons-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:205) ~[spring-data-commons-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:549) ~[spring-data-commons-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:155) ~[spring-data-commons-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:130) ~[spring-data-commons-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80) ~[spring-data-commons-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366) [spring-tx-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118) [spring-tx-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) [spring-tx-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:178) [spring-data-jpa-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95) [spring-aop-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) [spring-aop-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at jdk.proxy2.$Proxy152.save(Unknown Source) [?:?]
+	at scrips.datamigration.sss.service.SssSecuritiesCodeStatisticsService.convertCodeStatisticsSourceToCodeStatisticsTemp(SssSecuritiesCodeStatisticsService.java:206) [classes/:?]
+	at scrips.datamigration.sss.service.SssSecuritiesCodeStatisticsService.migrateSssSecuritiesCodeStatistics(SssSecuritiesCodeStatisticsService.java:58) [classes/:?]
+	at scrips.datamigration.controller.ScripsFileUploadController.migrateFile(ScripsFileUploadController.java:201) [classes/:?]
+	at scrips.datamigration.App.main(App.java:35) [classes/:?]
+Caused by: java.sql.SQLSyntaxErrorException: Unknown column 'jpassssecu0_.migrated_date' in 'field list'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1003) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) ~[HikariCP-3.4.5.jar:?]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java) ~[HikariCP-3.4.5.jar:?]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:57) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	... 68 more
+2023-02-23 11:28:26.990 [main] ERROR scrips.datamigration.sss.service.SssSecuritiesCodeStatisticsService:210 - Error in temp could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2023-02-23 11:28:26.993 [main] DEBUG org.hibernate.SQL:128 - select jpassssecu0_.seq as seq1_41_0_, jpassssecu0_.amount_allotted_to_central_bank as amount_a2_41_0_, jpassssecu0_.amount_allotted_to_others as amount_a3_41_0_, jpassssecu0_.id as id4_41_0_, jpassssecu0_.last_coupon_date as last_cou5_41_0_, jpassssecu0_.migrated_date as migrated6_41_0_, jpassssecu0_.next_coupon_date as next_cou7_41_0_, jpassssecu0_.next_index_end_date as next_ind8_41_0_, jpassssecu0_.outstanding_nominal_amount as outstand9_41_0_, jpassssecu0_.remarks as remarks10_41_0_, jpassssecu0_.securities_code as securit11_41_0_, jpassssecu0_.total_nominal_amount_issued_for_erf as total_n12_41_0_, jpassssecu0_.total_redeemed_amount as total_r13_41_0_, jpassssecu0_.total_redeemed_amount_for_erf as total_r14_41_0_ from securities_code_statistics_source jpassssecu0_ where jpassssecu0_.seq=?
+2023-02-23 11:28:27.005 [main] DEBUG org.hibernate.SQL:128 - update securities_code_statistics_source set amount_allotted_to_central_bank=?, amount_allotted_to_others=?, id=?, last_coupon_date=?, migrated_date=?, next_coupon_date=?, next_index_end_date=?, outstanding_nominal_amount=?, remarks=?, securities_code=?, total_nominal_amount_issued_for_erf=?, total_redeemed_amount=?, total_redeemed_amount_for_erf=? where seq=?
+2023-02-23 11:28:27.016 [main] DEBUG org.hibernate.SQL:128 - insert into securities_code_statistics_source (amount_allotted_to_central_bank, amount_allotted_to_others, id, last_coupon_date, migrated_date, next_coupon_date, next_index_end_date, outstanding_nominal_amount, remarks, securities_code, total_nominal_amount_issued_for_erf, total_redeemed_amount, total_redeemed_amount_for_erf) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2023-02-23 11:28:27.026 [main] DEBUG org.hibernate.SQL:128 - select jpassssecu0_.id as id1_42_0_, jpassssecu0_.amount_allotted_to_central_bank as amount_a2_42_0_, jpassssecu0_.amount_allotted_to_others as amount_a3_42_0_, jpassssecu0_.last_coupon_date as last_cou4_42_0_, jpassssecu0_.migrated_date as migrated5_42_0_, jpassssecu0_.next_coupon_date as next_cou6_42_0_, jpassssecu0_.next_index_end_date as next_ind7_42_0_, jpassssecu0_.outstanding_nominal_amount as outstand8_42_0_, jpassssecu0_.remarks as remarks9_42_0_, jpassssecu0_.securities_code as securit10_42_0_, jpassssecu0_.total_nominal_amount_issued_for_erf as total_n11_42_0_, jpassssecu0_.total_redeemed_amount as total_r12_42_0_, jpassssecu0_.total_redeemed_amount_for_erf as total_r13_42_0_ from securities_code_statistics_temp jpassssecu0_ where jpassssecu0_.id=?
+2023-02-23 11:28:27.027 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper:137 - SQL Error: 1054, SQLState: 42S22
+2023-02-23 11:28:27.027 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper:142 - Unknown column 'jpassssecu0_.migrated_date' in 'field list'
+2023-02-23 11:28:27.028 [main] INFO  org.hibernate.event.internal.DefaultLoadEventListener:116 - HHH000327: Error performing load command
+org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:63) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:67) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:2292) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2050) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2012) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.loader.Loader.doQuery(Loader.java:953) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:354) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:324) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.loader.Loader.loadEntity(Loader.java:2410) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.loader.entity.AbstractEntityLoader.load(AbstractEntityLoader.java:74) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.loader.entity.AbstractEntityLoader.load(AbstractEntityLoader.java:63) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.doLoad(AbstractEntityPersister.java:4396) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.load(AbstractEntityPersister.java:4386) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadFromDatasource(DefaultLoadEventListener.java:569) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.doLoad(DefaultLoadEventListener.java:537) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.load(DefaultLoadEventListener.java:208) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.proxyOrLoad(DefaultLoadEventListener.java:332) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.doOnLoad(DefaultLoadEventListener.java:108) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.onLoad(DefaultLoadEventListener.java:74) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:113) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.internal.SessionImpl.fireLoadNoChecks(SessionImpl.java:1176) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.internal.SessionImpl.fireLoad(SessionImpl.java:1165) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.internal.SessionImpl.access$2100(SessionImpl.java:194) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.doLoad(SessionImpl.java:2776) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.lambda$load$1(SessionImpl.java:2757) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.perform(SessionImpl.java:2713) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.load(SessionImpl.java:2757) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:978) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsDetached(DefaultMergeEventListener.java:306) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:172) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:70) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:102) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:783) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:770) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:314) ~[spring-orm-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at jdk.proxy2.$Proxy89.merge(Unknown Source) ~[?:?]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:557) ~[spring-data-jpa-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.data.repository.core.support.ImplementationInvocationMetadata.invoke(ImplementationInvocationMetadata.java:72) ~[spring-data-commons-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:382) ~[spring-data-commons-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:205) ~[spring-data-commons-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:549) ~[spring-data-commons-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:155) ~[spring-data-commons-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:130) ~[spring-data-commons-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80) ~[spring-data-commons-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366) [spring-tx-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118) [spring-tx-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) [spring-tx-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:178) [spring-data-jpa-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95) [spring-aop-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) [spring-aop-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at jdk.proxy2.$Proxy152.save(Unknown Source) [?:?]
+	at scrips.datamigration.sss.service.SssSecuritiesCodeStatisticsService.convertCodeStatisticsSourceToCodeStatisticsTemp(SssSecuritiesCodeStatisticsService.java:206) [classes/:?]
+	at scrips.datamigration.sss.service.SssSecuritiesCodeStatisticsService.migrateSssSecuritiesCodeStatistics(SssSecuritiesCodeStatisticsService.java:58) [classes/:?]
+	at scrips.datamigration.controller.ScripsFileUploadController.migrateFile(ScripsFileUploadController.java:201) [classes/:?]
+	at scrips.datamigration.App.main(App.java:35) [classes/:?]
+Caused by: java.sql.SQLSyntaxErrorException: Unknown column 'jpassssecu0_.migrated_date' in 'field list'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1003) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) ~[HikariCP-3.4.5.jar:?]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java) ~[HikariCP-3.4.5.jar:?]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:57) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	... 68 more
+2023-02-23 11:28:27.030 [main] ERROR scrips.datamigration.sss.service.SssSecuritiesCodeStatisticsService:210 - Error in temp could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2023-02-23 11:28:27.032 [main] DEBUG org.hibernate.SQL:128 - select jpassssecu0_.seq as seq1_41_0_, jpassssecu0_.amount_allotted_to_central_bank as amount_a2_41_0_, jpassssecu0_.amount_allotted_to_others as amount_a3_41_0_, jpassssecu0_.id as id4_41_0_, jpassssecu0_.last_coupon_date as last_cou5_41_0_, jpassssecu0_.migrated_date as migrated6_41_0_, jpassssecu0_.next_coupon_date as next_cou7_41_0_, jpassssecu0_.next_index_end_date as next_ind8_41_0_, jpassssecu0_.outstanding_nominal_amount as outstand9_41_0_, jpassssecu0_.remarks as remarks10_41_0_, jpassssecu0_.securities_code as securit11_41_0_, jpassssecu0_.total_nominal_amount_issued_for_erf as total_n12_41_0_, jpassssecu0_.total_redeemed_amount as total_r13_41_0_, jpassssecu0_.total_redeemed_amount_for_erf as total_r14_41_0_ from securities_code_statistics_source jpassssecu0_ where jpassssecu0_.seq=?
+2023-02-23 11:28:27.034 [main] DEBUG org.hibernate.SQL:128 - update securities_code_statistics_source set amount_allotted_to_central_bank=?, amount_allotted_to_others=?, id=?, last_coupon_date=?, migrated_date=?, next_coupon_date=?, next_index_end_date=?, outstanding_nominal_amount=?, remarks=?, securities_code=?, total_nominal_amount_issued_for_erf=?, total_redeemed_amount=?, total_redeemed_amount_for_erf=? where seq=?
+2023-02-23 11:28:27.043 [main] DEBUG org.hibernate.SQL:128 - insert into securities_code_statistics_source (amount_allotted_to_central_bank, amount_allotted_to_others, id, last_coupon_date, migrated_date, next_coupon_date, next_index_end_date, outstanding_nominal_amount, remarks, securities_code, total_nominal_amount_issued_for_erf, total_redeemed_amount, total_redeemed_amount_for_erf) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2023-02-23 11:28:27.053 [main] DEBUG org.hibernate.SQL:128 - select jpassssecu0_.id as id1_42_0_, jpassssecu0_.amount_allotted_to_central_bank as amount_a2_42_0_, jpassssecu0_.amount_allotted_to_others as amount_a3_42_0_, jpassssecu0_.last_coupon_date as last_cou4_42_0_, jpassssecu0_.migrated_date as migrated5_42_0_, jpassssecu0_.next_coupon_date as next_cou6_42_0_, jpassssecu0_.next_index_end_date as next_ind7_42_0_, jpassssecu0_.outstanding_nominal_amount as outstand8_42_0_, jpassssecu0_.remarks as remarks9_42_0_, jpassssecu0_.securities_code as securit10_42_0_, jpassssecu0_.total_nominal_amount_issued_for_erf as total_n11_42_0_, jpassssecu0_.total_redeemed_amount as total_r12_42_0_, jpassssecu0_.total_redeemed_amount_for_erf as total_r13_42_0_ from securities_code_statistics_temp jpassssecu0_ where jpassssecu0_.id=?
+2023-02-23 11:28:27.054 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper:137 - SQL Error: 1054, SQLState: 42S22
+2023-02-23 11:28:27.054 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper:142 - Unknown column 'jpassssecu0_.migrated_date' in 'field list'
+2023-02-23 11:28:27.055 [main] INFO  org.hibernate.event.internal.DefaultLoadEventListener:116 - HHH000327: Error performing load command
+org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:63) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:67) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:2292) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2050) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2012) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.loader.Loader.doQuery(Loader.java:953) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:354) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:324) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.loader.Loader.loadEntity(Loader.java:2410) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.loader.entity.AbstractEntityLoader.load(AbstractEntityLoader.java:74) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.loader.entity.AbstractEntityLoader.load(AbstractEntityLoader.java:63) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.doLoad(AbstractEntityPersister.java:4396) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.load(AbstractEntityPersister.java:4386) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadFromDatasource(DefaultLoadEventListener.java:569) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.doLoad(DefaultLoadEventListener.java:537) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.load(DefaultLoadEventListener.java:208) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.proxyOrLoad(DefaultLoadEventListener.java:332) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.doOnLoad(DefaultLoadEventListener.java:108) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.onLoad(DefaultLoadEventListener.java:74) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:113) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.internal.SessionImpl.fireLoadNoChecks(SessionImpl.java:1176) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.internal.SessionImpl.fireLoad(SessionImpl.java:1165) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.internal.SessionImpl.access$2100(SessionImpl.java:194) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.doLoad(SessionImpl.java:2776) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.lambda$load$1(SessionImpl.java:2757) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.perform(SessionImpl.java:2713) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.load(SessionImpl.java:2757) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:978) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsDetached(DefaultMergeEventListener.java:306) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:172) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:70) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:102) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:783) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:770) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:314) ~[spring-orm-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at jdk.proxy2.$Proxy89.merge(Unknown Source) ~[?:?]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:557) ~[spring-data-jpa-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.data.repository.core.support.ImplementationInvocationMetadata.invoke(ImplementationInvocationMetadata.java:72) ~[spring-data-commons-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:382) ~[spring-data-commons-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:205) ~[spring-data-commons-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:549) ~[spring-data-commons-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:155) ~[spring-data-commons-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:130) ~[spring-data-commons-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80) ~[spring-data-commons-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366) [spring-tx-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118) [spring-tx-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) [spring-tx-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:178) [spring-data-jpa-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95) [spring-aop-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) [spring-aop-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at jdk.proxy2.$Proxy152.save(Unknown Source) [?:?]
+	at scrips.datamigration.sss.service.SssSecuritiesCodeStatisticsService.convertCodeStatisticsSourceToCodeStatisticsTemp(SssSecuritiesCodeStatisticsService.java:206) [classes/:?]
+	at scrips.datamigration.sss.service.SssSecuritiesCodeStatisticsService.migrateSssSecuritiesCodeStatistics(SssSecuritiesCodeStatisticsService.java:58) [classes/:?]
+	at scrips.datamigration.controller.ScripsFileUploadController.migrateFile(ScripsFileUploadController.java:201) [classes/:?]
+	at scrips.datamigration.App.main(App.java:35) [classes/:?]
+Caused by: java.sql.SQLSyntaxErrorException: Unknown column 'jpassssecu0_.migrated_date' in 'field list'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1003) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) ~[HikariCP-3.4.5.jar:?]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java) ~[HikariCP-3.4.5.jar:?]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:57) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	... 68 more
+2023-02-23 11:28:27.057 [main] ERROR scrips.datamigration.sss.service.SssSecuritiesCodeStatisticsService:210 - Error in temp could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2023-02-23 11:28:27.065 [main] DEBUG org.hibernate.SQL:128 - select jpassssecu0_.seq as seq1_41_0_, jpassssecu0_.amount_allotted_to_central_bank as amount_a2_41_0_, jpassssecu0_.amount_allotted_to_others as amount_a3_41_0_, jpassssecu0_.id as id4_41_0_, jpassssecu0_.last_coupon_date as last_cou5_41_0_, jpassssecu0_.migrated_date as migrated6_41_0_, jpassssecu0_.next_coupon_date as next_cou7_41_0_, jpassssecu0_.next_index_end_date as next_ind8_41_0_, jpassssecu0_.outstanding_nominal_amount as outstand9_41_0_, jpassssecu0_.remarks as remarks10_41_0_, jpassssecu0_.securities_code as securit11_41_0_, jpassssecu0_.total_nominal_amount_issued_for_erf as total_n12_41_0_, jpassssecu0_.total_redeemed_amount as total_r13_41_0_, jpassssecu0_.total_redeemed_amount_for_erf as total_r14_41_0_ from securities_code_statistics_source jpassssecu0_ where jpassssecu0_.seq=?
+2023-02-23 11:28:27.068 [main] DEBUG org.hibernate.SQL:128 - update securities_code_statistics_source set amount_allotted_to_central_bank=?, amount_allotted_to_others=?, id=?, last_coupon_date=?, migrated_date=?, next_coupon_date=?, next_index_end_date=?, outstanding_nominal_amount=?, remarks=?, securities_code=?, total_nominal_amount_issued_for_erf=?, total_redeemed_amount=?, total_redeemed_amount_for_erf=? where seq=?
+2023-02-23 11:28:27.078 [main] DEBUG org.hibernate.SQL:128 - insert into securities_code_statistics_source (amount_allotted_to_central_bank, amount_allotted_to_others, id, last_coupon_date, migrated_date, next_coupon_date, next_index_end_date, outstanding_nominal_amount, remarks, securities_code, total_nominal_amount_issued_for_erf, total_redeemed_amount, total_redeemed_amount_for_erf) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2023-02-23 11:28:27.089 [main] DEBUG org.hibernate.SQL:128 - select jpassssecu0_.id as id1_42_0_, jpassssecu0_.amount_allotted_to_central_bank as amount_a2_42_0_, jpassssecu0_.amount_allotted_to_others as amount_a3_42_0_, jpassssecu0_.last_coupon_date as last_cou4_42_0_, jpassssecu0_.migrated_date as migrated5_42_0_, jpassssecu0_.next_coupon_date as next_cou6_42_0_, jpassssecu0_.next_index_end_date as next_ind7_42_0_, jpassssecu0_.outstanding_nominal_amount as outstand8_42_0_, jpassssecu0_.remarks as remarks9_42_0_, jpassssecu0_.securities_code as securit10_42_0_, jpassssecu0_.total_nominal_amount_issued_for_erf as total_n11_42_0_, jpassssecu0_.total_redeemed_amount as total_r12_42_0_, jpassssecu0_.total_redeemed_amount_for_erf as total_r13_42_0_ from securities_code_statistics_temp jpassssecu0_ where jpassssecu0_.id=?
+2023-02-23 11:28:27.090 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper:137 - SQL Error: 1054, SQLState: 42S22
+2023-02-23 11:28:27.090 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper:142 - Unknown column 'jpassssecu0_.migrated_date' in 'field list'
+2023-02-23 11:28:27.090 [main] INFO  org.hibernate.event.internal.DefaultLoadEventListener:116 - HHH000327: Error performing load command
+org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:63) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:67) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:2292) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2050) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2012) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.loader.Loader.doQuery(Loader.java:953) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:354) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:324) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.loader.Loader.loadEntity(Loader.java:2410) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.loader.entity.AbstractEntityLoader.load(AbstractEntityLoader.java:74) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.loader.entity.AbstractEntityLoader.load(AbstractEntityLoader.java:63) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.doLoad(AbstractEntityPersister.java:4396) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.load(AbstractEntityPersister.java:4386) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadFromDatasource(DefaultLoadEventListener.java:569) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.doLoad(DefaultLoadEventListener.java:537) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.load(DefaultLoadEventListener.java:208) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.proxyOrLoad(DefaultLoadEventListener.java:332) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.doOnLoad(DefaultLoadEventListener.java:108) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.event.internal.DefaultLoadEventListener.onLoad(DefaultLoadEventListener.java:74) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:113) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.internal.SessionImpl.fireLoadNoChecks(SessionImpl.java:1176) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.internal.SessionImpl.fireLoad(SessionImpl.java:1165) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.internal.SessionImpl.access$2100(SessionImpl.java:194) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.doLoad(SessionImpl.java:2776) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.lambda$load$1(SessionImpl.java:2757) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.perform(SessionImpl.java:2713) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.load(SessionImpl.java:2757) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:978) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsDetached(DefaultMergeEventListener.java:306) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:172) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:70) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:102) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:783) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:770) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:314) ~[spring-orm-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at jdk.proxy2.$Proxy89.merge(Unknown Source) ~[?:?]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:557) ~[spring-data-jpa-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.data.repository.core.support.ImplementationInvocationMetadata.invoke(ImplementationInvocationMetadata.java:72) ~[spring-data-commons-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:382) ~[spring-data-commons-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:205) ~[spring-data-commons-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:549) ~[spring-data-commons-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:155) ~[spring-data-commons-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:130) ~[spring-data-commons-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80) ~[spring-data-commons-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366) [spring-tx-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118) [spring-tx-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) [spring-tx-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:178) [spring-data-jpa-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95) [spring-aop-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) [spring-aop-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at jdk.proxy2.$Proxy152.save(Unknown Source) [?:?]
+	at scrips.datamigration.sss.service.SssSecuritiesCodeStatisticsService.convertCodeStatisticsSourceToCodeStatisticsTemp(SssSecuritiesCodeStatisticsService.java:206) [classes/:?]
+	at scrips.datamigration.sss.service.SssSecuritiesCodeStatisticsService.migrateSssSecuritiesCodeStatistics(SssSecuritiesCodeStatisticsService.java:58) [classes/:?]
+	at scrips.datamigration.controller.ScripsFileUploadController.migrateFile(ScripsFileUploadController.java:201) [classes/:?]
+	at scrips.datamigration.App.main(App.java:35) [classes/:?]
+Caused by: java.sql.SQLSyntaxErrorException: Unknown column 'jpassssecu0_.migrated_date' in 'field list'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1003) ~[mysql-connector-java-8.0.20.jar:8.0.20]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) ~[HikariCP-3.4.5.jar:?]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java) ~[HikariCP-3.4.5.jar:?]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:57) ~[hibernate-core-5.4.15.Final.jar:5.4.15.Final]
+	... 68 more
+2023-02-23 11:28:27.092 [main] ERROR scrips.datamigration.sss.service.SssSecuritiesCodeStatisticsService:210 - Error in temp could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2023-02-23 11:28:27.093 [main] DEBUG org.hibernate.SQL:128 - select jpassssecu0_.seq as seq1_41_0_, jpassssecu0_.amount_allotted_to_central_bank as amount_a2_41_0_, jpassssecu0_.amount_allotted_to_others as amount_a3_41_0_, jpassssecu0_.id as id4_41_0_, jpassssecu0_.last_coupon_date as last_cou5_41_0_, jpassssecu0_.migrated_date as migrated6_41_0_, jpassssecu0_.next_coupon_date as next_cou7_41_0_, jpassssecu0_.next_index_end_date as next_ind8_41_0_, jpassssecu0_.outstanding_nominal_amount as outstand9_41_0_, jpassssecu0_.remarks as remarks10_41_0_, jpassssecu0_.securities_code as securit11_41_0_, jpassssecu0_.total_nominal_amount_issued_for_erf as total_n12_41_0_, jpassssecu0_.total_redeemed_amount as total_r13_41_0_, jpassssecu0_.total_redeemed_amount_for_erf as total_r14_41_0_ from securities_code_statistics_source jpassssecu0_ where jpassssecu0_.seq=?
+2023-02-23 11:28:27.095 [main] DEBUG org.hibernate.SQL:128 - update securities_code_statistics_source set amount_allotted_to_central_bank=?, amount_allotted_to_others=?, id=?, last_coupon_date=?, migrated_date=?, next_coupon_date=?, next_index_end_date=?, outstanding_nominal_amount=?, remarks=?, securities_code=?, total_nominal_amount_issued_for_erf=?, total_redeemed_amount=?, total_redeemed_amount_for_erf=? where seq=?
+2023-02-23 11:28:27.105 [main] INFO  scrips.datamigration.common.service.FkChecksEnableDisable:23 - enable FkChecks called
+2023-02-23 11:28:27.106 [main] DEBUG org.hibernate.SQL:128 - SET FOREIGN_KEY_CHECKS = 1
+2023-02-23 11:28:27.106 [main] INFO  scrips.datamigration.common.service.FkChecksEnableDisable:25 - enable FkChecks done
+2023-02-23 11:28:27.108 [main] DEBUG org.hibernate.SQL:128 - SELECT @@GLOBAL.foreign_key_checks, @@SESSION.foreign_key_checks
+2023-02-23 11:28:27.110 [main] INFO  scrips.datamigration.common.service.FkChecksEnableDisable:52 - foreign_key_checks status - 1
+2023-02-23 11:28:27.111 [main] INFO  scrips.datamigration.App:77 - Process completed in (Hours:Minutes:Seconds) 0:0:8
+2023-02-23 11:28:27.125 [SpringContextShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:598 - Closing JPA EntityManagerFactory for persistence unit 'data'
+2023-02-23 11:28:27.127 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2023-02-23 11:28:27.134 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource:352 - HikariPool-1 - Shutdown completed.

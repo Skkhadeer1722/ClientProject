@@ -1,0 +1,1 @@
+./DataExtract.sh STEPUP_COUPON_RATE_FILE_UPLOAD

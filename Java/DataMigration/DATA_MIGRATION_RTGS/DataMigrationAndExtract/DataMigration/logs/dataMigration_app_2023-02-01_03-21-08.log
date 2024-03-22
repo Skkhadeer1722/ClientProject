@@ -1,0 +1,3 @@
+2023-02-01 15:21:08.292 [main] INFO  scrips.datamigration.App:55 - Starting App on WSIN181 with PID 18720 (D:\DataMigration\DATA_MIGRATION_RTGS\DataMigrationAndExtract\DataMigration\target\classes started by SheikKhadeer in D:\DataMigration\DATA_MIGRATION_RTGS\DataMigrationAndExtract\DataMigration)
+2023-02-01 15:21:08.302 [main] INFO  scrips.datamigration.App:651 - No active profile set, falling back to default profiles: app
+2023-02-01 15:21:09.134 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.

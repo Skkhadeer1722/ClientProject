@@ -1,0 +1,86 @@
+2023-02-27 09:44:23.813 [main] INFO  scrips.datamigration.App:55 - Starting App on WSIN181 with PID 14940 (E:\DataMigration\DATA_MIGRATION_RTGS\DataMigrationAndExtract\DataMigration\target\classes started by SheikKhadeer in E:\DataMigration\DATA_MIGRATION_RTGS\DataMigrationAndExtract\DataMigration)
+2023-02-27 09:44:23.818 [main] INFO  scrips.datamigration.App:651 - No active profile set, falling back to default profiles: app
+2023-02-27 09:44:24.312 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-27 09:44:24.561 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 240ms. Found 63 JPA repository interfaces.
+2023-02-27 09:44:24.833 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor:39 - Post-processing PropertySource instances
+2023-02-27 09:44:24.856 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2023-02-27 09:44:24.857 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2023-02-27 09:44:24.857 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2023-02-27 09:44:24.858 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2023-02-27 09:44:24.858 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2023-02-27 09:44:24.858 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource applicationConfig: [file:./config/application.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2023-02-27 09:44:24.858 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2023-02-27 09:44:24.859 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource DataMigrationProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2023-02-27 09:44:24.952 [main] INFO  com.ulisesbocchio.jasyptspringboot.filter.DefaultLazyPropertyFilter:31 - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2023-02-27 09:44:25.047 [main] INFO  com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver:35 - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2023-02-27 09:44:25.050 [main] INFO  com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector:35 - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2023-02-27 09:44:25.182 [main] INFO  org.hibernate.jpa.internal.util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: data]
+2023-02-27 09:44:25.257 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 5.4.15.Final
+2023-02-27 09:44:25.425 [main] INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2023-02-27 09:44:25.672 [main] INFO  com.zaxxer.hikari.HikariDataSource:110 - HikariPool-1 - Starting...
+2023-02-27 09:44:25.827 [main] INFO  com.zaxxer.hikari.HikariDataSource:123 - HikariPool-1 - Start completed.
+2023-02-27 09:44:25.855 [main] INFO  org.hibernate.dialect.Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-02-27 09:44:25.932 [main] INFO  org.hibernate.envers.boot.internal.EnversServiceImpl:90 - Envers integration enabled? : true
+2023-02-27 09:44:27.706 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-27 09:44:27.714 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'data'
+2023-02-27 09:44:31.255 [main] INFO  scrips.datamigration.App:61 - Started App in 8.025 seconds (JVM running for 9.137)
+2023-02-27 09:44:31.266 [main] INFO  scrips.datamigration.common.service.FkChecksEnableDisable:36 - disable FkChecks called
+2023-02-27 09:44:31.285 [main] DEBUG org.hibernate.SQL:128 - SET FOREIGN_KEY_CHECKS = 0
+2023-02-27 09:44:31.297 [main] INFO  scrips.datamigration.common.service.FkChecksEnableDisable:38 - disable FkChecks done
+2023-02-27 09:44:31.325 [main] DEBUG org.hibernate.SQL:128 - SELECT @@GLOBAL.foreign_key_checks, @@SESSION.foreign_key_checks
+2023-02-27 09:44:31.332 [main] INFO  scrips.datamigration.common.service.FkChecksEnableDisable:52 - foreign_key_checks status - 0
+2023-02-27 09:44:31.333 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:131 - fileUploadCode - CBM_COST_CENTRE_FILE_UPLOAD
+2023-02-27 09:44:31.333 [main] INFO  scrips.datamigration.common.service.FileUploadService:82 - getFileHeaderByCode entered
+2023-02-27 09:44:31.333 [main] INFO  scrips.datamigration.common.service.FileUploadService:88 - fileUploadHeaderOut - cbm_cost_centre
+2023-02-27 09:44:31.333 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:136 - Live table name ->cbm_cost_centre
+2023-02-27 09:44:31.334 [main] INFO  scrips.datamigration.common.service.FileUploadService:98 - fieldName  -  cost_centre
+2023-02-27 09:44:31.335 [main] INFO  scrips.datamigration.common.service.FileUploadService:104 - fileUploadDetails - [scrips.datamigration.fileupload.JpaFileUploadDetails@6d293b41]
+2023-02-27 09:44:31.335 [main] INFO  scrips.datamigration.common.service.FileUploadService:48 - ftp status n
+2023-02-27 09:44:31.335 [main] INFO  scrips.datamigration.common.service.FileUploadService:64 - FTP Not Enabled,Reading files from MigrationFiles folder
+2023-02-27 09:44:31.336 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:154 - fileRecords - 1234
+2023-02-27 09:44:31.336 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:154 - fileRecords - 1370
+2023-02-27 09:44:31.337 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:154 - fileRecords - 1234
+2023-02-27 09:44:31.337 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:154 - fileRecords - 2150-
+2023-02-27 09:44:31.337 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:154 - fileRecords - -2150
+2023-02-27 09:44:31.338 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:154 - fileRecords - 2140.234234
+2023-02-27 09:44:31.338 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:154 - fileRecords - asda
+2023-02-27 09:44:31.338 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:154 - fileRecords - $
+2023-02-27 09:44:31.339 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:156 - 1:cost_centre
+2023-02-27 09:44:31.347 [main] INFO  scrips.datamigration.rtgs.service.CbmCostCentreService:89 - Total records in File: {}8
+2023-02-27 09:44:31.370 [main] DEBUG org.hibernate.SQL:128 - insert into cbm_cost_centre_source (cost_centre, created_date, description, id, migrated_date, modified_date, remarks) values (?, ?, ?, ?, ?, ?, ?)
+2023-02-27 09:44:31.405 [main] DEBUG org.hibernate.SQL:128 - select jpacbmcost0_.id as id1_11_0_, jpacbmcost0_.cost_centre as cost_cen2_11_0_, jpacbmcost0_.created_date as created_3_11_0_, jpacbmcost0_.description as descript4_11_0_, jpacbmcost0_.modified_date as modified5_11_0_, jpacbmcost0_.remarks as remarks6_11_0_ from cbm_cost_centre_temp jpacbmcost0_ where jpacbmcost0_.id=?
+2023-02-27 09:44:31.415 [main] DEBUG org.hibernate.SQL:128 - insert into cbm_cost_centre_temp (cost_centre, created_date, description, modified_date, remarks, id) values (?, ?, ?, ?, ?, ?)
+2023-02-27 09:44:31.429 [main] DEBUG org.hibernate.SQL:128 - insert into cbm_cost_centre_source (cost_centre, created_date, description, id, migrated_date, modified_date, remarks) values (?, ?, ?, ?, ?, ?, ?)
+2023-02-27 09:44:31.442 [main] DEBUG org.hibernate.SQL:128 - select jpacbmcost0_.id as id1_11_0_, jpacbmcost0_.cost_centre as cost_cen2_11_0_, jpacbmcost0_.created_date as created_3_11_0_, jpacbmcost0_.description as descript4_11_0_, jpacbmcost0_.modified_date as modified5_11_0_, jpacbmcost0_.remarks as remarks6_11_0_ from cbm_cost_centre_temp jpacbmcost0_ where jpacbmcost0_.id=?
+2023-02-27 09:44:31.444 [main] DEBUG org.hibernate.SQL:128 - insert into cbm_cost_centre_temp (cost_centre, created_date, description, modified_date, remarks, id) values (?, ?, ?, ?, ?, ?)
+2023-02-27 09:44:31.456 [main] DEBUG org.hibernate.SQL:128 - insert into cbm_cost_centre_source (cost_centre, created_date, description, id, migrated_date, modified_date, remarks) values (?, ?, ?, ?, ?, ?, ?)
+2023-02-27 09:44:31.466 [main] DEBUG org.hibernate.SQL:128 - select jpacbmcost0_.id as id1_11_0_, jpacbmcost0_.cost_centre as cost_cen2_11_0_, jpacbmcost0_.created_date as created_3_11_0_, jpacbmcost0_.description as descript4_11_0_, jpacbmcost0_.modified_date as modified5_11_0_, jpacbmcost0_.remarks as remarks6_11_0_ from cbm_cost_centre_temp jpacbmcost0_ where jpacbmcost0_.id=?
+2023-02-27 09:44:31.467 [main] DEBUG org.hibernate.SQL:128 - insert into cbm_cost_centre_temp (cost_centre, created_date, description, modified_date, remarks, id) values (?, ?, ?, ?, ?, ?)
+2023-02-27 09:44:31.479 [main] DEBUG org.hibernate.SQL:128 - insert into cbm_cost_centre_source (cost_centre, created_date, description, id, migrated_date, modified_date, remarks) values (?, ?, ?, ?, ?, ?, ?)
+2023-02-27 09:44:31.491 [main] DEBUG org.hibernate.SQL:128 - insert into cbm_cost_centre_source (cost_centre, created_date, description, id, migrated_date, modified_date, remarks) values (?, ?, ?, ?, ?, ?, ?)
+2023-02-27 09:44:31.505 [main] DEBUG org.hibernate.SQL:128 - insert into cbm_cost_centre_source (cost_centre, created_date, description, id, migrated_date, modified_date, remarks) values (?, ?, ?, ?, ?, ?, ?)
+2023-02-27 09:44:31.515 [main] DEBUG org.hibernate.SQL:128 - insert into cbm_cost_centre_source (cost_centre, created_date, description, id, migrated_date, modified_date, remarks) values (?, ?, ?, ?, ?, ?, ?)
+2023-02-27 09:44:31.527 [main] DEBUG org.hibernate.SQL:128 - select jpacbmcost0_.id as id1_11_0_, jpacbmcost0_.cost_centre as cost_cen2_11_0_, jpacbmcost0_.created_date as created_3_11_0_, jpacbmcost0_.description as descript4_11_0_, jpacbmcost0_.modified_date as modified5_11_0_, jpacbmcost0_.remarks as remarks6_11_0_ from cbm_cost_centre_temp jpacbmcost0_ where jpacbmcost0_.id=?
+2023-02-27 09:44:31.529 [main] DEBUG org.hibernate.SQL:128 - insert into cbm_cost_centre_temp (cost_centre, created_date, description, modified_date, remarks, id) values (?, ?, ?, ?, ?, ?)
+2023-02-27 09:44:31.540 [main] DEBUG org.hibernate.SQL:128 - insert into cbm_cost_centre_source (cost_centre, created_date, description, id, migrated_date, modified_date, remarks) values (?, ?, ?, ?, ?, ?, ?)
+2023-02-27 09:44:31.658 [main] DEBUG org.hibernate.SQL:128 - select jpacbmcost0_.cost_centre as cost_cen1_9_, jpacbmcost0_.created_date as created_2_9_, jpacbmcost0_.description as descript3_9_, jpacbmcost0_.modified_date as modified4_9_ from cbm_cost_centre jpacbmcost0_ where jpacbmcost0_.cost_centre=?
+2023-02-27 09:44:31.663 [main] DEBUG org.hibernate.SQL:128 - select jpacbmcost0_.cost_centre as cost_cen1_9_0_, jpacbmcost0_.created_date as created_2_9_0_, jpacbmcost0_.description as descript3_9_0_, jpacbmcost0_.modified_date as modified4_9_0_ from cbm_cost_centre jpacbmcost0_ where jpacbmcost0_.cost_centre=?
+2023-02-27 09:44:31.665 [main] DEBUG org.hibernate.SQL:128 - insert into cbm_cost_centre (created_date, description, modified_date, cost_centre) values (?, ?, ?, ?)
+2023-02-27 09:44:31.680 [main] DEBUG org.hibernate.SQL:128 - select jpacbmcost0_.cost_centre as cost_cen1_9_, jpacbmcost0_.created_date as created_2_9_, jpacbmcost0_.description as descript3_9_, jpacbmcost0_.modified_date as modified4_9_ from cbm_cost_centre jpacbmcost0_ where jpacbmcost0_.cost_centre=?
+2023-02-27 09:44:31.682 [main] DEBUG org.hibernate.SQL:128 - select jpacbmcost0_.cost_centre as cost_cen1_9_0_, jpacbmcost0_.created_date as created_2_9_0_, jpacbmcost0_.description as descript3_9_0_, jpacbmcost0_.modified_date as modified4_9_0_ from cbm_cost_centre jpacbmcost0_ where jpacbmcost0_.cost_centre=?
+2023-02-27 09:44:31.684 [main] DEBUG org.hibernate.SQL:128 - insert into cbm_cost_centre (created_date, description, modified_date, cost_centre) values (?, ?, ?, ?)
+2023-02-27 09:44:31.699 [main] DEBUG org.hibernate.SQL:128 - select jpacbmcost0_.cost_centre as cost_cen1_9_, jpacbmcost0_.created_date as created_2_9_, jpacbmcost0_.description as descript3_9_, jpacbmcost0_.modified_date as modified4_9_ from cbm_cost_centre jpacbmcost0_ where jpacbmcost0_.cost_centre=?
+2023-02-27 09:44:31.704 [main] DEBUG org.hibernate.SQL:128 - select jpacbmcost0_.id as id1_11_0_, jpacbmcost0_.cost_centre as cost_cen2_11_0_, jpacbmcost0_.created_date as created_3_11_0_, jpacbmcost0_.description as descript4_11_0_, jpacbmcost0_.modified_date as modified5_11_0_, jpacbmcost0_.remarks as remarks6_11_0_ from cbm_cost_centre_temp jpacbmcost0_ where jpacbmcost0_.id=?
+2023-02-27 09:44:31.707 [main] DEBUG org.hibernate.SQL:128 - update cbm_cost_centre_temp set cost_centre=?, created_date=?, description=?, modified_date=?, remarks=? where id=?
+2023-02-27 09:44:31.725 [main] DEBUG org.hibernate.SQL:128 - select jpacbmcost0_.cost_centre as cost_cen1_9_, jpacbmcost0_.created_date as created_2_9_, jpacbmcost0_.description as descript3_9_, jpacbmcost0_.modified_date as modified4_9_ from cbm_cost_centre jpacbmcost0_ where jpacbmcost0_.cost_centre=?
+2023-02-27 09:44:31.727 [main] DEBUG org.hibernate.SQL:128 - select jpacbmcost0_.cost_centre as cost_cen1_9_0_, jpacbmcost0_.created_date as created_2_9_0_, jpacbmcost0_.description as descript3_9_0_, jpacbmcost0_.modified_date as modified4_9_0_ from cbm_cost_centre jpacbmcost0_ where jpacbmcost0_.cost_centre=?
+2023-02-27 09:44:31.729 [main] DEBUG org.hibernate.SQL:128 - insert into cbm_cost_centre (created_date, description, modified_date, cost_centre) values (?, ?, ?, ?)
+2023-02-27 09:44:31.739 [main] INFO  scrips.datamigration.common.service.FkChecksEnableDisable:23 - enable FkChecks called
+2023-02-27 09:44:31.740 [main] DEBUG org.hibernate.SQL:128 - SET FOREIGN_KEY_CHECKS = 1
+2023-02-27 09:44:31.740 [main] INFO  scrips.datamigration.common.service.FkChecksEnableDisable:25 - enable FkChecks done
+2023-02-27 09:44:31.741 [main] DEBUG org.hibernate.SQL:128 - SELECT @@GLOBAL.foreign_key_checks, @@SESSION.foreign_key_checks
+2023-02-27 09:44:31.745 [main] INFO  scrips.datamigration.common.service.FkChecksEnableDisable:52 - foreign_key_checks status - 1
+2023-02-27 09:44:31.745 [main] INFO  scrips.datamigration.App:77 - Process completed in (Hours:Minutes:Seconds) 0:0:8
+2023-02-27 09:44:31.758 [SpringContextShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:598 - Closing JPA EntityManagerFactory for persistence unit 'data'
+2023-02-27 09:44:31.761 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2023-02-27 09:44:31.770 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource:352 - HikariPool-1 - Shutdown completed.

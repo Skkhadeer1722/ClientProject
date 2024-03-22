@@ -1,0 +1,2 @@
+2023-02-07 15:14:17.388 [main] INFO  scrips.datamigration.App:55 - Starting App on WSIN181 with PID 12840 (D:\DataMigration\DATA_MIGRATION_RTGS\DataMigrationAndExtract\DataMigration\target\classes started by SheikKhadeer in D:\DataMigration\DATA_MIGRATION_RTGS\DataMigrationAndExtract\DataMigration)
+2023-02-07 15:14:17.394 [main] INFO  scrips.datamigration.App:651 - No active profile set, falling back to default profiles: app

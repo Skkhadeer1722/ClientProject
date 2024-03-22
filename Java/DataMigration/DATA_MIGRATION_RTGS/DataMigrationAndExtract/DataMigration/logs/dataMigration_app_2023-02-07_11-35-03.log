@@ -1,0 +1,64 @@
+2023-02-07 11:35:03.878 [main] INFO  scrips.datamigration.App:55 - Starting App on WSIN181 with PID 15160 (D:\DataMigration\DATA_MIGRATION_RTGS\DataMigrationAndExtract\DataMigration\target\classes started by SheikKhadeer in D:\DataMigration\DATA_MIGRATION_RTGS\DataMigrationAndExtract\DataMigration)
+2023-02-07 11:35:03.884 [main] INFO  scrips.datamigration.App:651 - No active profile set, falling back to default profiles: app
+2023-02-07 11:35:04.699 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-07 11:35:05.447 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 728ms. Found 60 JPA repository interfaces.
+2023-02-07 11:35:06.014 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor:39 - Post-processing PropertySource instances
+2023-02-07 11:35:06.046 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2023-02-07 11:35:06.046 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2023-02-07 11:35:06.046 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2023-02-07 11:35:06.047 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2023-02-07 11:35:06.047 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2023-02-07 11:35:06.047 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource applicationConfig: [file:./config/application.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2023-02-07 11:35:06.048 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2023-02-07 11:35:06.048 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource DataMigrationProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2023-02-07 11:35:06.154 [main] INFO  com.ulisesbocchio.jasyptspringboot.filter.DefaultLazyPropertyFilter:31 - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2023-02-07 11:35:06.244 [main] INFO  com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver:35 - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2023-02-07 11:35:06.248 [main] INFO  com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector:35 - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2023-02-07 11:35:06.256 [main] INFO  com.ulisesbocchio.jasyptspringboot.encryptor.DefaultLazyEncryptor:37 - String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing Default String Encryptor
+2023-02-07 11:35:06.291 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81 - Encryptor config not found for property jasypt.encryptor.key-obtention-iterations, using default value: 1000
+2023-02-07 11:35:06.292 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81 - Encryptor config not found for property jasypt.encryptor.pool-size, using default value: 1
+2023-02-07 11:35:06.292 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81 - Encryptor config not found for property jasypt.encryptor.provider-name, using default value: null
+2023-02-07 11:35:06.293 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81 - Encryptor config not found for property jasypt.encryptor.provider-class-name, using default value: null
+2023-02-07 11:35:06.293 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81 - Encryptor config not found for property jasypt.encryptor.salt-generator-classname, using default value: org.jasypt.salt.RandomSaltGenerator
+2023-02-07 11:35:06.295 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81 - Encryptor config not found for property jasypt.encryptor.string-output-type, using default value: base64
+2023-02-07 11:35:06.482 [main] INFO  org.hibernate.jpa.internal.util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: data]
+2023-02-07 11:35:06.542 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 5.4.15.Final
+2023-02-07 11:35:06.684 [main] INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2023-02-07 11:35:07.159 [main] INFO  com.zaxxer.hikari.HikariDataSource:110 - HikariPool-1 - Starting...
+2023-02-07 11:35:07.310 [main] INFO  com.zaxxer.hikari.HikariDataSource:123 - HikariPool-1 - Start completed.
+2023-02-07 11:35:07.341 [main] INFO  org.hibernate.dialect.Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-02-07 11:35:07.422 [main] INFO  org.hibernate.envers.boot.internal.EnversServiceImpl:90 - Envers integration enabled? : true
+2023-02-07 11:35:09.428 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-07 11:35:09.437 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'data'
+2023-02-07 11:35:11.505 [main] INFO  scrips.datamigration.App:61 - Started App in 8.32 seconds (JVM running for 9.896)
+2023-02-07 11:35:11.519 [main] INFO  scrips.datamigration.common.service.FkChecksEnableDisable:36 - disable FkChecks called
+2023-02-07 11:35:11.540 [main] DEBUG org.hibernate.SQL:128 - SET FOREIGN_KEY_CHECKS = 0
+2023-02-07 11:35:11.552 [main] INFO  scrips.datamigration.common.service.FkChecksEnableDisable:38 - disable FkChecks done
+2023-02-07 11:35:11.584 [main] DEBUG org.hibernate.SQL:128 - SELECT @@GLOBAL.foreign_key_checks, @@SESSION.foreign_key_checks
+2023-02-07 11:35:11.592 [main] INFO  scrips.datamigration.common.service.FkChecksEnableDisable:52 - foreign_key_checks status - 0
+2023-02-07 11:35:11.592 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:131 - fileUploadCode - CBM_COST_CENTRE_FILE_UPLOAD
+2023-02-07 11:35:11.593 [main] INFO  scrips.datamigration.common.service.FileUploadService:82 - getFileHeaderByCode entered
+2023-02-07 11:35:11.593 [main] INFO  scrips.datamigration.common.service.FileUploadService:88 - fileUploadHeaderOut - cbm_cost_centre
+2023-02-07 11:35:11.593 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:136 - Live table name ->cbm_cost_centre
+2023-02-07 11:35:11.595 [main] INFO  scrips.datamigration.common.service.FileUploadService:98 - fieldName  -  cost_centre
+2023-02-07 11:35:11.596 [main] INFO  scrips.datamigration.common.service.FileUploadService:104 - fileUploadDetails - [scrips.datamigration.fileupload.JpaFileUploadDetails@4f7db06c]
+2023-02-07 11:35:11.596 [main] INFO  scrips.datamigration.common.service.FileUploadService:48 - ftp status n
+2023-02-07 11:35:11.596 [main] INFO  scrips.datamigration.common.service.FileUploadService:64 - FTP Not Enabled,Reading files from MigrationFiles folder
+2023-02-07 11:35:11.599 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:154 - fileRecords - 111
+2023-02-07 11:35:11.599 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:156 - 1:cost_centre
+2023-02-07 11:35:11.603 [main] INFO  scrips.datamigration.rtgs.service.CbmCostCentreService:89 - Total records in File: {}1
+2023-02-07 11:35:11.625 [main] DEBUG org.hibernate.SQL:128 - insert into cbm_cost_centre_source (cost_centre, created_date, description, id, migrated_date, modified_date, remarks) values (?, ?, ?, ?, ?, ?, ?)
+2023-02-07 11:35:11.856 [main] DEBUG org.hibernate.SQL:128 - select jpacbmcost0_.id as id1_11_0_, jpacbmcost0_.cost_centre as cost_cen2_11_0_, jpacbmcost0_.created_date as created_3_11_0_, jpacbmcost0_.description as descript4_11_0_, jpacbmcost0_.modified_date as modified5_11_0_, jpacbmcost0_.remarks as remarks6_11_0_ from cbm_cost_centre_temp jpacbmcost0_ where jpacbmcost0_.id=?
+2023-02-07 11:35:11.877 [main] DEBUG org.hibernate.SQL:128 - insert into cbm_cost_centre_temp (cost_centre, created_date, description, modified_date, remarks, id) values (?, ?, ?, ?, ?, ?)
+2023-02-07 11:35:12.118 [main] DEBUG org.hibernate.SQL:128 - select jpacbmcost0_.cost_centre as cost_cen1_9_, jpacbmcost0_.created_date as created_2_9_, jpacbmcost0_.description as descript3_9_, jpacbmcost0_.modified_date as modified4_9_ from cbm_cost_centre jpacbmcost0_ where jpacbmcost0_.cost_centre=?
+2023-02-07 11:35:12.122 [main] DEBUG org.hibernate.SQL:128 - select jpacbmcost0_.cost_centre as cost_cen1_9_0_, jpacbmcost0_.created_date as created_2_9_0_, jpacbmcost0_.description as descript3_9_0_, jpacbmcost0_.modified_date as modified4_9_0_ from cbm_cost_centre jpacbmcost0_ where jpacbmcost0_.cost_centre=?
+2023-02-07 11:35:12.124 [main] DEBUG org.hibernate.SQL:128 - insert into cbm_cost_centre (created_date, description, modified_date, cost_centre) values (?, ?, ?, ?)
+2023-02-07 11:35:12.349 [main] INFO  scrips.datamigration.common.service.FkChecksEnableDisable:23 - enable FkChecks called
+2023-02-07 11:35:12.352 [main] DEBUG org.hibernate.SQL:128 - SET FOREIGN_KEY_CHECKS = 1
+2023-02-07 11:35:12.354 [main] INFO  scrips.datamigration.common.service.FkChecksEnableDisable:25 - enable FkChecks done
+2023-02-07 11:35:12.357 [main] DEBUG org.hibernate.SQL:128 - SELECT @@GLOBAL.foreign_key_checks, @@SESSION.foreign_key_checks
+2023-02-07 11:35:12.363 [main] INFO  scrips.datamigration.common.service.FkChecksEnableDisable:52 - foreign_key_checks status - 1
+2023-02-07 11:35:12.364 [main] INFO  scrips.datamigration.App:77 - Process completed in (Hours:Minutes:Seconds) 0:0:9
+2023-02-07 11:35:12.410 [SpringContextShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:598 - Closing JPA EntityManagerFactory for persistence unit 'data'
+2023-02-07 11:35:12.414 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2023-02-07 11:35:12.434 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource:352 - HikariPool-1 - Shutdown completed.

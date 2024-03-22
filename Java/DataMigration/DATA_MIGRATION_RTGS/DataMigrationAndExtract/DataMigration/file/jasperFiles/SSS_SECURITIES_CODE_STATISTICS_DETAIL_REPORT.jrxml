@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.19.1.final using JasperReports Library version 6.19.1-867c00bf88cd4d784d404379d6c05e1b419e8a4c  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_A4_1" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="c9a23ee9-8aa5-44ce-a9a9-529319c2459b">
+	<parameter name="mgd_count" class="java.lang.Integer"/>
+	<parameter name="reportID" class="java.lang.String"/>
+	<field name="x_securities_code" class="java.lang.String"/>
+	<field name="y_securities_code" class="java.lang.String"/>
+	<field name="z_securities_code" class="java.lang.String"/>
+	<field name="y_remark" class="java.lang.String"/>
+	<field name="x_total_redeemed_amount" class="java.lang.String"/>
+	<field name="y_total_redeemed_amount" class="java.lang.String"/>
+	<field name="z_total_redeemed_amount" class="java.lang.String"/>
+	<field name="x_total_redeemed_amount_for_erf" class="java.lang.String"/>
+	<field name="y_total_redeemed_amount_for_erf" class="java.lang.String"/>
+	<field name="z_total_redeemed_amount_for_erf" class="java.lang.String"/>
+	<field name="x_next_index_end_date" class="java.lang.String"/>
+	<field name="y_next_index_end_date" class="java.lang.String"/>
+	<field name="z_next_index_end_date" class="java.lang.String"/>
+	<field name="x_amount_allotted_to_central_bank" class="java.lang.String"/>
+	<field name="y_amount_allotted_to_central_bank" class="java.lang.String"/>
+	<field name="z_amount_allotted_to_central_bank" class="java.lang.String"/>
+	<field name="x_amount_allotted_to_others" class="java.lang.String"/>
+	<field name="z_amount_allotted_to_others" class="java.lang.String"/>
+	<field name="y_amount_allotted_to_others" class="java.lang.String"/>
+	<field name="x_last_coupon_date" class="java.lang.String"/>
+	<field name="y_last_coupon_date" class="java.lang.String"/>
+	<field name="z_last_coupon_date" class="java.lang.String"/>
+	<field name="x_outstanding_nominal_amount" class="java.lang.String"/>
+	<field name="y_outstanding_nominal_amount" class="java.lang.String"/>
+	<field name="z_outstanding_nominal_amount" class="java.lang.String"/>
+	<field name="x_next_coupon_date" class="java.lang.String"/>
+	<field name="y_next_coupon_date" class="java.lang.String"/>
+	<field name="z_next_coupon_date" class="java.lang.String"/>
+	<field name="x_total_nominal_amount_issued_for_erf" class="java.lang.String"/>
+	<field name="y_total_nominal_amount_issued_for_erf" class="java.lang.String"/>
+	<field name="z_total_nominal_amount_issued_for_erf" class="java.lang.String"/>
+	<variable name="msc_count" class="java.util.concurrent.atomic.AtomicInteger" calculation="System">
+		<initialValueExpression><![CDATA[new java.util.concurrent.atomic.AtomicInteger(1)]]></initialValueExpression>
+	</variable>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="20" splitType="Stretch">
+			<staticText>
+				<reportElement x="190" y="0" width="200" height="20" uuid="8b0450d2-b6b3-4722-8bba-c3e4863cb399"/>
+				<textElement textAlignment="Left">
+					<font fontName="Serif" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[MONETARY AUTHORITY OF SINGAPORE]]></text>
+			</staticText>
+			<textField pattern="MMMMM dd, yyyy">
+				<reportElement x="470" y="0" width="104" height="20" uuid="763a9430-9882-44a0-a90b-cb9d9e6b4f30"/>
+				<textElement>
+					<font fontName="Serif" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.text.SimpleDateFormat("dd-MM-yyyy hh:mm:ss").format(new java.util.Date())]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="1" width="180" height="18" uuid="b481a68c-30a9-4c1d-9e16-26f4f5b6c952"/>
+				<textElement>
+					<font size="6.3"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<"+$P{reportID}+">"]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="40" splitType="Stretch">
+			<textField>
+				<reportElement x="480" y="0" width="44" height="20" uuid="3f9014e6-7a19-46ff-8d63-dec1603409e6"/>
+				<textElement textAlignment="Right">
+					<font fontName="Serif" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Page " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement x="524" y="0" width="51" height="20" uuid="3de718d6-c0e5-4f1e-b93c-7358e267fe2c"/>
+				<textElement textAlignment="Left">
+					<font fontName="Serif" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" of " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="237" y="0" width="80" height="20" uuid="65305231-417b-4093-a3d3-c64d0e1de975"/>
+				<textElement textAlignment="Left">
+					<font fontName="Serif" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[SCRIPS SSS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="100" y="20" width="290" height="20" uuid="be33cd58-580f-46bf-a9fd-674f7fecfb9d"/>
+				<textElement textAlignment="Left">
+					<font fontName="Serif" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[DATA MIGRATION SECURITIES CODE STATISTICS DETAIL REPORT FOR ]]></text>
+			</staticText>
+			<textField pattern="MMMMM dd, yyyy">
+				<reportElement x="390" y="20" width="100" height="20" uuid="b6d2c66d-d526-4464-971a-02514c1577b0"/>
+				<textElement textAlignment="Left">
+					<font fontName="Serif" size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="62" splitType="Stretch">
+			<staticText>
+				<reportElement x="300" y="0" width="100" height="18" uuid="44996bae-c591-413c-953c-f61f0c765541"/>
+				<textElement textAlignment="Left">
+					<font fontName="SansSerif" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Temp Table Values]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="0" width="81" height="18" uuid="9f1a3f86-a458-4965-9be7-b84af4833670"/>
+				<textElement textAlignment="Left">
+					<font fontName="SansSerif" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[DETAILS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="430" y="0" width="111" height="18" uuid="caa7219b-f40a-41e1-a9f2-2fe50a177a58"/>
+				<textElement textAlignment="Left">
+					<font fontName="SansSerif" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Source Table Values]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="159" y="0" width="100" height="18" uuid="91b53a6b-d2e8-4702-8bce-2047b14544a8"/>
+				<textElement textAlignment="Left">
+					<font fontName="SansSerif" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Live Table Values]]></text>
+			</staticText>
+			<textField textAdjust="StretchHeight">
+				<reportElement x="190" y="40" width="70" height="12" uuid="9a15cef7-1a18-4a40-aa11-0619fcf0303f"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{mgd_count}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="18" width="150" height="19" uuid="c9f32094-dd53-4bd9-b7e7-de94e52f6aab"/>
+				<textElement textAlignment="Left">
+					<font fontName="SansSerif" size="8"/>
+				</textElement>
+				<text><![CDATA[Securities Code Statistics Table - SCRIPS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="37" width="160" height="23" uuid="54c26b8a-c96f-4f6d-b271-6ef311877b8f"/>
+				<textElement textAlignment="Left">
+					<font fontName="SansSerif" size="8"/>
+				</textElement>
+				<text><![CDATA[Total Securities Code Statistics migrated to SCRIPS  :]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="425" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="370" width="80" height="18" uuid="070e9b16-02fa-4123-9adc-26b6ddecb73b"/>
+				<textElement textAlignment="Left">
+					<font fontName="SansSerif" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Remarks]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="-1" y="390" width="545" height="35" uuid="af1a47a0-a6f0-4fbc-9504-7557e6f59f79"/>
+				<textFieldExpression><![CDATA[$F{y_remark}.equals("")?"Record successfully migrated":"Invalid fields : "+$F{y_remark}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="120" y="10" width="90" height="13" uuid="26afb30f-e4ef-4051-a207-125ad84f1cc3">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{y_remark}.equals( "" ) ?  $V{msc_count}.getAndIncrement():"NA"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="160" y="30" width="100" height="30" uuid="8320268b-fce0-4e9e-95b3-17e8783ae9be"/>
+				<textFieldExpression><![CDATA[$F{x_securities_code}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="30" width="100" height="30" uuid="2caeb860-749d-4047-b9ac-8a6ea6dd1b8a"/>
+				<textFieldExpression><![CDATA[$F{y_securities_code}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="30" width="100" height="30" uuid="ccf0265b-c5d1-4bf2-893b-1fae743c622f"/>
+				<textFieldExpression><![CDATA[$F{z_securities_code}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="160" y="60" width="100" height="30" uuid="53903f19-5a9c-4814-99f5-ba7d6c2a436c"/>
+				<textFieldExpression><![CDATA[$F{x_total_redeemed_amount}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="160" y="270" width="100" height="30" uuid="26622419-6392-4d9e-8994-b253007e1593"/>
+				<textFieldExpression><![CDATA[$F{x_amount_allotted_to_central_bank}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="160" y="240" width="100" height="30" uuid="47a40214-1f68-4ec4-9ea0-090f57bf0451"/>
+				<textFieldExpression><![CDATA[$F{x_next_index_end_date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="160" y="90" width="100" height="30" uuid="f9f38c62-1bde-49a7-914b-a0614e66e6d6"/>
+				<textFieldExpression><![CDATA[$F{x_total_nominal_amount_issued_for_erf}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="160" y="300" width="100" height="30" uuid="7fb077e8-77b3-4d51-ab26-9c97a4a52f52"/>
+				<textFieldExpression><![CDATA[$F{x_amount_allotted_to_others}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="60" width="100" height="30" uuid="3a242094-e734-42a5-8f47-40b70d23b4af"/>
+				<textFieldExpression><![CDATA[$F{y_total_redeemed_amount}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="90" width="100" height="30" uuid="eb3b9d83-9b6a-43d2-92fd-3281e72d8320"/>
+				<textFieldExpression><![CDATA[$F{y_total_nominal_amount_issued_for_erf}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="240" width="100" height="30" uuid="0af0a318-1cf6-4fc0-8581-ef168313f5aa"/>
+				<textFieldExpression><![CDATA[$F{y_next_index_end_date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="270" width="100" height="30" uuid="5709a903-9a00-4a59-b12c-d49f20b872de"/>
+				<textFieldExpression><![CDATA[$F{y_amount_allotted_to_central_bank}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="300" width="100" height="30" uuid="cf25fb18-973b-4ef9-af33-ee24a065f790"/>
+				<textFieldExpression><![CDATA[$F{y_amount_allotted_to_others}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="300" width="100" height="30" uuid="9b9f5502-b065-49b6-9c5f-285908e97474"/>
+				<textFieldExpression><![CDATA[$F{z_amount_allotted_to_others}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="60" width="100" height="30" uuid="6c611a7a-2f36-4083-8f37-f041bd620d7a"/>
+				<textFieldExpression><![CDATA[$F{z_total_redeemed_amount}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="90" width="100" height="30" uuid="70590fd3-2c96-46b7-b6ce-e060d62bbdf3"/>
+				<textFieldExpression><![CDATA[$F{z_total_nominal_amount_issued_for_erf}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="240" width="100" height="30" uuid="8b795d7d-9cab-4b6a-8117-f7e3a5dfd3b9"/>
+				<textFieldExpression><![CDATA[$F{z_next_index_end_date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="270" width="100" height="30" uuid="d592da29-be9e-4eb3-8e1e-6c60008c1e45"/>
+				<textFieldExpression><![CDATA[$F{z_amount_allotted_to_central_bank}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="160" y="210" width="100" height="30" uuid="88bf6455-4a67-4164-8447-1ad4a66e6593"/>
+				<textFieldExpression><![CDATA[$F{x_last_coupon_date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="210" width="100" height="30" uuid="312ec1f7-48fa-4bf5-ad57-858de1ee9af1"/>
+				<textFieldExpression><![CDATA[$F{y_last_coupon_date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="210" width="100" height="30" uuid="a1a4b7d5-fc5e-4165-a66d-3b9dc91c8cc5"/>
+				<textFieldExpression><![CDATA[$F{z_last_coupon_date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="160" y="120" width="100" height="30" uuid="2a905ce0-d046-46c0-91a8-d48b3af25c5f"/>
+				<textFieldExpression><![CDATA[$F{x_total_redeemed_amount_for_erf}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="120" width="100" height="30" uuid="2d86c0e9-6d66-490c-b657-414bcdeebf20"/>
+				<textFieldExpression><![CDATA[$F{y_total_redeemed_amount_for_erf}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="120" width="100" height="30" uuid="0a7b7140-de67-46ef-8584-3fa799710646"/>
+				<textFieldExpression><![CDATA[$F{z_total_redeemed_amount_for_erf}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="160" y="180" width="100" height="30" uuid="a3f07f9b-f3d2-4567-8532-2aa078b34c7a"/>
+				<textFieldExpression><![CDATA[$F{x_next_coupon_date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="160" y="150" width="100" height="30" uuid="e79673a8-ce6c-4275-b819-0769ed920c91"/>
+				<textFieldExpression><![CDATA[$F{x_outstanding_nominal_amount}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="180" width="100" height="30" uuid="6e642c85-f9ec-480c-bb92-e7850bbb2fb9"/>
+				<textFieldExpression><![CDATA[$F{y_next_coupon_date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="150" width="100" height="30" uuid="2bbe4e57-28ea-4336-9539-500f53beb100"/>
+				<textFieldExpression><![CDATA[$F{y_outstanding_nominal_amount}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="149" width="100" height="30" uuid="375a9df1-8b39-41d8-b817-ebead30ccbbd"/>
+				<textFieldExpression><![CDATA[$F{z_outstanding_nominal_amount}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="180" width="100" height="30" uuid="6ff76795-de4b-4f1b-b661-eda4568ccb8e"/>
+				<textFieldExpression><![CDATA[$F{z_next_coupon_date}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="10" width="100" height="20" uuid="ff8fdfb1-6754-41d1-b748-e28c05f3f7d5"/>
+				<textElement>
+					<font fontName="Serif" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Migrated Securites Code :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="210" width="120" height="30" uuid="4248b978-3c83-453d-b633-ff33f7d9aa5d"/>
+				<text><![CDATA[Last Coupon Date]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="240" width="120" height="30" uuid="5c2591ca-6982-4bf9-8a9f-5427fb7e89e4"/>
+				<text><![CDATA[Next Index End Date]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="150" width="120" height="30" uuid="ada5fd65-9d40-48a6-a346-a49b62a81e5f"/>
+				<text><![CDATA[Outstanding Nominal Amount]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="120" width="120" height="30" uuid="488c8fd8-0d8e-41c5-9734-4f51e58b5c30"/>
+				<text><![CDATA[Total Redeemed Amount For Erf]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="90" width="120" height="30" uuid="89c9f194-b1de-4ce0-abb8-571d1ff56e15"/>
+				<text><![CDATA[Total nominal Amount Issued For Erf]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="180" width="120" height="30" uuid="d6c60423-4cca-49de-ace9-8fe7d83de518"/>
+				<text><![CDATA[Next Coupon Date]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="270" width="120" height="30" uuid="11fb94a8-c51e-4882-8e73-747333b43530"/>
+				<text><![CDATA[Amount Allotted To Central Bank]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="300" width="120" height="30" uuid="43c70f80-9087-4998-a414-f8443fdeb20f"/>
+				<text><![CDATA[Amount Allotted To Others]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="60" width="120" height="30" uuid="2a95ad59-b710-41da-8ae9-c6ce7cd2c468"/>
+				<text><![CDATA[Total Redeemed Amount]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="30" width="120" height="30" uuid="7e902a34-7505-4d72-9c74-eef01bc0dc28">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<text><![CDATA[Securities Code]]></text>
+			</staticText>
+		</band>
+	</detail>
+	<lastPageFooter>
+		<band height="50">
+			<staticText>
+				<reportElement x="229" y="30" width="140" height="12" uuid="be1aae7e-924b-4d51-bc2f-f0b6698d34c4"/>
+				<textElement textAlignment="Left">
+					<font fontName="Serif" size="8"/>
+				</textElement>
+				<text><![CDATA[*** END  OF  REPORT ***]]></text>
+			</staticText>
+		</band>
+	</lastPageFooter>
+</jasperReport>

@@ -1,0 +1,24 @@
+{
+  "groups": [
+    {
+      "name": "spring.cas.datasource",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.dataextract.config.DBConfig",
+      "sourceMethod": "public javax.sql.DataSource casAccountDataSource() "
+    },
+    {
+      "name": "spring.rtgs.datasource",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.dataextract.config.DBConfig",
+      "sourceMethod": "public javax.sql.DataSource rtgsDataSource() "
+    },
+    {
+      "name": "spring.sgs.datasource",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.dataextract.config.DBConfig",
+      "sourceMethod": "public javax.sql.DataSource sgsDataSource() "
+    }
+  ],
+  "properties": [],
+  "hints": []
+}

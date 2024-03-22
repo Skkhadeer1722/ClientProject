@@ -1,0 +1,974 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.19.1.final using JasperReports Library version 6.19.1-867c00bf88cd4d784d404379d6c05e1b419e8a4c  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_A4_2" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="32aa303b-6afe-41f8-98ae-fb6c5d1bab94">
+	<parameter name="mgd_count" class="java.lang.Integer"/>
+	<parameter name="reportID" class="java.lang.String"/>
+	<field name="x_securities_code" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="s_securities_code"/>
+		<property name="com.jaspersoft.studio.field.label" value="s_securities_code"/>
+	</field>
+	<field name="y_securities_code" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="t_securities_code"/>
+		<property name="com.jaspersoft.studio.field.label" value="t_securities_code"/>
+	</field>
+	<field name="z_securities_code" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="z_securities_code"/>
+		<property name="com.jaspersoft.studio.field.label" value="z_securities_code"/>
+	</field>
+	<field name="x_issue_code" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="s_issue_code"/>
+		<property name="com.jaspersoft.studio.field.label" value="s_issue_code"/>
+	</field>
+	<field name="y_issue_code" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="t_issue_code"/>
+		<property name="com.jaspersoft.studio.field.label" value="t_issue_code"/>
+	</field>
+	<field name="z_issue_code" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="z_issue_code"/>
+		<property name="com.jaspersoft.studio.field.label" value="z_issue_code"/>
+	</field>
+	<field name="x_description" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="s_description"/>
+		<property name="com.jaspersoft.studio.field.label" value="s_description"/>
+	</field>
+	<field name="y_description" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="t_description"/>
+		<property name="com.jaspersoft.studio.field.label" value="t_description"/>
+	</field>
+	<field name="z_description" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="z_description"/>
+		<property name="com.jaspersoft.studio.field.label" value="z_description"/>
+	</field>
+	<field name="x_securities_type_id" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="s_securities_type_id"/>
+		<property name="com.jaspersoft.studio.field.label" value="s_securities_type_id"/>
+	</field>
+	<field name="y_securities_type_id" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="t_securities_type_id"/>
+		<property name="com.jaspersoft.studio.field.label" value="t_securities_type_id"/>
+	</field>
+	<field name="z_securities_type_id" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="z_securities_type_id"/>
+		<property name="com.jaspersoft.studio.field.label" value="z_securities_type_id"/>
+	</field>
+	<field name="x_securities_status" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="s_securities_status"/>
+		<property name="com.jaspersoft.studio.field.label" value="s_securities_status"/>
+	</field>
+	<field name="y_securities_status" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="t_securities_status"/>
+		<property name="com.jaspersoft.studio.field.label" value="t_securities_status"/>
+	</field>
+	<field name="z_securities_status" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="z_securities_status"/>
+		<property name="com.jaspersoft.studio.field.label" value="z_securities_status"/>
+	</field>
+	<field name="x_securities_tenor_period_unit" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="s_securities_tenor_period_unit"/>
+		<property name="com.jaspersoft.studio.field.label" value="s_securities_tenor_period_unit"/>
+	</field>
+	<field name="y_securities_tenor_period_unit" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="t_securities_tenor_period_unit"/>
+		<property name="com.jaspersoft.studio.field.label" value="t_securities_tenor_period_unit"/>
+	</field>
+	<field name="z_securities_tenor_period_unit" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="z_securities_tenor_period_unit"/>
+		<property name="com.jaspersoft.studio.field.label" value="z_securities_tenor_period_unit"/>
+	</field>
+	<field name="x_currency_code" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="s_currency_code"/>
+		<property name="com.jaspersoft.studio.field.label" value="s_currency_code"/>
+	</field>
+	<field name="y_currency_code" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="t_currency_code"/>
+		<property name="com.jaspersoft.studio.field.label" value="t_currency_code"/>
+	</field>
+	<field name="z_currency_code" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="z_currency_code"/>
+		<property name="com.jaspersoft.studio.field.label" value="z_currency_code"/>
+	</field>
+	<field name="x_denomination" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="s_denomination"/>
+		<property name="com.jaspersoft.studio.field.label" value="s_denomination"/>
+	</field>
+	<field name="y_denomination" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="t_denomination"/>
+		<property name="com.jaspersoft.studio.field.label" value="t_denomination"/>
+	</field>
+	<field name="z_denomination" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="z_denomination"/>
+		<property name="com.jaspersoft.studio.field.label" value="z_denomination"/>
+	</field>
+	<field name="x_issuer_id" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="s_issuer_id"/>
+		<property name="com.jaspersoft.studio.field.label" value="s_issuer_id"/>
+	</field>
+	<field name="y_issuer_id" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="t_issuer_id"/>
+		<property name="com.jaspersoft.studio.field.label" value="t_issuer_id"/>
+	</field>
+	<field name="z_issuer_id" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="z_issuer_id"/>
+		<property name="com.jaspersoft.studio.field.label" value="z_issuer_id"/>
+	</field>
+	<field name="x_ipa" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="s_ipa"/>
+		<property name="com.jaspersoft.studio.field.label" value="s_ipa"/>
+	</field>
+	<field name="y_ipa" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="t_ipa"/>
+		<property name="com.jaspersoft.studio.field.label" value="t_ipa"/>
+	</field>
+	<field name="z_ipa" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="z_ipa"/>
+		<property name="com.jaspersoft.studio.field.label" value="z_ipa"/>
+	</field>
+	<field name="x_facility_eligibility_id" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="s_facility_eligibility_id"/>
+		<property name="com.jaspersoft.studio.field.label" value="s_facility_eligibility_id"/>
+	</field>
+	<field name="y_facility_eligibility_id" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="t_facility_eligibility_id"/>
+		<property name="com.jaspersoft.studio.field.label" value="t_facility_eligibility_id"/>
+	</field>
+	<field name="z_facility_eligibility_id" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="z_facility_eligibility_id"/>
+		<property name="com.jaspersoft.studio.field.label" value="z_facility_eligibility_id"/>
+	</field>
+	<field name="x_haircut_id" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="s_haircut_id"/>
+		<property name="com.jaspersoft.studio.field.label" value="s_haircut_id"/>
+	</field>
+	<field name="y_haircut_id" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="t_haircut_id"/>
+		<property name="com.jaspersoft.studio.field.label" value="t_haircut_id"/>
+	</field>
+	<field name="z_haircut_id" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="z_haircut_id"/>
+		<property name="com.jaspersoft.studio.field.label" value="z_haircut_id"/>
+	</field>
+	<field name="x_tradable" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="s_tradable"/>
+		<property name="com.jaspersoft.studio.field.label" value="s_tradable"/>
+	</field>
+	<field name="y_tradable" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="t_tradable"/>
+		<property name="com.jaspersoft.studio.field.label" value="t_tradable"/>
+	</field>
+	<field name="z_tradable" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="z_tradable"/>
+		<property name="com.jaspersoft.studio.field.label" value="z_tradable"/>
+	</field>
+	<field name="x_first_auction_date" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="s_first_auction_date"/>
+		<property name="com.jaspersoft.studio.field.label" value="s_first_auction_date"/>
+	</field>
+	<field name="y_first_auction_date" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="t_first_auction_date"/>
+		<property name="com.jaspersoft.studio.field.label" value="t_first_auction_date"/>
+	</field>
+	<field name="z_first_auction_date" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="z_first_auction_date"/>
+		<property name="com.jaspersoft.studio.field.label" value="z_first_auction_date"/>
+	</field>
+	<field name="x_first_issuance_date" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="s_first_issuance_date"/>
+		<property name="com.jaspersoft.studio.field.label" value="s_first_issuance_date"/>
+	</field>
+	<field name="y_first_issuance_date" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="t_first_issuance_date"/>
+		<property name="com.jaspersoft.studio.field.label" value="t_first_issuance_date"/>
+	</field>
+	<field name="z_first_issuance_date" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="z_first_issuance_date"/>
+		<property name="com.jaspersoft.studio.field.label" value="z_first_issuance_date"/>
+	</field>
+	<field name="x_first_issuance_amount" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="s_first_issuance_amount"/>
+		<property name="com.jaspersoft.studio.field.label" value="s_first_issuance_amount"/>
+	</field>
+	<field name="y_first_issuance_amount" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="t_first_issuance_amount"/>
+		<property name="com.jaspersoft.studio.field.label" value="t_first_issuance_amount"/>
+	</field>
+	<field name="z_first_issuance_amount" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="z_first_issuance_amount"/>
+		<property name="com.jaspersoft.studio.field.label" value="z_first_issuance_amount"/>
+	</field>
+	<field name="x_redemption_price" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="s_redemption_price"/>
+		<property name="com.jaspersoft.studio.field.label" value="s_redemption_price"/>
+	</field>
+	<field name="y_redemption_price" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="t_redemption_price"/>
+		<property name="com.jaspersoft.studio.field.label" value="t_redemption_price"/>
+	</field>
+	<field name="z_redemption_price" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="z_redemption_price"/>
+		<property name="com.jaspersoft.studio.field.label" value="z_redemption_price"/>
+	</field>
+	<field name="x_coupon_structure" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="s_coupon_structure"/>
+		<property name="com.jaspersoft.studio.field.label" value="s_coupon_structure"/>
+	</field>
+	<field name="y_coupon_structure" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="t_coupon_structure"/>
+		<property name="com.jaspersoft.studio.field.label" value="t_coupon_structure"/>
+	</field>
+	<field name="z_coupon_structure" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="z_coupon_structure"/>
+		<property name="com.jaspersoft.studio.field.label" value="z_coupon_structure"/>
+	</field>
+	<field name="x_coupon_payment_frequency" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="s_coupon_payment_frequency"/>
+		<property name="com.jaspersoft.studio.field.label" value="s_coupon_payment_frequency"/>
+	</field>
+	<field name="y_coupon_payment_frequency" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="t_coupon_payment_frequency"/>
+		<property name="com.jaspersoft.studio.field.label" value="t_coupon_payment_frequency"/>
+	</field>
+	<field name="z_coupon_payment_frequency" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="z_coupon_payment_frequency"/>
+		<property name="com.jaspersoft.studio.field.label" value="z_coupon_payment_frequency"/>
+	</field>
+	<field name="x_coupon_rate" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="s_coupon_rate"/>
+		<property name="com.jaspersoft.studio.field.label" value="s_coupon_rate"/>
+	</field>
+	<field name="y_coupon_rate" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="t_coupon_rate"/>
+		<property name="com.jaspersoft.studio.field.label" value="t_coupon_rate"/>
+	</field>
+	<field name="z_coupon_rate" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="z_coupon_rate"/>
+		<property name="com.jaspersoft.studio.field.label" value="z_coupon_rate"/>
+	</field>
+	<field name="x_day_count_convention" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="s_day_count_convention"/>
+		<property name="com.jaspersoft.studio.field.label" value="s_day_count_convention"/>
+	</field>
+	<field name="y_day_count_convention" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="t_day_count_convention"/>
+		<property name="com.jaspersoft.studio.field.label" value="t_day_count_convention"/>
+	</field>
+	<field name="z_day_count_convention" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="z_day_count_convention"/>
+		<property name="com.jaspersoft.studio.field.label" value="z_day_count_convention"/>
+	</field>
+	<field name="x_rounding_option" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="s_rounding_option"/>
+		<property name="com.jaspersoft.studio.field.label" value="s_rounding_option"/>
+	</field>
+	<field name="y_rounding_option" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="t_rounding_option"/>
+		<property name="com.jaspersoft.studio.field.label" value="t_rounding_option"/>
+	</field>
+	<field name="z_rounding_option" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="z_rounding_option"/>
+		<property name="com.jaspersoft.studio.field.label" value="z_rounding_option"/>
+	</field>
+	<field name="x_record_date_period" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="s_record_date_period"/>
+		<property name="com.jaspersoft.studio.field.label" value="s_record_date_period"/>
+	</field>
+	<field name="y_record_date_period" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="t_record_date_period"/>
+		<property name="com.jaspersoft.studio.field.label" value="t_record_date_period"/>
+	</field>
+	<field name="z_record_date_period" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="z_record_date_period"/>
+		<property name="com.jaspersoft.studio.field.label" value="z_record_date_period"/>
+	</field>
+	<field name="x_first_coupon_date" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="s_first_coupon_date"/>
+		<property name="com.jaspersoft.studio.field.label" value="s_first_coupon_date"/>
+	</field>
+	<field name="y_first_coupon_date" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="t_first_coupon_date"/>
+		<property name="com.jaspersoft.studio.field.label" value="t_first_coupon_date"/>
+	</field>
+	<field name="z_first_coupon_date" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="z_first_coupon_date"/>
+		<property name="com.jaspersoft.studio.field.label" value="z_first_coupon_date"/>
+	</field>
+	<field name="x_tax_scheme_id" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="s_tax_scheme_id"/>
+		<property name="com.jaspersoft.studio.field.label" value="s_tax_scheme_id"/>
+	</field>
+	<field name="y_tax_scheme_id" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="t_tax_scheme_id"/>
+		<property name="com.jaspersoft.studio.field.label" value="t_tax_scheme_id"/>
+	</field>
+	<field name="z_tax_scheme_id" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="z_tax_scheme_id"/>
+		<property name="com.jaspersoft.studio.field.label" value="z_tax_scheme_id"/>
+	</field>
+	<field name="x_redemption_reimburse" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="s_redemption_reimburse"/>
+		<property name="com.jaspersoft.studio.field.label" value="s_redemption_reimburse"/>
+	</field>
+	<field name="y_redemption_reimburse" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="t_redemption_reimburse"/>
+		<property name="com.jaspersoft.studio.field.label" value="t_redemption_reimburse"/>
+	</field>
+	<field name="z_redemption_reimburse" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="z_redemption_reimburse"/>
+		<property name="com.jaspersoft.studio.field.label" value="z_redemption_reimburse"/>
+	</field>
+	<field name="x_benchmark_indicator" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="s_benchmark_indicator"/>
+		<property name="com.jaspersoft.studio.field.label" value="s_benchmark_indicator"/>
+	</field>
+	<field name="y_benchmark_indicator" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="t_benchmark_indicator"/>
+		<property name="com.jaspersoft.studio.field.label" value="t_benchmark_indicator"/>
+	</field>
+	<field name="z_benchmark_indicator" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="z_benchmark_indicator"/>
+		<property name="com.jaspersoft.studio.field.label" value="z_benchmark_indicator"/>
+	</field>
+	<field name="x_redemption_date" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="s_redemption_date"/>
+		<property name="com.jaspersoft.studio.field.label" value="s_redemption_date"/>
+	</field>
+	<field name="y_redemption_date" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="t_redemption_date"/>
+		<property name="com.jaspersoft.studio.field.label" value="t_redemption_date"/>
+	</field>
+	<field name="z_redemption_date" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="z_redemption_date"/>
+		<property name="com.jaspersoft.studio.field.label" value="z_redemption_date"/>
+	</field>
+	<field name="x_optional_redemption_date" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="s_optional_redemption_date"/>
+		<property name="com.jaspersoft.studio.field.label" value="s_optional_redemption_date"/>
+	</field>
+	<field name="y_optional_redemption_date" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="t_optional_redemption_date"/>
+		<property name="com.jaspersoft.studio.field.label" value="t_optional_redemption_date"/>
+	</field>
+	<field name="z_optional_redemption_date" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="z_optional_redemption_date"/>
+		<property name="com.jaspersoft.studio.field.label" value="z_optional_redemption_date"/>
+	</field>
+	<field name="y_remark" class="java.lang.String"/>
+	<variable name="msc_count" class="java.util.concurrent.atomic.AtomicInteger" calculation="System">
+		<initialValueExpression><![CDATA[new java.util.concurrent.atomic.AtomicInteger(1)]]></initialValueExpression>
+	</variable>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="20" splitType="Stretch">
+			<staticText>
+				<reportElement x="190" y="0" width="200" height="20" uuid="8b0450d2-b6b3-4722-8bba-c3e4863cb399"/>
+				<textElement textAlignment="Left">
+					<font fontName="Serif" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[MONETARY AUTHORITY OF SINGAPORE]]></text>
+			</staticText>
+			<textField pattern="MMMMM dd, yyyy">
+				<reportElement x="470" y="0" width="104" height="20" uuid="763a9430-9882-44a0-a90b-cb9d9e6b4f30"/>
+				<textElement>
+					<font fontName="Serif" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.text.SimpleDateFormat("dd-MM-yyyy hh:mm:ss").format(new java.util.Date())]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="0" width="180" height="18" uuid="b481a68c-30a9-4c1d-9e16-26f4f5b6c952"/>
+				<textElement>
+					<font size="7.7"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<"+$P{reportID}+">"]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="40" splitType="Stretch">
+			<textField>
+				<reportElement x="480" y="0" width="44" height="20" uuid="3f9014e6-7a19-46ff-8d63-dec1603409e6"/>
+				<textElement textAlignment="Right">
+					<font fontName="Serif" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Page " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement x="524" y="0" width="51" height="20" uuid="3de718d6-c0e5-4f1e-b93c-7358e267fe2c"/>
+				<textElement textAlignment="Left">
+					<font fontName="Serif" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" of " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="237" y="0" width="80" height="20" uuid="65305231-417b-4093-a3d3-c64d0e1de975"/>
+				<textElement textAlignment="Left">
+					<font fontName="Serif" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[SCRIPS SSS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="120" y="20" width="237" height="20" uuid="635625b8-902e-4fa7-bd91-5fda606e92cf"/>
+				<textElement textAlignment="Left">
+					<font fontName="Serif" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[DATA MIGRATION SECURITIES CODE DETAIL REPORT FOR ]]></text>
+			</staticText>
+			<textField pattern="MMMMM dd, yyyy">
+				<reportElement x="357" y="20" width="100" height="20" uuid="6b26142c-a697-4519-89a5-1a9ad3c4df06"/>
+				<textElement textAlignment="Left">
+					<font fontName="Serif" size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="52" splitType="Stretch">
+			<staticText>
+				<reportElement x="300" y="0" width="100" height="18" uuid="44996bae-c591-413c-953c-f61f0c765541"/>
+				<textElement textAlignment="Left">
+					<font fontName="SansSerif" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Temp Table Values]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="0" width="81" height="18" uuid="9f1a3f86-a458-4965-9be7-b84af4833670"/>
+				<textElement textAlignment="Left">
+					<font fontName="SansSerif" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[DETAILS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="430" y="0" width="111" height="18" uuid="caa7219b-f40a-41e1-a9f2-2fe50a177a58"/>
+				<textElement textAlignment="Left">
+					<font fontName="SansSerif" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Source Table Values]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="159" y="0" width="100" height="18" uuid="91b53a6b-d2e8-4702-8bce-2047b14544a8"/>
+				<textElement textAlignment="Left">
+					<font fontName="SansSerif" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Live Table Values]]></text>
+			</staticText>
+			<textField textAdjust="StretchHeight">
+				<reportElement x="174" y="37" width="70" height="12" uuid="9a15cef7-1a18-4a40-aa11-0619fcf0303f"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{mgd_count}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="18" width="120" height="19" uuid="7bde64c3-e4a9-46bb-95ac-24ed43ec7482"/>
+				<textElement textAlignment="Left">
+					<font fontName="SansSerif" size="8"/>
+				</textElement>
+				<text><![CDATA[Securities Code Table - SCRIPS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="37" width="160" height="13" uuid="453af422-8267-4a19-8c69-c0d37ab0a6c8"/>
+				<textElement textAlignment="Left">
+					<font fontName="SansSerif" size="8"/>
+				</textElement>
+				<text><![CDATA[Total Securities Code migrated to SCRIPS :]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="683" splitType="Stretch">
+			<textField>
+				<reportElement x="100" y="10" width="90" height="13" uuid="26afb30f-e4ef-4051-a207-125ad84f1cc3">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{y_remark}.equals( "" ) ?  $V{msc_count}.getAndIncrement():"NA"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="160" y="30" width="110" height="20" uuid="c1fc1627-476f-4a76-947b-44bf466a2435"/>
+				<textFieldExpression><![CDATA[$F{x_securities_code}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="160" y="50" width="110" height="20" uuid="6ce9d478-fa25-4b64-aead-da914193fa1c"/>
+				<textFieldExpression><![CDATA[$F{x_issue_code}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="160" y="70" width="110" height="31" uuid="604142db-f80b-4390-afe5-e77e740b62a2"/>
+				<textFieldExpression><![CDATA[$F{x_description}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="160" y="101" width="110" height="17" uuid="d599f578-6819-46d4-9d02-c807f944a6a3"/>
+				<textFieldExpression><![CDATA[$F{x_securities_type_id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="160" y="118" width="110" height="18" uuid="96b97686-2a7f-488d-ac5d-bf8ed2f3f494"/>
+				<textFieldExpression><![CDATA[$F{x_securities_status}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="160" y="136" width="110" height="17" uuid="2bb93de6-a623-42a0-bc1b-f48bd79399c9"/>
+				<textFieldExpression><![CDATA[$F{x_securities_tenor_period_unit}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="160" y="153" width="110" height="17" uuid="bf396d76-09a5-4de6-b8b7-efb86ee18cfe"/>
+				<textFieldExpression><![CDATA[$F{x_currency_code}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="160" y="170" width="110" height="20" uuid="29aea057-4550-452d-80bb-a30d25d2a5eb"/>
+				<textFieldExpression><![CDATA[$F{x_denomination}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="160" y="190" width="110" height="30" uuid="dbb2a8b5-fc6b-4918-8fad-f9a560be4b04"/>
+				<textFieldExpression><![CDATA[$F{x_issuer_id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="160" y="220" width="110" height="30" uuid="2be99c75-dcea-450c-9441-6c50ae575075"/>
+				<textFieldExpression><![CDATA[$F{x_ipa}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="160" y="250" width="110" height="20" uuid="85a19db0-d676-4e81-b9f8-11cf83e921b5"/>
+				<textFieldExpression><![CDATA[$F{x_facility_eligibility_id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="160" y="270" width="110" height="20" uuid="f2a4737d-5947-463d-a538-b8f629445a93"/>
+				<textFieldExpression><![CDATA[$F{x_haircut_id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="160" y="290" width="110" height="20" uuid="2d73bca5-e4db-43a4-81ab-a613040e8886"/>
+				<textFieldExpression><![CDATA[$F{x_tradable}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="160" y="310" width="110" height="20" uuid="ac85b4b4-3e12-4d35-b6f3-ab10d7835aa7"/>
+				<textFieldExpression><![CDATA[$F{x_first_auction_date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="160" y="330" width="110" height="20" uuid="b7c21148-e8f0-4bc6-8606-4984571c2459"/>
+				<textFieldExpression><![CDATA[$F{x_first_issuance_date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="160" y="350" width="110" height="20" uuid="53c27ed7-e4bd-4c42-9232-1d053b846504"/>
+				<textFieldExpression><![CDATA[$F{x_first_issuance_amount}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="160" y="370" width="110" height="20" uuid="4d8923f6-71f2-4d8e-aedf-88e1a53d128c"/>
+				<textFieldExpression><![CDATA[$F{x_redemption_price}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="160" y="390" width="110" height="20" uuid="68a7d68e-4130-4da8-bb6e-015a4738b8db"/>
+				<textFieldExpression><![CDATA[$F{x_coupon_structure}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="160" y="410" width="110" height="20" uuid="6160eedc-017f-4dc6-b7bf-653ae3d68418"/>
+				<textFieldExpression><![CDATA[$F{x_coupon_payment_frequency}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="160" y="430" width="110" height="20" uuid="25824435-d0b3-4253-a407-e03dd230c33d"/>
+				<textFieldExpression><![CDATA[$F{x_coupon_rate}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="160" y="450" width="110" height="20" uuid="21f239db-9a15-4105-8e8d-25db46a07010"/>
+				<textFieldExpression><![CDATA[$F{x_day_count_convention}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="160" y="470" width="110" height="20" uuid="c4ccbcd4-16f9-4310-921d-ad2541677be8"/>
+				<textFieldExpression><![CDATA[$F{x_rounding_option}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="160" y="490" width="110" height="20" uuid="c5185f2b-b0e4-4f26-ac9e-a2834945e52a"/>
+				<textFieldExpression><![CDATA[$F{x_record_date_period}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="30" width="100" height="20" uuid="21ba054d-d39a-4665-97af-65c78dc40d5c"/>
+				<text><![CDATA[Securities Code]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="50" width="100" height="20" uuid="b8c72481-460d-43f8-9e57-8cdc18edf6cc"/>
+				<text><![CDATA[Issue Code]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="70" width="100" height="30" uuid="e55d6759-efef-40f9-ae81-3f3e94395754"/>
+				<text><![CDATA[Description]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="101" width="100" height="16" uuid="3c5b5be0-90db-4822-a2b8-8cace6efee13"/>
+				<text><![CDATA[Securities Type Id]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="118" width="100" height="18" uuid="e5c10992-8e8e-4061-bc70-77e74909c182"/>
+				<text><![CDATA[Securities Status]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="136" width="132" height="16" uuid="b1e1914b-78d3-4d77-87d9-d4f82ca658b5"/>
+				<text><![CDATA[Securities Tenor Period Unit]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="153" width="100" height="17" uuid="44f6e5bc-7c86-47bd-b3be-da38c5a053aa"/>
+				<text><![CDATA[Currency Code]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="170" width="100" height="20" uuid="c3a5dd16-ea71-4cbd-9e9c-7b9f1e7c37fa"/>
+				<text><![CDATA[Denomination]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="190" width="100" height="30" uuid="48ab3d37-ff85-4d3c-9a33-d49b3d191272"/>
+				<text><![CDATA[Issuer Id]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="220" width="100" height="30" uuid="950eb97b-29d6-46c3-8393-318b61999bf7"/>
+				<text><![CDATA[Ipa]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="250" width="100" height="20" uuid="c162466d-bf8c-417b-903e-97720afb949b"/>
+				<text><![CDATA[Facility Eligibility Id]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="270" width="100" height="20" uuid="0e7c0589-4f8c-4c2c-9cbd-58edf72ae310"/>
+				<text><![CDATA[Haircut Id]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="290" width="100" height="20" uuid="149725b6-ba68-4571-ad17-8a3d92fb12c9"/>
+				<text><![CDATA[Tradable]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="310" width="100" height="20" uuid="d612ac16-6fcb-42e3-9818-54e3865a9f4e"/>
+				<text><![CDATA[First Auction Date]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="330" width="100" height="20" uuid="3e803e57-9042-45c2-9155-830f342502ec"/>
+				<text><![CDATA[First Issuance Date]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="350" width="100" height="20" uuid="a1ac1b48-1a88-4cc4-92f8-fbda0a1fb08d"/>
+				<text><![CDATA[First Issuance Amount]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="370" width="100" height="20" uuid="b249e6be-8f62-4bd0-aa93-a54f99f40d8e"/>
+				<text><![CDATA[Redemption Price]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="390" width="100" height="20" uuid="3b53e0fa-b06c-4df0-96fa-198345beaa2a"/>
+				<text><![CDATA[Coupon Structure]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="410" width="132" height="20" uuid="d445b51b-f6fa-4907-96c0-85407626f1db"/>
+				<text><![CDATA[Coupon Payment Frequency]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="430" width="100" height="20" uuid="680ac97d-d478-43c9-954c-ada3f0602d45"/>
+				<text><![CDATA[Coupon Rate]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="450" width="110" height="20" uuid="c78c8792-a094-4bc0-8878-19f449ad551e"/>
+				<text><![CDATA[Day Count Convension]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="470" width="100" height="20" uuid="1079921a-9a4c-4f78-9344-ca186499f202"/>
+				<text><![CDATA[Rounding Option]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="490" width="100" height="20" uuid="3c091163-9547-45d9-a917-bcfe38a5d838"/>
+				<text><![CDATA[Record Date Period]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="300" y="30" width="110" height="20" uuid="6be2e764-c003-47a7-ab86-4f9450c97f1b"/>
+				<textFieldExpression><![CDATA[$F{y_securities_code}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="30" width="110" height="20" uuid="7752c0d0-5dbe-4b73-b752-8a447967eb9d"/>
+				<textFieldExpression><![CDATA[$F{z_securities_code}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="50" width="110" height="20" uuid="f4899b05-21b8-4bfa-b994-54e75a23aefc"/>
+				<textFieldExpression><![CDATA[$F{y_issue_code}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="50" width="110" height="20" uuid="76922982-13f9-4b7d-9c1b-d648acf0d009"/>
+				<textFieldExpression><![CDATA[$F{z_issue_code}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="70" width="110" height="30" uuid="207e87b0-da6a-46e0-ac88-deca717c54d6"/>
+				<textFieldExpression><![CDATA[$F{y_description}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="70" width="110" height="30" uuid="861b45c6-b76d-48ec-8974-c7a3093cf0e2"/>
+				<textFieldExpression><![CDATA[$F{z_description}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="101" width="110" height="16" uuid="9b2d0f19-71b4-486f-bce3-f302d54d4fe9"/>
+				<textFieldExpression><![CDATA[$F{y_securities_type_id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="101" width="110" height="16" uuid="3385d25c-c801-4c34-aeff-ca5fc0c18fa8"/>
+				<textFieldExpression><![CDATA[$F{z_securities_type_id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="118" width="110" height="18" uuid="e2f755d1-e5b0-4224-abbd-a851f82c76f4"/>
+				<textFieldExpression><![CDATA[$F{y_securities_status}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="118" width="110" height="18" uuid="234ef8e5-fc8f-474b-8d94-f7aa844d0df0"/>
+				<textFieldExpression><![CDATA[$F{z_securities_status}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="136" width="110" height="16" uuid="6959ae94-afeb-4575-be52-858953421196"/>
+				<textFieldExpression><![CDATA[$F{y_securities_tenor_period_unit}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="136" width="110" height="16" uuid="51f93fa5-da93-4767-b227-c02d0736843c"/>
+				<textFieldExpression><![CDATA[$F{z_securities_tenor_period_unit}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="153" width="110" height="16" uuid="5d9ce0d6-c334-41f7-a1f1-7c023f6ae9fa"/>
+				<textFieldExpression><![CDATA[$F{y_currency_code}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="153" width="110" height="16" uuid="9a98f98a-2739-4f8c-bfe1-93282ff3fa4c"/>
+				<textFieldExpression><![CDATA[$F{z_currency_code}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="170" width="110" height="20" uuid="93016085-c97f-41de-afa5-4889b8ad44be"/>
+				<textFieldExpression><![CDATA[$F{y_denomination}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="170" width="110" height="20" uuid="c79e9b59-8624-4154-9c4a-bb17f8ebf9ef"/>
+				<textFieldExpression><![CDATA[$F{z_denomination}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="190" width="110" height="30" uuid="b42ba117-24ef-441c-a683-2364e13278bb"/>
+				<textFieldExpression><![CDATA[$F{y_issuer_id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="190" width="110" height="30" uuid="48d5589f-4389-42fb-989d-e002245ee21d"/>
+				<textFieldExpression><![CDATA[$F{z_issuer_id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="220" width="110" height="30" uuid="8c4a6a6c-08f4-4084-bbbf-83dd3a3693e3"/>
+				<textFieldExpression><![CDATA[$F{y_ipa}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="220" width="110" height="30" uuid="29a8e561-0839-44cc-ad0e-15ff0b4fb7f8"/>
+				<textFieldExpression><![CDATA[$F{z_ipa}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="250" width="110" height="20" uuid="499483d5-1158-4fd3-a92f-bdac528f4e53"/>
+				<textFieldExpression><![CDATA[$F{y_facility_eligibility_id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="250" width="110" height="20" uuid="cbe8025a-5083-417c-acc3-6ddf255047ab"/>
+				<textFieldExpression><![CDATA[$F{z_facility_eligibility_id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="270" width="110" height="20" uuid="f849b405-f8bc-4d69-8a39-b2537bc0f39d"/>
+				<textFieldExpression><![CDATA[$F{y_haircut_id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="270" width="110" height="20" uuid="935204a4-c6ad-40be-bcc8-7963cdb19e31"/>
+				<textFieldExpression><![CDATA[$F{z_haircut_id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="290" width="110" height="20" uuid="b7188223-57b7-45fb-a95c-ee82d25e0953"/>
+				<textFieldExpression><![CDATA[$F{y_tradable}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="310" width="110" height="20" uuid="fd6f5682-0219-4ca2-bfb5-ecc815656aa8"/>
+				<textFieldExpression><![CDATA[$F{y_first_auction_date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="330" width="110" height="20" uuid="3124ecf4-5c98-4837-ad20-764961e1e2b1"/>
+				<textFieldExpression><![CDATA[$F{y_first_issuance_date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="290" width="110" height="20" uuid="02333aa9-3439-43a0-b40d-537ba29d9608"/>
+				<textFieldExpression><![CDATA[$F{z_tradable}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="310" width="110" height="20" uuid="1a18f1ee-0c33-4d29-a8b2-96757324a1e3"/>
+				<textFieldExpression><![CDATA[$F{z_first_auction_date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="330" width="110" height="20" uuid="34517f97-2dab-45b5-be5d-a721d4dec548"/>
+				<textFieldExpression><![CDATA[$F{z_first_issuance_date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="350" width="110" height="20" uuid="262443e9-9fb1-4b0e-b753-31d653c98838"/>
+				<textFieldExpression><![CDATA[$F{z_first_issuance_amount}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="370" width="110" height="20" uuid="67132f8c-bed3-408f-b57c-e937aad2339c"/>
+				<textFieldExpression><![CDATA[$F{z_redemption_price}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="390" width="110" height="20" uuid="a904358f-f074-43e8-9f7e-5a215e504b44"/>
+				<textFieldExpression><![CDATA[$F{z_coupon_structure}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="410" width="110" height="20" uuid="01febbb1-dad8-41df-8f0a-cef39eaf40a7"/>
+				<textFieldExpression><![CDATA[$F{z_coupon_payment_frequency}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="410" width="110" height="20" uuid="7829dddd-ce7b-406c-addc-2627ab3a32b4"/>
+				<textFieldExpression><![CDATA[$F{y_coupon_payment_frequency}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="390" width="110" height="20" uuid="8b35a041-3485-45cf-845a-64074644f350"/>
+				<textFieldExpression><![CDATA[$F{y_coupon_structure}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="370" width="110" height="20" uuid="09521313-7ea2-4016-aa91-8fa6c73f664d"/>
+				<textFieldExpression><![CDATA[$F{y_redemption_price}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="350" width="110" height="20" uuid="7b4db851-0947-4829-b61e-e28b924ae9db"/>
+				<textFieldExpression><![CDATA[$F{y_first_issuance_amount}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="490" width="110" height="20" uuid="f9c917e2-25e1-44f7-add3-4ff705840e53"/>
+				<textFieldExpression><![CDATA[$F{y_record_date_period}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="470" width="110" height="20" uuid="2f7b672b-7412-4a74-84cc-80dcd28e5832"/>
+				<textFieldExpression><![CDATA[$F{y_rounding_option}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="450" width="110" height="20" uuid="65a6989c-02f6-4a05-a38b-6605c600fde9"/>
+				<textFieldExpression><![CDATA[$F{y_day_count_convention}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="430" width="110" height="20" uuid="066068bf-479d-4eb5-81b7-238b657668da"/>
+				<textFieldExpression><![CDATA[$F{y_coupon_rate}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="490" width="110" height="20" uuid="5bb676e9-7cb1-4361-9b4a-b9aaf0708644"/>
+				<textFieldExpression><![CDATA[$F{z_record_date_period}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="470" width="110" height="20" uuid="ff9ecf50-4627-4b1f-94e6-f2dd6a290359"/>
+				<textFieldExpression><![CDATA[$F{z_rounding_option}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="450" width="110" height="20" uuid="6f83aaff-1665-4b8d-9dfe-818099eb2be4"/>
+				<textFieldExpression><![CDATA[$F{z_day_count_convention}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="430" width="110" height="20" uuid="631f0b78-c836-4aeb-b0b3-59e2bde9f5ac"/>
+				<textFieldExpression><![CDATA[$F{z_coupon_rate}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="510" width="132" height="20" uuid="3599ac3e-ba57-40b8-963e-68a0c94d6fe4"/>
+				<text><![CDATA[First Coupon Date]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="530" width="100" height="29" uuid="6f5badb6-15d4-4ef7-a7da-40f7dbe57234"/>
+				<text><![CDATA[Tax Scheme Id]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="559" width="110" height="18" uuid="65931434-7bda-4c28-88e1-28c371bc24c4"/>
+				<text><![CDATA[Redemption Reimburse]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="160" y="510" width="110" height="20" uuid="7278164f-fd3b-4dda-b4ae-d62747d81b10"/>
+				<textFieldExpression><![CDATA[$F{x_first_coupon_date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="160" y="530" width="110" height="29" uuid="e51273b6-e765-43fd-b131-c50de6173873"/>
+				<textFieldExpression><![CDATA[$F{x_tax_scheme_id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="160" y="559" width="110" height="18" uuid="9088ba98-156d-4af2-9853-32c88296078a"/>
+				<textFieldExpression><![CDATA[$F{x_redemption_reimburse}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="510" width="110" height="20" uuid="9837d291-f864-445a-bc80-4d1273aa46be"/>
+				<textFieldExpression><![CDATA[$F{z_first_coupon_date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="530" width="110" height="29" uuid="99b47c03-3618-4b85-8f71-46c92f5a458f"/>
+				<textFieldExpression><![CDATA[$F{z_tax_scheme_id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="559" width="110" height="18" uuid="30ec5a8d-fb55-445e-ae82-5f2fb438765c"/>
+				<textFieldExpression><![CDATA[$F{z_redemption_reimburse}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="559" width="110" height="18" uuid="f42e0a25-511d-4917-a6d3-efcacf4dff89"/>
+				<textFieldExpression><![CDATA[$F{y_redemption_reimburse}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="530" width="110" height="29" uuid="52270f4e-f007-4881-868b-d7dcfe2fcc75"/>
+				<textFieldExpression><![CDATA[$F{y_tax_scheme_id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="510" width="110" height="20" uuid="c60bffe7-e818-4015-8632-0d2ccfed707e"/>
+				<textFieldExpression><![CDATA[$F{y_first_coupon_date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="648" width="545" height="35" uuid="4b58fc52-dc8d-4527-949b-4d8f39425665"/>
+				<textFieldExpression><![CDATA[$F{y_remark}.equals("")?"Record successfully migrated":"Invalid fields : "+$F{y_remark}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="630" width="80" height="18" uuid="04bc35d6-4d8b-4a09-bde1-200a5ba21009"/>
+				<textElement textAlignment="Left">
+					<font fontName="SansSerif" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Remarks]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="577" width="100" height="16" uuid="903e67ce-4cb0-49ee-8147-c747f8bc2214"/>
+				<text><![CDATA[Benchmark Indicator]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="593" width="100" height="18" uuid="dae4580d-b290-4664-a550-cf56f7ec06d1"/>
+				<text><![CDATA[Redemption Date]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="611" width="120" height="18" uuid="9a165cc3-b79b-4adc-9f6e-ad93852a5b69"/>
+				<text><![CDATA[Optional Redemption Date]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="160" y="577" width="110" height="16" uuid="115883b4-6e50-4449-aff5-b4291e3fa452"/>
+				<textFieldExpression><![CDATA[$F{x_benchmark_indicator}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="160" y="593" width="110" height="17" uuid="6056d3dd-d5fb-4619-a6c8-32fb16106a9e"/>
+				<textFieldExpression><![CDATA[$F{x_redemption_date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="160" y="611" width="110" height="18" uuid="720edf5f-7ee6-4b6a-8b15-d798752d9d5c"/>
+				<textFieldExpression><![CDATA[$F{x_rounding_option}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="611" width="110" height="18" uuid="5f3944a1-743a-4793-a45c-641cc45986c2"/>
+				<textFieldExpression><![CDATA[$F{y_rounding_option}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="593" width="110" height="17" uuid="83c08047-9f98-490a-9fd5-cc1097455bed"/>
+				<textFieldExpression><![CDATA[$F{y_redemption_date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="577" width="110" height="16" uuid="1d326d36-d1a2-4f1f-84d6-6d4318d23112"/>
+				<textFieldExpression><![CDATA[$F{y_benchmark_indicator}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="611" width="110" height="18" uuid="5a8f6a06-c99e-48b3-8c0b-d19a4be734a0"/>
+				<textFieldExpression><![CDATA[$F{z_rounding_option}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="593" width="110" height="17" uuid="37e69397-b686-42e5-abb5-93e056005828"/>
+				<textFieldExpression><![CDATA[$F{z_redemption_date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="577" width="110" height="16" uuid="f01b415e-4cb1-4f26-8411-8162a675480b"/>
+				<textFieldExpression><![CDATA[$F{z_benchmark_indicator}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="10" width="100" height="20" uuid="4cc50e2e-eb40-4dac-a4da-856214267e3a"/>
+				<textElement>
+					<font fontName="Serif" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Migrated Security Code :]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>

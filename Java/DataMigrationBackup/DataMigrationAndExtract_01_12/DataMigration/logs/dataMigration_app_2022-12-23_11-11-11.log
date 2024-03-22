@@ -1,0 +1,99 @@
+2022-12-23 11:11:11.550 [main] INFO  scrips.datamigration.App:55 - Starting App on WSIN181 with PID 10408 (D:\DataMigrationNEW\DATA_MIGRATION_RTGS\DataMigrationAndExtract\DataMigration\target\classes started by SheikKhadeer in D:\DataMigrationNEW\DATA_MIGRATION_RTGS\DataMigrationAndExtract\DataMigration)
+2022-12-23 11:11:11.557 [main] INFO  scrips.datamigration.App:651 - No active profile set, falling back to default profiles: app
+2022-12-23 11:11:12.450 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-23 11:11:12.988 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 527ms. Found 66 JPA repository interfaces.
+2022-12-23 11:11:13.360 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor:39 - Post-processing PropertySource instances
+2022-12-23 11:11:13.386 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2022-12-23 11:11:13.387 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2022-12-23 11:11:13.387 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2022-12-23 11:11:13.388 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2022-12-23 11:11:13.388 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2022-12-23 11:11:13.389 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource applicationConfig: [file:./config/application.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2022-12-23 11:11:13.389 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2022-12-23 11:11:13.390 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource DataMigrationProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2022-12-23 11:11:13.502 [main] INFO  com.ulisesbocchio.jasyptspringboot.filter.DefaultLazyPropertyFilter:31 - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2022-12-23 11:11:13.627 [main] INFO  com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver:35 - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2022-12-23 11:11:13.630 [main] INFO  com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector:35 - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2022-12-23 11:11:13.645 [main] INFO  com.ulisesbocchio.jasyptspringboot.encryptor.DefaultLazyEncryptor:37 - String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing Default String Encryptor
+2022-12-23 11:11:13.662 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81 - Encryptor config not found for property jasypt.encryptor.key-obtention-iterations, using default value: 1000
+2022-12-23 11:11:13.663 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81 - Encryptor config not found for property jasypt.encryptor.pool-size, using default value: 1
+2022-12-23 11:11:13.663 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81 - Encryptor config not found for property jasypt.encryptor.provider-name, using default value: null
+2022-12-23 11:11:13.664 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81 - Encryptor config not found for property jasypt.encryptor.provider-class-name, using default value: null
+2022-12-23 11:11:13.664 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81 - Encryptor config not found for property jasypt.encryptor.salt-generator-classname, using default value: org.jasypt.salt.RandomSaltGenerator
+2022-12-23 11:11:13.666 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81 - Encryptor config not found for property jasypt.encryptor.string-output-type, using default value: base64
+2022-12-23 11:11:13.853 [main] INFO  org.hibernate.jpa.internal.util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: data]
+2022-12-23 11:11:13.914 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 5.4.15.Final
+2022-12-23 11:11:14.084 [main] INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-12-23 11:11:14.554 [main] INFO  com.zaxxer.hikari.HikariDataSource:110 - HikariPool-1 - Starting...
+2022-12-23 11:11:14.905 [main] INFO  com.zaxxer.hikari.HikariDataSource:123 - HikariPool-1 - Start completed.
+2022-12-23 11:11:14.993 [main] INFO  org.hibernate.dialect.Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-23 11:11:15.095 [main] INFO  org.hibernate.envers.boot.internal.EnversServiceImpl:90 - Envers integration enabled? : true
+2022-12-23 11:11:16.935 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-23 11:11:16.942 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'data'
+2022-12-23 11:11:18.586 [main] INFO  scrips.datamigration.App:61 - Started App in 7.656 seconds (JVM running for 9.045)
+2022-12-23 11:11:18.648 [main] INFO  scrips.datamigration.common.service.FkChecksEnableDisable:36 - disable FkChecks called
+2022-12-23 11:11:18.701 [main] DEBUG org.hibernate.SQL:128 - SET FOREIGN_KEY_CHECKS = 0
+2022-12-23 11:11:18.736 [main] INFO  scrips.datamigration.common.service.FkChecksEnableDisable:38 - disable FkChecks done
+2022-12-23 11:11:18.839 [main] DEBUG org.hibernate.SQL:128 - SELECT @@GLOBAL.foreign_key_checks, @@SESSION.foreign_key_checks
+2022-12-23 11:11:18.864 [main] INFO  scrips.datamigration.common.service.FkChecksEnableDisable:52 - foreign_key_checks status - 0
+2022-12-23 11:11:18.867 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:159 - fileUploadCode - SSS_SECURITIES_CODE_FILE_UPLOAD
+2022-12-23 11:11:18.867 [main] INFO  scrips.datamigration.common.service.FileUploadService:115 - getFileHeaderByCode entered
+2022-12-23 11:11:18.867 [main] INFO  scrips.datamigration.common.service.FileUploadService:121 - fileUpldHeaderOut - securities_code
+2022-12-23 11:11:18.868 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:163 - Live table name ->securities_code
+2022-12-23 11:11:18.871 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:40 - Live table name ->securities_file_data
+2022-12-23 11:11:18.872 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:41 - ftp status n
+2022-12-23 11:11:18.903 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:70 - fileSourceData - ISIN Code;Description;ISIN Type;Issue Code;ISIN Status;Taxable;Tradable;Credit Rating;Eligible for ILF;ILF Haircut Setting;Haircut Percentage for ILF;Maturity Date;Optional Maturity Date;Auction Date;First Issuance Date;First Issuance Amount;Re-Opening - Auction Date;Re-Opening - Allotment Date;Re-Opening - Total Allotment Amount;Total Issued Amount;Outstanding Nominal Amount;Amount Allocated to MAS;Amount Allocated to Others;MAS Applied Amount;Unit Size;Denomination;Currency Code;Redemption Price;Coupon Rate;Ex-date Period;Ex-date;Coupon Payment Frequency;Last Coupon Date;Next Coupon Date;Optional Coupon Date;Days of Accrued Interest;Tenure;Average Yield;Cutoff Yield;Average Yield Price;Cutoff Yield Price;Re-Opening - MAS Applied Amount;Total Redeemed Amount;ISIN Sub Type
+2022-12-23 11:11:18.904 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:70 - fileSourceData - NSBONDMAY003;NS BOND 10YR 2021 - 2024 NS21002A;BN;M121003A;A;Y;Y;AAA;Y;A;00200000;20310530; ;20210505;20210506;000000000100000; ; ;000000000000000;000000000100000;000000000100000;000000000000000;000000000100000;000000000010000;1000;000000000001000;SGD;10000000;00115000;3;20230525;S;20221130;20230530;20210531;181;010;00000000;00000000;00000000;00000000;000000000000000;000000000000000;NA
+2022-12-23 11:11:18.904 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:72 - Headings - 1:ISIN_CODE
+2022-12-23 11:11:18.904 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:72 - Headings - 2:DESCRIPTION
+2022-12-23 11:11:18.905 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:72 - Headings - 3:ISIN_TYPE
+2022-12-23 11:11:18.905 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:72 - Headings - 4:ISSUE_CODE
+2022-12-23 11:11:18.905 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:72 - Headings - 5:ISIN_STATUS
+2022-12-23 11:11:18.906 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:72 - Headings - 6:TAXABLE
+2022-12-23 11:11:18.906 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:72 - Headings - 7:TRADABLE
+2022-12-23 11:11:18.906 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:72 - Headings - 8:CREDIT_RATING
+2022-12-23 11:11:18.906 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:72 - Headings - 9:ELIGIBLE_FOR_ILF
+2022-12-23 11:11:18.907 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:72 - Headings - 10:ILF_HAIRCUT_SETTING
+2022-12-23 11:11:18.907 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:72 - Headings - 11:HAIRCUT_PERCENTAGE_FOR_ILF
+2022-12-23 11:11:18.907 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:72 - Headings - 12:MATURITY_DATE
+2022-12-23 11:11:18.908 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:72 - Headings - 13:OPTIONAL_MATURITY_DATE
+2022-12-23 11:11:18.908 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:72 - Headings - 14:AUCTION_DATE
+2022-12-23 11:11:18.908 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:72 - Headings - 15:FIRST_ISSUANCE_DATE
+2022-12-23 11:11:18.908 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:72 - Headings - 16:FIRST_ISSUANCE_AMOUNT
+2022-12-23 11:11:18.909 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:72 - Headings - 17:RE_OPENING_AUCTION_DATE
+2022-12-23 11:11:18.910 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:72 - Headings - 18:RE_OPENING_ALLOTMENT_DATE
+2022-12-23 11:11:18.911 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:72 - Headings - 19:RE_OPENING_TOTAL_ALLOTMENT_AMOUNT
+2022-12-23 11:11:18.911 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:72 - Headings - 20:TOTAL_ISSUED_AMOUNT
+2022-12-23 11:11:18.912 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:72 - Headings - 21:OUTSTANDING_NOMINAL_AMOUNT
+2022-12-23 11:11:18.912 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:72 - Headings - 22:AMOUNT_ALLOCATED_TO_MAS
+2022-12-23 11:11:18.913 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:72 - Headings - 23:AMOUNT_ALLOCATED_TO_OTHERS
+2022-12-23 11:11:18.913 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:72 - Headings - 24:MAS_APPLIED_AMOUNT
+2022-12-23 11:11:18.913 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:72 - Headings - 25:UNIT_SIZE
+2022-12-23 11:11:18.913 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:72 - Headings - 26:DENOMINATION
+2022-12-23 11:11:18.914 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:72 - Headings - 27:CURRENCY_CODE
+2022-12-23 11:11:18.914 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:72 - Headings - 28:REDEMPTION_PRICE
+2022-12-23 11:11:18.914 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:72 - Headings - 29:COUPON_RATE
+2022-12-23 11:11:18.914 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:72 - Headings - 30:EX_DATE_PERIOD
+2022-12-23 11:11:18.915 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:72 - Headings - 31:EX_DATE
+2022-12-23 11:11:18.915 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:72 - Headings - 32:COUPON_PAYMENT_FREQUENCY
+2022-12-23 11:11:18.915 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:72 - Headings - 33:LAST_COUPON_DATE
+2022-12-23 11:11:18.915 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:72 - Headings - 34:NEXT_COUPON_DATE
+2022-12-23 11:11:18.916 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:72 - Headings - 35:OPTIONAL_COUPON_DATE
+2022-12-23 11:11:18.916 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:72 - Headings - 36:DAYS_OF_ACCRUED_INTEREST
+2022-12-23 11:11:18.916 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:72 - Headings - 37:TENURE
+2022-12-23 11:11:18.917 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:72 - Headings - 38:AVERAGE_YIELD
+2022-12-23 11:11:18.917 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:72 - Headings - 39:CUTOFF_YIELD
+2022-12-23 11:11:18.917 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:72 - Headings - 40:AVERAGE_YIELD_PRICE
+2022-12-23 11:11:18.917 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:72 - Headings - 41:CUTOFF_YIELD_PRICE
+2022-12-23 11:11:18.918 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:72 - Headings - 42:RE_OPENING_MAS_APPLIED_AMOUNT
+2022-12-23 11:11:18.918 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:72 - Headings - 43:TOTAL_REDEEMED_AMOUNT
+2022-12-23 11:11:18.919 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:72 - Headings - 44:ISIN_SUB_TYPE
+2022-12-23 11:11:18.919 [main] INFO  scrips.datamigration.csv.service.SssSecuritiesFileDataService:232 - Total records in File: {}2
+2022-12-23 11:11:18.940 [main] INFO  scrips.datamigration.common.service.FkChecksEnableDisable:23 - enable FkChecks called
+2022-12-23 11:11:18.941 [main] DEBUG org.hibernate.SQL:128 - SET FOREIGN_KEY_CHECKS = 1
+2022-12-23 11:11:18.960 [main] INFO  scrips.datamigration.common.service.FkChecksEnableDisable:25 - enable FkChecks done
+2022-12-23 11:11:19.003 [main] DEBUG org.hibernate.SQL:128 - SELECT @@GLOBAL.foreign_key_checks, @@SESSION.foreign_key_checks
+2022-12-23 11:11:19.026 [main] INFO  scrips.datamigration.common.service.FkChecksEnableDisable:52 - foreign_key_checks status - 1
+2022-12-23 11:11:19.050 [SpringContextShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:598 - Closing JPA EntityManagerFactory for persistence unit 'data'
+2022-12-23 11:11:19.053 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2022-12-23 11:11:19.065 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource:352 - HikariPool-1 - Shutdown completed.

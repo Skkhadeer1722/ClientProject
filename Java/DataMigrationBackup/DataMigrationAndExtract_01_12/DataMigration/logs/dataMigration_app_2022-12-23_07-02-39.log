@@ -1,0 +1,71 @@
+2022-12-23 19:02:39.980 [main] INFO  scrips.datamigration.App:55 - Starting App on WSIN181 with PID 108 (D:\DataMigrationNEW\DATA_MIGRATION_RTGS\DataMigrationAndExtract\DataMigration\target\classes started by SheikKhadeer in D:\DataMigrationNEW\DATA_MIGRATION_RTGS\DataMigrationAndExtract\DataMigration)
+2022-12-23 19:02:39.989 [main] INFO  scrips.datamigration.App:651 - No active profile set, falling back to default profiles: app
+2022-12-23 19:02:41.143 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-23 19:02:41.701 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 544ms. Found 66 JPA repository interfaces.
+2022-12-23 19:02:42.100 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor:39 - Post-processing PropertySource instances
+2022-12-23 19:02:42.130 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2022-12-23 19:02:42.131 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2022-12-23 19:02:42.131 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2022-12-23 19:02:42.131 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2022-12-23 19:02:42.132 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2022-12-23 19:02:42.132 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource applicationConfig: [file:./config/application.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2022-12-23 19:02:42.133 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2022-12-23 19:02:42.133 [main] INFO  com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56 - Converting PropertySource DataMigrationProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2022-12-23 19:02:42.277 [main] INFO  com.ulisesbocchio.jasyptspringboot.filter.DefaultLazyPropertyFilter:31 - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2022-12-23 19:02:42.392 [main] INFO  com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver:35 - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2022-12-23 19:02:42.396 [main] INFO  com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector:35 - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2022-12-23 19:02:42.406 [main] INFO  com.ulisesbocchio.jasyptspringboot.encryptor.DefaultLazyEncryptor:37 - String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing Default String Encryptor
+2022-12-23 19:02:42.428 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81 - Encryptor config not found for property jasypt.encryptor.key-obtention-iterations, using default value: 1000
+2022-12-23 19:02:42.428 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81 - Encryptor config not found for property jasypt.encryptor.pool-size, using default value: 1
+2022-12-23 19:02:42.429 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81 - Encryptor config not found for property jasypt.encryptor.provider-name, using default value: null
+2022-12-23 19:02:42.429 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81 - Encryptor config not found for property jasypt.encryptor.provider-class-name, using default value: null
+2022-12-23 19:02:42.430 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81 - Encryptor config not found for property jasypt.encryptor.salt-generator-classname, using default value: org.jasypt.salt.RandomSaltGenerator
+2022-12-23 19:02:42.432 [main] INFO  com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81 - Encryptor config not found for property jasypt.encryptor.string-output-type, using default value: base64
+2022-12-23 19:02:42.642 [main] INFO  org.hibernate.jpa.internal.util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: data]
+2022-12-23 19:02:42.723 [main] INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 5.4.15.Final
+2022-12-23 19:02:42.888 [main] INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-12-23 19:02:43.399 [main] INFO  com.zaxxer.hikari.HikariDataSource:110 - HikariPool-1 - Starting...
+2022-12-23 19:02:44.530 [main] INFO  com.zaxxer.hikari.HikariDataSource:123 - HikariPool-1 - Start completed.
+2022-12-23 19:02:44.600 [main] INFO  org.hibernate.dialect.Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-23 19:02:44.790 [main] INFO  org.hibernate.envers.boot.internal.EnversServiceImpl:90 - Envers integration enabled? : true
+2022-12-23 19:02:46.951 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-23 19:02:46.961 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'data'
+2022-12-23 19:02:48.931 [main] INFO  scrips.datamigration.App:61 - Started App in 9.721 seconds (JVM running for 12.362)
+2022-12-23 19:02:49.115 [main] INFO  scrips.datamigration.common.service.FkChecksEnableDisable:36 - disable FkChecks called
+2022-12-23 19:02:49.173 [main] DEBUG org.hibernate.SQL:128 - SET FOREIGN_KEY_CHECKS = 0
+2022-12-23 19:02:49.269 [main] INFO  scrips.datamigration.common.service.FkChecksEnableDisable:38 - disable FkChecks done
+2022-12-23 19:02:49.459 [main] DEBUG org.hibernate.SQL:128 - SELECT @@GLOBAL.foreign_key_checks, @@SESSION.foreign_key_checks
+2022-12-23 19:02:49.546 [main] INFO  scrips.datamigration.common.service.FkChecksEnableDisable:52 - foreign_key_checks status - 0
+2022-12-23 19:02:49.565 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:159 - fileUploadCode - ACCOUNT_FILE_UPLOAD
+2022-12-23 19:02:49.566 [main] INFO  scrips.datamigration.common.service.FileUploadService:115 - getFileHeaderByCode entered
+2022-12-23 19:02:49.567 [main] INFO  scrips.datamigration.common.service.FileUploadService:121 - fileUpldHeaderOut - account
+2022-12-23 19:02:49.567 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:163 - Live table name ->account
+2022-12-23 19:02:49.569 [main] INFO  scrips.datamigration.common.service.FileUploadService:81 - ftp status n
+2022-12-23 19:02:49.569 [main] INFO  scrips.datamigration.common.service.FileUploadService:96 - FTP Not Enabled,Reading files from MigrationFiles folder
+2022-12-23 19:02:49.575 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:177 - fileRecords - MASGSGSG|21110223|Settlement Account|SETT|Y|Y|DBSSSGSG000|Active|SGD|NO_STATEMENT|ctgy1|cost1|123|No
+2022-12-23 19:02:49.575 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:177 - fileRecords - MASGSGSG|21110223|Settlement Account|SETT|Y|Y|DBSSSGSG000|Active|SGD|NO_STATEMENT|ctgy1|cost1|123|No
+2022-12-23 19:02:49.576 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:177 - fileRecords - MASGSGSG|11111110|Settlement Account@|SETT|Y|Y|DBSSSGSG000|Active|SGD|NO_STATEMENT|ctgy1|cost1|123|No
+2022-12-23 19:02:49.576 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:177 - fileRecords - MASGSGSG|11111111|Settlement Account|SETT|Y|Y|DBSSSGSG000|Active|SG-|NO_STATEMENT|ctgy1|cost1|123|No
+2022-12-23 19:02:49.576 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:177 - fileRecords - DBSSSGSG|11111112|Settlement Account|SETT|N|Y|DBSSSGSG000|Active|SGD|NO_STATEMENT|ctgy1|cost1|123|No
+2022-12-23 19:02:49.576 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:177 - fileRecords - MASGSGSG|11111113|Settlement Account|SETT|Y|N|DBSSSGSG000|Active|SGD|NO_STATEMENT|ctgy1|cost1|123|No
+2022-12-23 19:02:49.576 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:177 - fileRecords - MASGSGSG|11111114|Settlement Account|SETT|Y|Y|DBSSSGSG000|Active|SGD|NO_STATEMENT|ctgy1|cost1|123|TEST
+2022-12-23 19:02:49.576 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:177 - fileRecords - MASGSGSG|11111115|Settlement Account|SETT|Y|Y|DBSSSGSG000|TEST|SGD|NO_STATEMENT|ctgy1|cost1|123|No
+2022-12-23 19:02:49.577 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:177 - fileRecords - |11111116|Settlement Account|SETT|Y|Y|DBSSSGSG000|Active|SGD|NO_STATEMENT|ctgy1|cost1|123|No
+2022-12-23 19:02:49.577 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:177 - fileRecords - DBSSSGSG||Settlement Account|SETT|Y|Y|DBSSSGSG000|Active|SGD|NO_STATEMENT|ctgy1|cost1|123|No
+2022-12-23 19:02:49.577 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:177 - fileRecords - MASGSGSG|11111117|Settlement Account@|SETT|Y|Y|DBSSSGSG000|Active|SG-|NO_STATEMENT@|ctgy1|cost1|123|No
+2022-12-23 19:02:49.577 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:177 - fileRecords - MASGSGSG|11111118|Settlement Account|SETT|Y|Y|DBSSSGSG000@|Active|SGD|NO_STATEMENT|ctgy1|cost1|123|No
+2022-12-23 19:02:49.577 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:177 - fileRecords - MASGSGSG@|11111118|Settlement Account|SETT|Y|Y|DBSSSGSG000|Active|SGD|NO_STATEMENT|ctgy1|cost1|123|No
+2022-12-23 19:02:49.578 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:179 - 1:member_code
+2022-12-23 19:02:49.578 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:179 - 2:account_number
+2022-12-23 19:02:49.578 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:179 - 3:description
+2022-12-23 19:02:49.578 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:179 - 4:account_type
+2022-12-23 19:02:49.579 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:179 - 5:main_account_indicator
+2022-12-23 19:02:49.579 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:179 - 6:default_main_account
+2022-12-23 19:02:49.579 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:179 - 7:statement_delivery_bic
+2022-12-23 19:02:49.579 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:179 - 8:account_status
+2022-12-23 19:02:49.580 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:179 - 9:currency_code
+2022-12-23 19:02:49.580 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:179 - 10:end_of_day_statement
+2022-12-23 19:02:49.580 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:179 - 11:gl_category
+2022-12-23 19:02:49.580 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:179 - 12:cost_centre
+2022-12-23 19:02:49.580 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:179 - 13:gl_account_number
+2022-12-23 19:02:49.580 [main] INFO  scrips.datamigration.controller.ScripsFileUploadController:179 - 14:statement_interval

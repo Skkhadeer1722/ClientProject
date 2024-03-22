@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-App<DataMigrationProgram>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "scrips.datamigration.App",
+            "projectName": "DataMigrationProgram",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "port":9091
+        }
+    ]
+}
